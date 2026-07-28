@@ -1,0 +1,354 @@
+---
+{"dg-publish":true,"permalink":"/game-design/frameworks-and-models/ssm-framework/ssm-framework/","dg-note-properties":{}}
+---
+
+The #SSM (System, Story, and Mental Model) Framework offers a comprehensive lens through which to understand the intricate workings of video games. By dissecting the gaming experience into three distinct spaces, this framework illuminates the dynamic interplay between fundamental mechanics, narrative elements, and the player's evolving mental interpretation. In essence, the #SSM Framework serves as a foundational guide, providing game designers and enthusiasts with a structured approach to analyze, discuss, and optimize the intricate balance between gameplay mechanics and storytelling within the gaming ecosystem.
+
+
+## 1. **System:**
+
+### 1.1 Mechanics:
+
+- #### Definition:
+  - Mechanics are the foundational elements situated in the System space of the #SSM framework. They represent the explicit rules and functionalities that establish the fundamental operations and behaviors of the game.
+  - Mechanics outline the specific actions and interactions available to players and game elements, defining the basic building blocks of the gaming experience.
+
+- #### Examples: 
+   - In the context of a platformer game, mechanics can encompass rules governing character movement (e.g., jumping, running) and interactions with the environment (e.g., collecting items, defeating enemies).
+   - The mechanics set the boundaries and possibilities within the game world, dictating how players can navigate and engage with the challenges presented.
+
+- #### Function:
+   - Mechanics serve as the core framework upon which the entire game is constructed. They provide the structural foundation for how players and in-game entities operate.
+   - The function of mechanics is to establish the rules of the game, defining the constraints and possibilities that shape player experiences. Mechanics essentially lay the groundwork for the systemic interactions within the game.
+
+### 1.2 Dynamics:
+
+- #### Definition:
+  - Dynamics, located in the System space, emerge as a result of interactions and relationships among the mechanics. They represent the evolving patterns, behaviors, and scenarios that unfold during gameplay.
+  - While mechanics define the individual rules, dynamics encapsulate the overarching, dynamic nature of the gameplay experience.
+
+- #### Illustration:
+  - Consider a strategy game where mechanics involved resource gathering and unit deployment. The dynamic aspect comes into play as players engage with these mechanics, leading to emergent strategic decisions, battles, and the overall flow of the game. 
+  - Dynamics capture the evolving narrative of the game, shaped by the player's choices and interconnectedness of various mechanics. 
+
+- #### Significance:
+  - Dynamics add a layer of complexity and variety to the gaming experience. They represent the dynamic, ever-changing aspects of gameplay that arise from the interplay of mechanics.
+  - The significance of dynamics lies in their ability to create emergent properties, making each playthrough unique. This layer of complexity contribute to the overall engagement and replay value of the game. 
+
+Understanding the relationship between mechanics and dynamics is fundamental for game designers. It enables them to not only design individual rules but also anticipate and shape the holistic experience that players will encounter. This dynamic interplay is a key factor in creating games that are immersive, engaging, and capable of offering diverse and rich player experiences.
+
+## 2. Story:
+
+### 2.1 **Mis-en-scéne:**
+
+- #### **Definition:**
+  - The lower layer of the Story space, Mis-en-scéne encompasses everything the player perceives through their senses. It includes visual elements, sounds, and other sensory components that contribute to the overall ambiance and aesthetics of the game.
+  - Mis-en-scéne serves as the sensory backdrop that provides context, atmosphere, and a visual representation of the game world.
+
+- #### **Role:**
+  - This layer plays a crucial role in enhancing the player's understanding of the game environment. Visuals, audio cues, and other sensory inputs from Mis-en-scéne work collectively to create a cohesive and immersive player experience.
+  - Elements within Mis-en-scéne set the stage for the unfolding narrative, influencing how players perceive and interact with the game world.
+
+- #### **Examples:**
+   - In a horror game, the dim lighting, eerie sound effects, and foreboding visual elements contribute to the Mis-en-scéne, creating a tense and suspenseful atmosphere.
+   - In an adventure game set in a fantastical realm, the vibrant colors, whimsical landscapes, and enchanting musical score form the Mis-en-scéne, shaping the player's perception of the fictional world.
+
+### 2.2 **Drama:**
+
+- #### **Definition:**
+   - The upper layer of the Story space, Drama is generated by the Mis-en-scéne. It encompasses the narrative elements, character motivations, and events that unfold throughout the game.
+   - Drama adds depth, meaning, and a sense of progression to the player's experience, creating a cohesive and engaging storyline.
+
+- #### **Role:**
+  - Drama provides the storytelling framework within the game. It includes characters' backstories, their relationships, and the overarching narrative that guides the player's journey.
+  - This layer influences the player's emotional engagement, prompting reactions to in-game events, character developments, and plot twists.
+
+- #### **Examples:**
+  - In a role-playing game (RPG), the Drama layer might involve the personal quests of characters, the overarching conflict between factions, and the unfolding of a grand narrative.
+  - In a narrative-driven adventure game, Drama could include character dialogues, plot revelations, and the consequences of the player's choices, all contributing to the overall storytelling experience.
+
+Understanding the interplay between Mis-en-scéne and Drama in the Story space is essential for game designers. It allows them to craft compelling narratives, create immersive worlds, and evoke emotional responses from players as they progress through the game. The synergy between these layers enriches the player's experience and contributes to the overall success of the game's storytelling.
+
+## 3. Mental Model:
+
+### 3.1 **Affordances:**
+
+- #### **Definition:**
+  - Affordances, at the basic level of the Mental Model space, refer to the functionality that players attribute to perceived objects within the game world. It involves the player's understanding of what actions are possible and permissible within the given context.
+  - Players recognize and interpret objects based on their perceived affordances, shaping their expectations of how these objects can be interacted with.
+  
+- #### **Role:**
+  - Affordances provide a foundation for player interaction by conveying the potential actions associated with objects. For example, recognizing that a button can be pressed, a ladder can be climbed, or a weapon can be wielded.
+  - This level of the Mental Model helps players navigate the game world, make informed decisions, and engage with the mechanics and dynamics established in the System space.
+ 
+ - #### **Examples:**
+   - In a puzzle-solving game, players may perceive a lever and attribute to it the affordance of being pulled or pushed, anticipating its impact on the game environment.
+   - In a first-person shooter, recognizing a weapon on the ground and understanding the affordance of picking it up for combat contributes to the player's strategic decisions.
+
+### 3.2 **Schemas:**
+
+- #### **Definition:**
+  - Schemas, building upon affordances, represent the player's expectations of how different situations within the game should unfold. It involves predicting outcomes based on their understanding of the game's mechanics, dynamics, and narrative elements.
+  - Schemas guide the player's decision-making process by providing a framework for anticipating consequences and understanding the relationships between different elements in the game.
+  
+ - #### **Role:**
+   - Schemas contribute to the player's strategic thinking and planning. Players form mental models of how the game world operates, including cause-and-effect relationships and the potential outcomes of their actions.
+   - This level of the Mental Model influences players' responses to challenges, their exploration of the game world, and their ability to adapt to evolving scenarios.
+
+ - #### **Examples:**
+   - In a real-time strategy (RTS) game, a player may develop a schema for resource management, anticipating that gathering more resources will lead to the ability to build stronger units.
+   - In a narrative-driven game, a player might form a schema regarding character relationships, predicting how certain choices will influence the unfolding of the storyline.
+
+Understanding the interplay between Affordances and Schemas in the Mental Model space is essential for game designers. It allows them to create intuitive and engaging gameplay experiences, where players can navigate, strategize, and make decisions based on their evolving understanding of the game world. The Mental Model space reflects the player's cognitive engagement with the game, contributing to their sense of agency and immersion.
+
+## 4. Interaction of Spaces:
+
+### 4.1 **System Space:**
+
+- #### **Processing Player Inputs:**
+  - The game's System space is where the fundamental mechanics and dynamics reside. It processes player inputs, such as button presses or mouse clicks, generating abstract data based on the rules and functionalities embedded in the game.
+ 
+ - #### **Generating Abstract Data:**
+   - The System space translates player inputs into abstract data, representing actions, events, and changes within the game environment. This abstract data lacks the context and sensory aspects present in the player's experience.
+ 
+ - #### **Sending Data to Story Space:**
+   - The abstract data generated in the System space is then sent to the Story space, initiating the process of contextualization and visualization.
+   
+### 4.2 **Story Space:**
+
+- #### **Adding Context in Story Space:**
+  - In the Story space, the received abstract data is enriched with context, narrative elements, and aesthetics. This layer includes Mis-en-scéne, shaping visuals, sounds, and other sensory elements that provide a meaningful and immersive experience to the player.
+  
+- #### **Producing Visuals, Sounds, and Animations:**
+  - The Mis-en-scéne and Drama layers of the Story space collaborate to produce visuals, sounds, animations, and other sensory stimuli that contribute to the player's perception of the game world.
+ 
+- #### **Sending Data to Sensory Organs:**
+  - The crafted visuals and sounds are sent to the player's sensory organs, primarily the eyes and ears, forming the bridge between the abstract game mechanics and the player's perception.
+  
+### 4.3 **Mental Model Space:**
+ 
+ - #### **Data Processing in the Brain:**
+   - The sensory organs transmit the received data to the player's brain, entering the Mental Model space. This is where the player's personal experience of the game takes shape, influenced by their unique interpretation and cognitive processing.
+ 
+- #### **Formation of Affordances and Schemas:**
+   - Within the Mental Model space, the player attributes functionality (Affordances) to perceived objects and develops expectations of how different situations should unfold (Schemas). These mental constructs are based on the player's understanding of game mechanics, dynamics, and narrative elements.
+ 
+ - #### **Continuous Updating of Mental Model:**
+   - As the player interacts with the game, their Mental Model is continuously updated based on new experiences and information. This dynamic updating influences the player's decision-making, strategic planning, and overall engagement with the game.
+
+### 4.4 **Dynamic Loop of Interaction:**
+
+- #### **Continuous Interaction:**
+   - The described loop of interaction continues as the player engages with the game. Player actions in the System space lead to sensory experiences in the Story space, shaping the evolving Mental Model. This, in turn, influences the player's subsequent decisions and actions.
+
+- #### **Creating a Dynamic Experience:**  
+  - The iterative nature of this loop creates a dynamic and evolving gaming experience. Each cycle contributes to the player's immersion, understanding, and agency within the game world.
+
+Understanding this intricate interaction between the System, Story, and Mental Model spaces provides game designers with insights into how players perceive and engage with their creations. It emphasizes the importance of coherence and alignment across these spaces to deliver a compelling and immersive gaming experience.
+
+## 5. Application to Game Loop:
+
+### 5.1 **User Input and System Space:**
+
+- #### **Initiation of Game Loop:**
+   - The game loop begins when the player provides input, such as pressing a button or moving a controller. This input triggers actions within the System space, which is the foundational layer of the game's functionality.
+
+- #### **Processing User Input:**
+   - In the System space, the provided input is processed, and abstract data is generated based on the underlying game mechanics and dynamics. These abstract data represent the actions and events resulting from the player's input.
+
+### 5.2 **Abstract Data and Story Space:**
+
+- #### **Contextualization in Story Space:**
+   - The abstract data from the System space are sent to the Story space, where they undergo contextualization. This involves adding narrative elements, visual details, sounds, and other sensory components to give meaning and context to the raw data.
+ 
+ - #### **Presentation to Sensory Organs:**
+   - The Story-generated content, enriched with context and aesthetics, is presented to the player's sensory organs. This presentation includes visuals, sounds, and other sensory stimuli that contribute to the player's immersive experience of the game world.
+ 
+### 5.3 **Player's Mental Model:**
+
+- #### **Formation and Updating:**
+   - The sensory information received by the player's sensory organs enters the player's brain, contributing to the formation and continuous updating of the player's Mental Model. This mental representation includes the player's understanding of game mechanics, the unfolding narrative, and the overall game environment.
+
+ - #### **Affordances and Schemas:**
+   - Within the Mental Model space, the player attributes functionality (Affordances) to perceived objects and develops expectations of how different situations should unfold (Schemas). These mental constructs guide the player's understanding of the game and influence their decision-making.
+ 
+### 5.4 **Decision-Making and Input:**
+
+- #### **Using the Mental Model:**
+  - The player utilizes their Mental Model to make decisions and plan their actions within the game. This decision-making process is informed by the player's interpretation of the game's mechanics, dynamics, and narrative elements.
+ 
+ - #### **Triggering Further Input:**
+   - The decisions made by the player lead to further input, restarting the game loop. This continuous cycle of input, processing, contextualization, perception, Mental Model formation, decision-making, and new input forms the dynamic nature of the game loop.
+
+### 5.5 Significance of the Loop:
+
+- #### **Dynamic and Continuous Experience:**
+   - The described loop creates a dynamic and continuous gaming experience. Each iteration contributes to the player's immersion, understanding, and agency within the game world.
+ 
+- #### **Player Agency and Engagement:**
+   - The loop emphasizes the player's agency, as their decisions and actions directly influence subsequent iterations. This active engagement with the game loop enhances the player's sense of control and involvement.
+
+- #### **Adaptability and Evolution:**
+   - The iterative nature of the loop allows for adaptability and evolution. As the player's Mental Model evolves, so does their approach to the game, ensuring a diverse and evolving experience.
+
+Understanding how the #SSM framework applies to the game loop provides game designers with insights into player interaction, perception, and decision-making, guiding the creation of engaging and immersive gaming experiences.
+
+## 6. Example of Mental Model Shift:
+
+### 6.1 **Initial State in Story Space:**
+
+- #### **Character Introduction:**
+   - In the Story space, a rabbit character is introduced as a cute companion with emotional depth. The Mis-en-scéne layer provides visuals, sounds, and narrative elements that evoke an emotional response from the player. The Drama layer contributes to the character's motivations and interactions within the game world.
+### 6.2 **Discovery in System Space:**
+ 
+- #### **Tactical Benefits in System Space:**
+   - As players engage with the game in the System space, they discover that the rabbit character has specific tactical benefits. For example, it may act as a shield against enemy attacks or provide advantages in certain gameplay situations. These benefits are derived from the underlying game mechanics and dynamics.
+
+### 6.3 **Shift in Mental Model:**
+
+- #### **From Narrative to Strategic Perception:**
+   - The player's Mental Model undergoes a shift. Initially perceived as a narrative character with emotional depth, the rabbit is now predominantly seen as a game object with strategic advantages. The player's understanding transitions from an emotional connection to a strategic assessment based on the rabbit's in-game functionality.
+
+### 6.4 #SSM Framework Analysis:
+
+- #### **Identifying Discrepancies:**
+   - The #SSM framework helps analyze this shift in the player's Mental Model. It identifies the potential discrepancies between the initial narrative presentation in Story space and the emerging strategic perception in System space.
+
+- #### **Addressing Cohesiveness:**
+   - Game designers, using the insights from the #SSM framework, can address these discrepancies to ensure a cohesive player experience. This may involve refining the narrative elements to align with the strategic role of the rabbit, providing contextual information, or balancing gameplay mechanics to maintain both emotional and strategic engagement.
+
+### 6.5 Significance of the Example:
+
+- #### **Narrative vs. Gameplay Balance:**
+   - The example highlights the delicate balance between narrative elements presented in Story space and the emergent gameplay experiences in System space. Game designers must consider how the player's Mental Model evolves and ensure harmony between the narrative intentions and strategic perceptions.
+
+- #### **Player Adaptation:**
+   - The player's ability to adapt their Mental Model demonstrates the dynamic nature of player cognition. Designers can leverage this adaptability to create layered and nuanced gaming experiences that resonate emotionally while offering strategic depth.
+
+- #### **Framework for Analysis:**
+   - The #SSM framework serves as a valuable tool for analyzing and understanding these shifts. It provides a structured approach to examining how elements from different spaces interact and influence the player's perception.
+
+
+## 7. Emotional Impact in Story Space:
+
+### 7.1 **Emotional Design Elements:**
+
+- #### **Visuals and Audio:**
+
+- ##### **Crafting Aesthetic Atmosphere:**
+  - In the Mis-en-scéne layer, designers meticulously design the visual and auditory elements to create a specific emotional atmosphere. This involves choosing color palettes, designing character appearances, and selecting or composing music that aligns with the intended emotional tone.
+ 
+ - ##### **Character Designs and Environments:**
+   - Visual elements, such as character designs and environmental aesthetics, play a pivotal role in conveying emotions. Characters with expressive features or environments with immersive details contribute to the player's emotional connection with the game world.
+
+- #### **Narrative Depth:**
+
+ - ##### **Character Motivations:**
+   - Drama, the upper layer of Story space, introduces character motivations that drive the narrative forward. Understanding why characters act the way they do fosters empathy and emotional connection. Motivations add layers to character personalities and contribute to the overall storytelling.
+ 
+ - ##### **Plot Twists and Meaningful Events:**
+   - Well-crafted stories incorporate unexpected plot twists and meaningful events that resonate emotionally. These elements create impactful moments, eliciting a range of emotions from players. The narrative depth enhances player engagement and investment in the unfolding story.
+
+### 7.2 **Player Immersion:**
+
+- #### **Creating Immersive Experiences:**
+
+- ##### **Compelling Characters and Dialogues:**
+   - Immersion in Story space involves presenting players with compelling characters whose actions and dialogues draw players into the narrative. Well-scripted dialogues contribute to character development and enhance the overall storytelling experience.
+ 
+ - ##### **Immersive Environments:**
+   - Designers focus on creating environments that immerse players in the game world. Immersive settings, whether fantastical or realistic, contribute to a sense of presence. Environmental storytelling, where details convey narrative elements, enhances the player's connection to the game world.
+ 
+- #### **Impact on Mental Model:**
+
+ - ##### **Influence on Affordances and Schemas:**
+   - The emotional impact in Story space extends to the player's Mental Model. Affordances, the basic functionalities attributed to perceived objects, are influenced by the emotional context. For example, a door may not just be a functional object but could evoke emotions based on the story.
+ 
+- ##### **Emotional Layer in Decision-Making:**
+  - The emotional layer adds depth to how players perceive and interact with the game. Emotions experienced through the narrative influence decision-making within the game. Players may approach challenges or choices with an emotional lens, impacting their overall experience and the evolution of their Mental Model.
+
+Understanding and effectively utilizing emotional design elements in Story space contribute to a more immersive and emotionally resonant player experience within the #SSM framework.
+
+## 8. Adaptive Gameplay in System Space:
+
+### 8.1 **Dynamic Mechanics:**
+
+- #### **Responsive Game Mechanics:**
+
+- ##### **User-Driven Adaptability:**
+   - In System space, dynamic mechanics are designed to respond to user inputs and choices. These mechanics adapt based on player actions, allowing users to influence the game environment. Whether it's character movements, combat strategies, or puzzle-solving, the adaptability of mechanics enhances player agency.
+ 
+ - ##### **Adjusting to User Inputs:**
+   - The game dynamically adjusts its rules and functionalities to create evolving scenarios. For example, if a player chooses a stealthy approach in a game, the mechanics may adapt by modifying enemy behavior, patrol routes, or environmental elements. This responsiveness ensures that the game experience aligns with the player's decisions.
+
+- #### **Emergent Gameplay:**
+
+ - ##### **Unpredictable Scenarios:**
+   - Dynamics, arising from the interplay of mechanics, lead to emergent gameplay. Unpredictable and evolving scenarios emerge as a result of dynamic interactions between game elements. The combination of mechanics results in outcomes that may not have been explicitly designed, adding a layer of unpredictability and replayability to the gaming experience.
+
+### 8.2 **Player-Centric Experience:**
+
+- #### **Personalized Challenges:**
+
+ - ##### **Adaptation to Player Proficiency:**
+   - Adaptive gameplay in System space considers the player's skill level, preferences, and choices. Mechanics adjust to provide challenges that align with the player's proficiency, ensuring an optimal level of difficulty. This player-centric approach contributes to a more enjoyable and tailored gaming experience.
+ 
+ - ##### **Dynamic Difficulty Scaling:**
+   - The game may dynamically scale difficulty based on the player's performance. If a player consistently excels, the mechanics could introduce more complex challenges. Conversely, struggling players may face adjusted mechanics to provide a smoother experience, creating a balanced and personalized difficulty curve.
+  
+- #### **Feedback Loop with Mental Model:**
+
+ - ##### **Continuous Player Adaptation:**
+   - The adaptive nature of System space creates a feedback loop with the player's Mental Model. As players encounter new challenges and adapt their strategies, their Mental Model evolves. This continuous feedback loop enhances the player's sense of mastery, engagement, and immersion in the game world.
+ 
+ - ##### **Influence on Decision-Making:**
+   - Players, through the evolving Mental Model, may develop new strategies and approaches to overcome challenges. The adaptability of gameplay mechanics influences decision-making, as players learn, strategize, and refine their tactics based on the dynamic nature of the game.
+
+Understanding and implementing adaptive gameplay in System space enriches the player experience, fostering engagement, personalization, and a sense of mastery within the #SSM framework.
+
+## Implementing #SSM:
+
+Implementing the #SSM (System, Story, Mental Model) framework for game design involves a thoughtful integration of mechanics, narrative elements, and player experiences. Here's an actionable list to guide the application of the #SSM framework:
+
+### **Understand Core Mechanics:**
+   - [ ] Define the fundamental mechanics residing in the System space.
+   - [ ] Outline explicit rules governing player actions, interactions, and behaviors.
+   - [ ] Ensure clarity on how these mechanics contribute to the overall gameplay dynamics.
+### **Design Dynamic Mechanics:**
+   - [ ] Develop mechanics that respond to player inputs and adapt based on user choices.
+   - [ ] Implement systems that create emergent gameplay, allowing for varied and unpredictable scenarios.
+   - [ ] Strive for a balance between structure and adaptability within the game mechanics.
+### **Craft Emotional Story Elements:**
+   - [ ] Focus on the Mis-en-scéne layer in Story space to create visually and auditorily appealing elements.
+   - [ ] Develop character designs, environments, and atmospheric details to evoke specific emotions.
+   - [ ] Weave narrative depth into the Drama layer, incorporating character motivations and meaningful events.
+### **Ensure Player Immersion:**
+   - [ ] Create immersive experiences by designing compelling characters, dialogues, and environments.
+   - [ ] Strive for consistency in the visual and auditory elements to enhance the player's sense of presence.
+   - [ ] Align the narrative elements with the overall aesthetic to maintain immersion in Story space.
+### **Consider Emotional Impact:**
+   - [ ] Recognize the impact of emotional design elements on the player's Mental Model.
+   - [ ] Understand that aesthetics and narrative depth influence how players perceive and interact with the game.
+   - [ ] Ensure a cohesive emotional experience that aligns with the intended player journey.
+### **Implement Adaptive Gameplay:**
+   - [ ] Design gameplay mechanics that dynamically adapt to player proficiency and choices.
+   - [ ] Incorporate personalized challenges based on the player's skill level and preferences.
+   - [ ] Create a feedback loop between System space and the player's evolving Mental Model.
+### **Test and Iterate:**
+   - [ ] Conduct playtesting sessions to gather feedback on the player's experience.
+   - [ ] Iterate on mechanics, narrative elements, and adaptive features based on player responses.
+   - [ ] Continuously refine the game design to align with the evolving #SSM framework principles.
+### **Document and Communicate:**
+   - [ ] Maintain clear documentation of the defined mechanics, dynamics, and narrative elements.
+   - [ ] Communicate the #SSM framework principles to the development team to ensure a unified approach.
+   - [ ] Use visual aids or diagrams to illustrate the interactions between System, Story, and Mental Model spaces.
+### **Encourage Player Agency:**
+   - [ ] Design mechanics that allow players to have a meaningful impact on the game world.
+   - [ ] Provide choices and consequences that influence the unfolding narrative and gameplay dynamics.
+   - [ ] Empower players to shape their own experiences within the defined #SSM framework.
+### **Iterative Development:**
+- [ ] Embrace an iterative development process, allowing for continuous refinement.
+- [ ] Solicit feedback from both players and the development team throughout different stages of the game design.
+- [ ] Be open to adapting and evolving the #SSM framework based on insights gained during the development process.
+
+By following these actionable steps, game designers can effectively implement the #SSM framework, creating engaging, emotionally resonant, and dynamically adaptive gaming experiences.
