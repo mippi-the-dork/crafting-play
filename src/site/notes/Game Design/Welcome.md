@@ -4,7 +4,7 @@
 
 Forget the fluff. Game design isn't just about having a great idea. It's about understanding why players stay, why they get frustrated, and what makes a mechanic click. Whether you are building your first indie project or looking to sharpen your development workflow, this handbook breaks down the actual mechanics, frameworks, and psychology behind game creation.
 
-We will skip the vague advice and dive straight into the practical models—from classic MDA to hybrid frameworks like DORK—giving you a concrete roadmap to build, balance, and polish your game.
+We will skip the vague advice and dive straight into the practical models, from classic MDA to hybrid frameworks like DORK, giving you a concrete roadmap to build, balance, and polish your game.
 
 Let's get to work.
 
