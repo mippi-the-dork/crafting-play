@@ -1,34 +1,13 @@
-:root {
-    /* Main Background & Text Styles */
-    --background-primary: #1e1f22;       /* Premium sleek dark grey background */
-    --background-secondary: #2b2d31;     /* Slightly lighter grey for your sidebar panel */
-    --text-normal: #dbdee1;              /* Soft, highly readable light grey text */
-    --text-muted: #949ba4;               /* Muted grey for dates and sub-labels */
-    
-    /* Interactive Links */
-    --text-accent: #00a3a3;              /* Vibrant teal color for your external links */
-    --text-link: #e67e22;                /* Warm, complementary orange for internal vault links */
-    --tag-background: #383a40;           /* Soft dark backdrop pill for tags */
-    --tag-color: #f39c12;                /* Balanced orange text for your tags */
-    
-    /* Active & Highlight States */
-    --nav-item-active-color: #00a3a3;    /* Teal highlights for your active sidebar folder */
-    --graph-node: #e67e22;               /* Orange dots for your interactive mind-map graph */
-    --graph-line: #3f4147;               /* Subtle connection lines in your graph view */
-}
-
-/* Force standard text element targets to update correctly */
 body {
-    background-color: var(--background-primary) !important;
-    color: var(--text-normal) !important;
-}
-
-/* Force specific internal links and tags to inherit your orange color */
-.internal-link {
-    color: var(--text-link) !important;
-}
-
-.tag {
-    background-color: var(--tag-background) !important;
-    color: var(--tag-color) !important;
+    /***
+      ADD YOUR CUSTOM STYLING HERE. (INSIDE THE body {...} section.)
+      IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
+   ***/
+    //  background-color: white;
+    //  .content {
+    //   font-size: 14px;
+    //  }
+    //  h1 {
+    //   color: black;
+    //  }
 }
