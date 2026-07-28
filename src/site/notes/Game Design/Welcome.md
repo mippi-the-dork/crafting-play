@@ -2,13 +2,11 @@
 {"dg-publish":true,"permalink":"/game-design/welcome/","tags":["gardenEntry"],"dg-note-properties":{}}
 ---
 
-Embark on a captivating journey into the heart of game creation with Mippi The Dork's definitive guide – "Mippi's Handbook to Crafting Play." In this meticulously curated series, we unravel the intricate art and science of game design, dispelling common misconceptions and providing a comprehensive roadmap for aspiring designers and seasoned creators alike.
+Forget the fluff. Game design isn't just about having a great idea. It's about understanding why players stay, why they get frustrated, and what makes a mechanic click. Whether you are building your first indie project or looking to sharpen your development workflow, this handbook breaks down the actual mechanics, frameworks, and psychology behind game creation.
 
-Dive into the enchanting world of game design as Mippi explores frameworks, models, analysis, game theory, mechanic design, narrative intricacies, environment creation, and the delicate balance of reward and punishment systems. "Mippi's Handbook to Crafting Play" is more than just a guide; it's a companion for those who seek to not only understand but master the craft of game design.
+We will skip the vague advice and dive straight into the practical models—from classic MDA to hybrid frameworks like DORK—giving you a concrete roadmap to build, balance, and polish your game.
 
-Crafted with precision and passion, this handbook promises to be your go-to resource, offering insights that span the entire spectrum of game creation. So, whether you're a budding designer or a seasoned veteran, join us on this odyssey through the realms of creativity, strategy, and imagination.
-
-Welcome to "Mippi's Handbook to Crafting Play" – where the journey to master the art of game design begins.
+Let's get to work.
 
 
 Table of Contents:
