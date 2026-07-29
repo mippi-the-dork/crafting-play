@@ -3,104 +3,116 @@
 ---
 
 - **Primary Genre Category:** Fighting
+    
 - **Core Sub-Genre:** 3D Fighter
-
+    
 
 ### Attribute Breakdown
 
 - **Primary Defining Attribute:** **Three-Dimensional Spatial Movement & Axis-Based Combat**
     
-    Unlike traditional 2D fighters that restrict movement to a single plane (jumping, crouching, forward/backward), 3D Fighters define their core gameplay loop through **sidestepping and 8-way movement**, allowing players to navigate into and out of the Z-axis to dodge linear attacks, flank opponents, and manage arena boundaries.
-    
+    - Unlike traditional 2D fighters that restrict movement to a single plane (jumping, crouching, forward/backward), 3D Fighters define their core gameplay loop through **sidestepping and 8-way movement**, allowing players to navigate into and out of the Z-axis to dodge linear attacks, flank opponents, and manage arena boundaries.
+        
 - **Associated/Adjacent Qualities:**
     
-    - **High/Mid/Low Attack Hierarchy & Blocking:** Combat dynamics driven by ducking under high attacks, blocking mid attacks standing, and blocking low attacks crouching.
+    - **High/Mid/Low Attack Hierarchy & Blocking:** Combat dynamics driven by ducking under high attacks, blocking mid attacks while standing, and blocking low attacks while crouching.
         
-    - **Frame Advantage & Attack Priority:** Tight execution windows where move startup, impact, and recovery frames dictate turn-taking and punish windows.
+    - **Frame Advantage & Attack Priority:** Tight execution windows where move startup, impact, and recovery frames dictate turn-taking, punish opportunities, and offensive momentum.
         
-    - **Ring Positioning & Ring Outs:** Environmental hazards, wall splats, and boundary rules (e.g., pushing an opponent off an edge or into a wall for extended combo damage).
+    - **Ring Positioning & Ring Outs:** Environmental hazards, wall splats, and arena boundaries create positional pressure, rewarding players who can manipulate spacing and stage geometry.
         
-    - **Stance Systems & Limb-Based Attacks:** Button layouts frequently assigned to individual limbs (e.g., Left Punch, Right Punch, Left Kick, Right Kick) or weapon stances.
+    - **Stance Systems & Limb-Based Attacks:** Button layouts frequently correspond to individual limbs (e.g., Left Punch, Right Punch, Left Kick, Right Kick) or weapon stances, emphasizing deliberate attack selection.
         
-    - **Reversal & Counter Mechanics:** Parries, tech-rolls, and wake-up options (Okizeme) that maintain dynamic interaction even during defensive situations.
+    - **Reversal & Counter Mechanics:** Parries, tech-rolls, wake-up options (Okizeme), and counter systems ensure both players remain engaged during defensive situations.
         
 
 ### Hybridization Analysis
 
-- **Genre Hybrid Types:** Action-Adventure Hybrid / RPG-3D Fighting Hybrid (e.g., _Tekken_’s Devil Within / Force Mode, _Soulcalibur_’s Weapon Master Mode, or _Street Fighter 6_’s World Tour mode).
+- **Genre Hybrid Types:** Action-Adventure Hybrid / RPG-3D Fighting Hybrid (e.g., _Tekken_'s Devil Within / Force Mode, _Soulcalibur_'s Weapon Master Mode, or _Street Fighter 6_'s World Tour mode).
     
 - **Benefits:**
     
-    - **Lowering Barriers to Entry:** Pure 3D fighters possess high execution floors and steep learning curves regarding frame data. Blending 3D fighting mechanics with single-player action-adventure or RPG progression gives casual players a low-stakes environment to learn spacing and move sets.
+    - **Lowering Barriers to Entry:** Pure 3D fighters possess high execution floors and steep learning curves centered around spacing, frame data, and matchup knowledge. Blending fighting mechanics with RPG progression or action-adventure exploration creates a lower-pressure environment for players to gradually learn core systems.
         
-    - **Enhanced Replayability:** Incorporating loot systems, skill trees, and open-ended exploration extends engagement beyond competitive 1v1 matchmaking.
+    - **Enhanced Replayability:** Loot systems, character progression, skill trees, and open-world exploration extend engagement beyond competitive multiplayer while encouraging experimentation with movesets.
         
 - **Challenges:**
     
-    - **Balancing Mechanics Across Modes:** Mechanics designed for tight, competitive 1v1 duels (such as lock-on targeting and frame recovery) can feel clunky when applied to multi-enemy action-adventure encounters.
+    - **Balancing Mechanics Across Modes:** Mechanics tuned for precise 1v1 competition, such as lock-on behavior, frame recovery, and combo systems, often require significant adaptation when applied to encounters involving multiple enemies.
         
-    - **Pacing Disruption:** RPG stat progression can trivialize mechanical skill requirements, diluting the core mastery curve intrinsic to the fighting genre.
+    - **Pacing Disruption:** RPG progression and statistical upgrades can diminish the importance of player execution, weakening the skill-based mastery curve that defines the genre.
         
 
 ### Genre Alignment Rationale (The "How" and "Why")
 
 - **Mechanics:**
     
-    - **Rules & Player Actions:** Actions such as sidestepping, string combos, low-poke harassment, and wall-juggling directly align with the core genre expectation: technical skill and tactical spatial awareness.
+    - **Rules & Player Actions:** Sidestepping, string combos, spacing, wall pressure, low-poke harassment, and movement-based whiff punishment all reinforce the genre's emphasis on technical execution and spatial control.
         
-    - **Risk-Reward Balance:** Whiffing a heavy linear attack exposes the attacker’s flank to a sidestepping opponent, creating high-damage counter opportunities that reward spatial foresight over button mashing.
+    - **Risk-Reward Balance:** Committing to a powerful linear attack creates vulnerability if the opponent sidesteps successfully, rewarding anticipation, positioning, and precise timing over reckless offense.
         
 - **Narrative & Aesthetics:**
     
-    - **Storytelling Methods:** Typically delivered through martial-arts tournament frameworks, cinematic Arcade mode ladders, or character-driven rivalries. Story beats are often structured around 1v1 duels, personal vendettas, or martial honor.
+    - **Storytelling Methods:** Stories are typically delivered through martial arts tournaments, cinematic Arcade ladders, personal rivalries, and character-driven conflicts centered around one-on-one duels.
         
-    - **Visual Style & Sound Design:** Ranging from martial arts realism to stylized martial-fantasy or anime-inspired visual flair. Heavy impact visual effects (e.g., hit-sparks, camera shifts during power moves), fluid motion-captured martial arts animations, and dynamic stage destruction/transitions reinforce the weight and physicality of every strike.
+    - **Visual Style & Sound Design:** Visual presentation ranges from grounded martial arts realism to highly stylized fantasy or anime aesthetics. Heavy hit effects, cinematic camera transitions, motion-captured animations, destructible environments, and impactful sound design reinforce the weight and physicality of every strike.
+        
 
+---
 
+#### Virtua Fighter (1993)
 
-### Virtua Fighter (1993)
+##### **Why & How It Fits the Genre**
 
-Developed by Yu Suzuki and Sega AM2, _Virtua Fighter_ is the undisputed progenitor of the 3D fighting game genre. Before its release, fighting games were strictly 2D sprite-based titles restricted to a single plane (e.g., _Street Fighter II_). _Virtua Fighter_ introduced flat-shaded 3D character models and transformed combat into a physical 3D space with realistic weight, momentum, and body geometry.
+Developed by Yu Suzuki and Sega AM2, _Virtua Fighter_ established the foundation of the modern 3D fighting game genre. Prior to its release, fighting games existed almost exclusively on a two-dimensional plane. By introducing polygonal characters, dedicated 3D movement, and realistic martial arts animation, _Virtua Fighter_ transformed combat into a spatial contest where positioning became just as important as attack execution.
 
-#### **Defining Mechanics**
+##### **Defining Mechanics**
 
-- **Ring Outs & Spatial Boundary Risk:** Rather than fighting against infinite scrolling screens or rigid invisible walls, battles took place on an elevated stage with defined borders. Knocking or pushing an opponent off the edge resulted in an immediate **"Ring Out"** victory. This introduced spatial positioning into fighting games: players had to actively manage their position relative to the edge, balancing aggression against the risk of getting baited into a ring-out.
+- **Ring Outs & Spatial Boundary Risk:** Combat takes place on elevated stages with defined boundaries. Knocking an opponent off the arena results in an immediate **Ring Out** victory, forcing players to constantly balance offensive pressure with positional awareness.
     
-- **Limb & Weight Physics (Y-Axis Dynamics):** _Virtua Fighter_ calculated characters' jump heights and juggle physics based on individual weight classes (e.g., heavyweights like Wolf vs. featherweights like Pai). Launching an opponent into the air required players to adjust their combo timing based on gravity and collision boxes in 3D space rather than uniform 2D hitboxes.
+- **Weight Classes & 3D Physics:** Characters possess different body weights that directly affect launch height, juggle timing, and combo potential. Players must adapt their execution based on the opponent rather than relying on universal combo routes.
     
-- **The Minimalist 3-Button Layout (Punch, Kick, Guard):** In contrast to 2D fighters with 6-button layouts and special-move quarter-circle motions, _Virtua Fighter_ focused on frame data, stance, and spatial orientation. Defensive blocking required pressing a dedicated Guard button rather than holding "Back," allowing characters to block attacks independent of which direction they were facing in 3D space.
-    
-
-### Tobal No. 1 (1996)
-
-Designed by Seiichi Ishii (the co-creator of _Virtua Fighter_ and _Tekken_), Square’s _Tobal No. 1_ is a cult-classic case study in 3D fighting game design. While largely remembered for including a demo disc for _Final Fantasy VII_, _Tobal No. 1_ was mechanically ahead of its time, solving major 3D movement and grappling problems that other developers wouldn't address for years.
-
-#### **Defining Mechanics**
-
-- **Unrestricted 360-Degree Free-Run Movement:** Most early 3D fighters locked players onto a 2D line between the two combatants, requiring specific sidestep commands to move off-axis. _Tobal No. 1_ featured true **360-degree un-locked movement**: holding a movement button allowed players to run freely anywhere on the arena floor in full 3D, turning the entire arena into a dynamic tactical space for zoning and baiting attacks.
-    
-- **3-Tier Grapple & Clinch System:** _Tobal_ treated grappling not as a static visual animation, but as a dynamic 3D positional interaction. Players could execute High, Mid, and Low grabs. Once in a clinch, both players entered a active grappling neutral state where they could attempt position swaps, trip-attacks, or tech-reversals based on directional inputs.
-    
-- **Full-Body High/Mid/Low Guarding System:** Rather than a simple stand/crouch block, _Tobal_ featured explicit High, Mid, and Low defense buttons. Attacks had distinct trajectories in 3D space, forcing players to read attack heights and match their defensive guard elevation accordingly.
+- **Minimalist 3-Button Combat System:** Using only Punch, Kick, and Guard, _Virtua Fighter_ emphasizes timing, spacing, and frame advantage over complex input motions. Because Guard is a dedicated button instead of holding backward, players can defend regardless of their orientation within 3D space.
     
 
-### _Tekken 8_ (2024)
+---
 
-Bandai Namco's _Tekken 8_ represents the current peak of the 3D fighter genre. It retains the core identity of 3D combat—axis-based movement, 1-to-1 limb controls, and heavy spatial punishment—while integrating modern mechanics designed to encourage offensive tempo and dynamic environmental interactions.
+#### Tobal No. 1 (1996)
 
-#### **Defining Mechanics**
+##### **Why & How It Fits the Genre**
 
-- **3D Sidestepping vs. Tracking Moves:** _Tekken 8_’s neutral game revolves around managing the Z-axis. Players can double-tap Up or Down to **Sidestep** or **Sidewalk** into the background/foreground, completely evading linear, high-damage attacks. To counter this, the game uses **Homing Moves**—attacks specifically designed to swing wide in 3D space to catch opponents trying to step off-axis.
+Designed by Seiichi Ishii, co-creator of both _Virtua Fighter_ and _Tekken_, _Tobal No. 1_ pushed 3D movement far beyond the standards of its era. While often remembered for including the _Final Fantasy VII_ demo disc, its true legacy lies in experimenting with unrestricted movement and sophisticated grappling systems years before similar ideas became commonplace.
+
+##### **Defining Mechanics**
+
+- **True 360-Degree Free Movement:** Unlike contemporaries that constrained players to a shared combat line with contextual sidesteps, _Tobal No. 1_ allowed unrestricted movement throughout the arena, making positioning a continuous tactical consideration.
     
-- **Dynamic Multi-Stage Destruction (Floor Breaks, Wall Splats, & Balcony Crashes):** Arena boundaries in _Tekken 8_ are interactive 3D structures. Landing a heavy combo against a wall causes a **Wall Splat**, extending the juggle string. Powerful attacks can break through stage floors or collapse balcony walls, seamlessly transitioning the fight into an entirely new lower level or adjacent arena mid-round.
+- **Three-Tier Grappling System:** Grapples evolve into an active positional contest where players can counter, reverse, reposition, or escape using directional inputs instead of relying on predetermined throw animations.
     
-- **4-Limb Input Layout (LP, RP, LK, RK) & The Heat System:** _Tekken 8_ maps its 4 main face buttons directly to the character’s four physical limbs: Left Punch (1), Right Punch (2), Left Kick (3), and Right Kick (4). Building on this physical layout, the **Heat System** allows players to spend a resource to perform a _Heat Dash_—canceling move recovery to instantly sprint forward across 3D space to enforce high-pressure 50/50 mix-ups (forcing the opponent to guess between a High/Mid or Low strike).
+- **Expanded Defensive Guard System:** Separate High, Mid, and Low defensive options require players to accurately read attack trajectories and actively select the correct defensive response rather than relying solely on standing or crouching blocks.
+    
+
+---
+
+#### Tekken 8 (2024)
+
+##### **Why & How It Fits the Genre**
+
+_Bandai Namco's_ _Tekken 8_ represents the modern evolution of 3D fighting games. It preserves the franchise's defining characteristics—axis-based movement, limb-specific controls, and strong punishment mechanics—while introducing aggressive offensive systems and highly interactive stages designed to keep momentum constantly shifting between players.
+
+##### **Defining Mechanics**
+
+- **Sidestepping, Sidewalking & Tracking Attacks:** Neutral gameplay revolves around controlling the Z-axis through sidesteps and sidewalks that evade linear attacks. Opposing this defensive option are **Homing Moves**, specifically designed to track lateral movement and discourage predictable evasive play.
+    
+- **Interactive Multi-Stage Arenas:** Walls, balconies, and destructible floors create evolving battlefields. Wall Splats extend combos, while Floor Breaks and Balcony Breaks transition combat into entirely new sections of a stage, rewarding players who understand environmental positioning.
+    
+- **Four-Limb Control Scheme & Heat System:** Each primary attack button corresponds directly to one of the fighter's limbs—Left Punch, Right Punch, Left Kick, and Right Kick. The **Heat System** introduces a temporary offensive state that enables moves like **Heat Dash**, allowing players to cancel recovery frames, maintain pressure, and force high-risk offensive mix-ups.
     
 
 ### Comparison Summary
 
-|**Game**|**Structural Focus**|**Spatial Innovation**|**Primary Design Lesson**|
+|**Game**|**Structural Focus**|**Key Innovation / Hook**|**Primary Design Lesson**|
 |---|---|---|---|
-|**Virtua Fighter**|Realism, weight physics, & frame data|Elevated arenas with Ring-Out boundaries|How to transition combat mechanics from 2D planes into polygonal 3D space.|
-|**Tobal No. 1**|Free-form 3D navigation & fluid grappling|360-degree free running & 3-tier clinching|How to give players complete spatial movement freedom without sacrificing tight 1v1 grappling combat.|
-|**Tekken 8**|High-aggression, limb-based combos, & spatial pressure|Multi-tier stage hazards & sidestep vs. tracking loops|How to balance 3D spatial defense (sidestepping) with high-octane offensive momentum mechanics (Heat/Stage Breaks).|
+|**Virtua Fighter**|Realistic martial arts, weight physics, & frame-based combat|Ring-Out arenas, dedicated Guard button, & weight-dependent juggling|How to successfully transition fighting game design from a 2D plane into true 3D spatial combat.|
+|**Tobal No. 1**|Free-form movement, grappling, & spatial control|Unrestricted 360-degree movement & dynamic clinch system|How unrestricted movement and active grappling expand tactical decision-making without sacrificing competitive depth.|
+|**Tekken 8**|Offensive momentum, limb-based combat, & environmental interaction|Heat System, Homing Moves, & multi-stage arena destruction|How to balance defensive spatial movement with fast-paced offensive systems while leveraging interactive environments to deepen competitive play.|
