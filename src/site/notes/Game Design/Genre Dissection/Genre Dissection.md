@@ -443,6 +443,11 @@
     - **Urban Legends**: Focuses on modern Japanese urban legends and folklore.
     - **Psychological and Atmospheric**: Emphasizes a slow-building, atmospheric tension typical of Japanese horror.
 
+- **[[Game Design/Genre Dissection/Game Genres/In Progress/Character Horror\|Character Horror]]**
+    - **Iconic Characters:** Centers around memorable antagonists with distinct personalities, appearances, and identities that become the primary source of fear.
+    - **Recurring Encounters:** Emphasizes repeated interactions with the same characters, allowing the player to learn, anticipate, and ultimately dread their unique behaviors and presence.
+    - **Character-Driven Narrative:** Uses the history, motivations, and relationships of its central characters to drive the mystery, world-building, and progression of the story.
+
 ### **[[Game Design/Genre Dissection/Game Genres/In Progress/Puzzle\|Puzzle]]**
 
 - **[[Game Design/Genre Dissection/Game Genres/In Progress/Logic Puzzles\|Logic Puzzles]]**
