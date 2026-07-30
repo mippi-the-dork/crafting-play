@@ -15,7 +15,7 @@ Table of Contents:
 	
 	- [[Game Design/Frameworks & Models/Frameworks and Models\| Frameworks & Models]]
 	
-		- [[Game Design/Frameworks & Models/6-11 Framework/6-11 Framework\|6-11 Framework]] - Coming Soon - Suits games focusing on player psychology, mapping basic emotions and instincts directly to mechanical loops to engineer intentional emotional engagement.
+		- [[Game Design/Frameworks & Models/6-11 Framework/6-11 Framework\|6-11 Framework]] - Suits games focusing on player psychology, mapping basic emotions and instincts directly to mechanical loops to engineer intentional emotional engagement.
 		
 		- [[Game Design/Frameworks & Models/AGE Framework/AGE framework\|AGE framework]] - Coming Soon - Excels at structuring game design from raw atomic actions and rules up to high-level psychological experiences.
 		

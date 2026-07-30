@@ -90,7 +90,7 @@ In conclusion, adopting a game design framework involves a holistic and iterativ
 
 Here is a list of Frameworks and Models explored in "Mippi's Handbook to Crafting Play":
 
-- [[Game Design/Frameworks & Models/6-11 Framework/6-11 Framework\|6-11 Framework]] - Coming Soon - Suits games focusing on player psychology, mapping basic emotions and instincts directly to mechanical loops to engineer intentional emotional engagement.
+- [[Game Design/Frameworks & Models/6-11 Framework/6-11 Framework\|6-11 Framework]] - Suits games focusing on player psychology, mapping basic emotions and instincts directly to mechanical loops to engineer intentional emotional engagement.
 	
 - [[Game Design/Frameworks & Models/AGE Framework/AGE framework\|AGE framework]] - Coming Soon - Excels at structuring game design from raw atomic actions and rules up to high-level psychological experiences.
 	
