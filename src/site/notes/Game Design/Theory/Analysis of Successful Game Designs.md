@@ -66,40 +66,40 @@ In each of these examples, game theory's principles are evident in crafting game
 
 ## Case Studies: Highly Successful Games
 
-#The_Legend_of_Zelda: Breath of the Wild - [[The Legend of Zelda - Breath of the Wild - Game Theory \|Case Study]]
+#The_Legend_of_Zelda: Breath of the Wild - [[Game Design/Theory/Case Studies/Upcoming Case Studies/The Legend of Zelda - Breath of the Wild - Game Theory\|The Legend of Zelda - Breath of the Wild - Game Theory]] - #Coming_Soon
 	- Open-world exploration and puzzle-solving.
 
-#Fortnite - [[Fortnite - Game Theory \|Case Study]]
+#Fortnite - [[Game Design/Theory/Case Studies/Upcoming Case Studies/Fortnite - Game Theory\|Fortnite - Game Theory]] - #Coming_Soon 
 	- Battle Royale with a focus on survival, resource gathering, and building.
 
-#World_of_Warcraft - [[World of Warcraft - Game Theory \|Case Study]]
+#World_of_Warcraft - [[Game Design/Theory/Case Studies/Upcoming Case Studies/World of Warcraft - Game Theory\|World of Warcraft - Game Theory]] - #Coming_Soon 
 	- MMORPG with deep cooperative and competitive elements.
 
-#Chess (Digital Versions) - [[Chess - Game Theory \|Case Study]]
+#Chess (Digital Versions) - [[Game Design/Theory/Case Studies/Upcoming Case Studies/Chess - Game Theory\|Chess - Game Theory]] - #Coming_Soon 
 	- The classic strategy game, demonstrating zero-sum game theory.
 
-#The_Sims Series - [[The Sims - Game Theory \|Case Study]]
+#The_Sims Series - [[Game Design/Theory/Case Studies/Upcoming Case Studies/The Sims - Game Theory\|The Sims - Game Theory]] - #Coming_Soon 
 	- Life simulation game, focusing on decision-making and resource management.
 
-#Minecraft - [[Minecraft - Game Theory \|Case Study]]
+#Minecraft - [[Game Design/Theory/Case Studies/Upcoming Case Studies/Minecraft - Game Theory\|Minecraft - Game Theory]] - #Coming_Soon 
 	- Sandbox game emphasizing creativity, exploration, and survival.
 
-#League_of_Legends - [[League of Legends - Game Theory \|Case Study]]
+#League_of_Legends - [[Game Design/Theory/Case Studies/Upcoming Case Studies/League of Legends - Game Theory\|League of Legends - Game Theory]] - #Coming_Soon 
 	- MOBA game, showcasing team-based strategy and competitive play.
 
 #Call_of_Duty Series - [[Game Design/Theory/Case Studies/Call of Duty - Game Theory\|Call of Duty - Game Theory]]
 	- First-person shooter known for its competitive multiplayer modes.
 
-#Civilization Series - [[Civilization - Game Theory \|Case Study]]
+#Civilization Series - [[Game Design/Theory/Case Studies/Upcoming Case Studies/Civilization - Game Theory\|Civilization - Game Theory]] - #Coming_Soon 
 	- Turn-based strategy game, where players build and manage empires.
 
 #Among_Us - [[Game Design/Theory/Case Studies/Among Us - Game Theory\|Among Us - Game Theory]]
 	- Social deduction game, highlighting cooperation and betrayal dynamics.
 
-#Candy_Crush_Saga - [[Candy Crush Saga - Game Theory \|Case Study]]
+#Candy_Crush_Saga - [[Game Design/Theory/Case Studies/Upcoming Case Studies/Candy Crush Saga - Game Theory\|Candy Crush Saga - Game Theory]] - #Coming_Soon 
 	- Puzzle game, an example of reward mechanics and player engagement.
 
-#Mario_Kart Series - [[Mario Kart - Game Theory \|Case Study]]
+#Mario_Kart Series - [[Game Design/Theory/Case Studies/Upcoming Case Studies/Mario Kart - Game Theory\|Mario Kart - Game Theory]] - #Coming_Soon 
 	- Racing game that balances skill, strategy, and randomness.
 
 ### Brief Analyses of Game Theory Application in These Games
