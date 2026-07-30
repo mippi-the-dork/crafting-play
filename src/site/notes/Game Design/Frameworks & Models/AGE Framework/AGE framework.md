@@ -428,17 +428,17 @@ When a feature fails during playtesting or grey-box prototyping, system architec
 
 ### 7.2 Diagnostic Failure Matrix
 
-|**Failure Symptom**|**Identified Breakdown Tier**|**Root Cause Example**|**Systemic Correction**|
-|---|---|---|---|
-|Player feels no tension during a stealth sequence|**Gameplay Tier**|Enemy AI vision cones are too narrow and patrol routes are static|Expand detection vectors, add noise mechanics, randomize AI patrols|
-|Player understands enemy telegraphs but consistently misses parry timing|**Actions Tier**|Parry verb has a 200ms input delay and no animation buffer|Reduce input latency, extend i-frame grace windows, add input buffering|
-|Player defeats a major boss encounter but feels unrewarded and empty|**Experience Tier**|Combat resolves abruptly without dynamic audio/visual payoff or progression flag|Add dynamic audio stingers, impact visual effects, and tangible rewards|
-|Player spams a single heavy attack verb throughout the entire game|**Gameplay Tier**|Heavy attack has no stamina cost or recovery penalty to offset its damage|Introduce stamina costs, cooldown gates, or situational enemy counters|
-|Player stumbles over control execution during high-frequency combat|**Actions Tier**|Core movement and attack verbs require simultaneous multi-button execution|Consolidate context verbs, streamline control layout, reduce verb bloat|
+| **Failure Symptom**                                                      | **Identified Breakdown Tier** | **Root Cause Example**                                                           | **Systemic Correction**                                                 |
+| ------------------------------------------------------------------------ | ----------------------------- | -------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
+| Player feels no tension during a stealth sequence                        | **Gameplay Tier**             | Enemy AI vision cones are too narrow and patrol routes are static                | Expand detection vectors, add noise mechanics, randomize AI patrols     |
+| Player understands enemy telegraphs but consistently misses parry timing | **Actions Tier**              | Parry verb has a 200ms input delay and no animation buffer                       | Reduce input latency, extend i-frame grace windows, add input buffering |
+| Player defeats a major boss encounter but feels unrewarded and empty     | **Experience Tier**           | Combat resolves abruptly without dynamic audio/visual payoff or progression flag | Add dynamic audio stingers, impact visual effects, and tangible rewards |
+| Player spams a single heavy attack verb throughout the entire game       | **Gameplay Tier**             | Heavy attack has no stamina cost or recovery penalty to offset its damage        | Introduce stamina costs, cooldown gates, or situational enemy counters  |
+| Player stumbles over control execution during high-frequency combat      | **Actions Tier**              | Core movement and attack verbs require simultaneous multi-button execution       | Consolidate context verbs, streamline control layout, reduce verb bloat |
 
 ### 7.3 Designer Evaluation Checklist
 
-### A.G.E. Feature Audit Checklist
+#### A.G.E. Feature Audit Checklist
 
 #### 1. Actions Layer (Micro)
 - [ ] Are input verbs responsive, with input latency minimized?
