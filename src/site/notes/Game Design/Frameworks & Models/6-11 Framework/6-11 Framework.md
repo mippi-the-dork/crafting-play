@@ -2,8 +2,6 @@
 {"dg-publish":true,"permalink":"/game-design/frameworks-and-models/6-11-framework/6-11-framework/","dg-note-properties":{}}
 ---
 
-## Foundational Ontology
-
 In game design theory, traditional structural frameworks like **MDA** (Mechanics, Dynamics, Aesthetics) establish how low-level rules generate emergent system behaviors. However, designers frequently encounter an analytical gap at the top layer: MDA’s "Aesthetics" tier often groups player emotion into broad, subjective categories (e.g., _Fantasy_, _Sensation_, _Challenge_) without explaining the underlying psychological mechanisms that trigger those feelings.
 
 The **6–11 Framework**, created by Dr. Roberto Dillon, bridges this gap by grounding game design in evolutionary psychology and human affect theory. It operates on the principle that player delight, frustration, tension, and immersion are not random byproduct effects; they are the direct psychological result of mechanics stimulating specific **subconscious instincts**.
