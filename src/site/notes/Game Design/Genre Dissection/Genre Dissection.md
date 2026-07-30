@@ -35,6 +35,11 @@
     - **Last Man Standing**: A sub-genre focused on being the final survivor in a shrinking play area.
     - **Team-Based Battle Royale**: Encourages cooperative play within teams to be the last group standing.
 
+- **[[Survivor-like\|Survivor-like]]**
+    - **Bullet Heaven Arena Survivor**: Standard top-down horde survival games with endless auto-firing projectiles and exponential item stacking (*Vampire Survivors* style).
+	- **Physics-Based / Navigational Survivor**: Survivor-like games incorporating platforming, vehicle driving, or physics-driven navigation while dodging endless mobs.
+	- **Narrative / Extraction Survivor**: Survivor games incorporating structured mission runs, character unlocks, or extraction-based progression loops between sessions.
+
 ### **[[Game Design/Genre Dissection/Game Genres/In Progress/Adventure\|Adventure]]**
 
 - **[[Game Design/Genre Dissection/Game Genres/In Progress/Point-and-Click\|Point-and-Click]]**
@@ -129,6 +134,11 @@
     - **Strategy Top-Down Shooter**: Combines top-down shooting with strategic elements like resource management.
     - **Rogue-like Top-Down Shooter**: Features procedurally generated levels and permadeath mechanics.
 
+- **[[Extraction Shooter\|Extraction Shooter]]**
+    - **Raid-Based Extraction**: Session-based multiplayer shooters where players deploy into a contested zone to loot, complete objectives, and escape via restricted extraction points while risking all carried gear upon death.
+    - **Extraction Royale**: A hybrid merging battle royale shrinking map dynamics with player-versus-environment threats and gear persistence.
+    - **Cooperative Extraction**: PvE-focused extraction shooters prioritizing squad tactics and objective survival against AI hordes over player conflict.
+
 ### **[[Game Design/Genre Dissection/Game Genres/In Progress/Role-playing\|Role-playing]] (RPG)**
 
 - **[[Game Design/Genre Dissection/Game Genres/In Progress/Western RPG\|Western RPG]]**
@@ -160,6 +170,12 @@
     - **Procedural Rogue-like**: Focuses on procedurally generated levels for a new experience every playthrough.
     - **Hardcore Rogue-like**: Features a high level of difficulty with permadeath and minimal player guidance.
     - **Rogue-lite**: Blends rogue-like elements with other genres, often retaining some progress after death.
+    - **Rogue-like Deckbuilder**: Combines card-drafting and deck-building mechanics with roguelike procedural progression and randomized encounters.
+
+- **[[Soulslike\|Soulslike]]**
+    - **Action Souls-like**: Fast-paced, stamina-driven melee combat set in dark fantasy worlds emphasizing dodge-timing and enemy telegraphs.
+    - **2D / Metroidvania Souls-like**: Side-scrolling or top-down interpretations of Soulslike combat, navigation, and checkpoint mechanics (often called "Soulsvania").
+    - **Extraction Souls-like**: Combines multiplayer extraction risk-reward mechanics with deliberate, stamina-based combat and permanent gear loss.
 
 ### **[[Game Design/Genre Dissection/Game Genres/In Progress/Simulation\|Simulation]]**
 
@@ -198,6 +214,11 @@
     - **Space Combat Simulation**: Involves piloting spacecraft in combat, often with realistic space physics.
     - **Space Colony Management**: Simulates managing a space colony, including resource gathering, habitat building, and interstellar trade.
 
+- **[[Immersive Sim\|Immersive Sim]]**
+    - **First-Person Immersive Sim**: Classic immersive sims prioritizing first-person player choice, interconnected systems, and environmental problem-solving (e.g., _Deus Ex_, _Dishonored_).
+	- **Isometric / Third-Person Immersive Sim**: Immersive sims rendered from top-down or third-person perspectives while retaining deep systemic simulation and multiple solution paths (e.g., _Shadow Gambit_, _Divinity_ immersive elements).
+	- **Systemic Roguelike Immersive Sim**: A genre fusion combining randomized dungeon generation and permadeath with immersive sim emergent mechanics.
+
 ### **[[Game Design/Genre Dissection/Game Genres/In Progress/Strategy\|Strategy]]**
 
 - **[[Game Design/Genre Dissection/Game Genres/In Progress/Real-Time Strategy\|Real-Time Strategy]] (RTS)**
@@ -229,6 +250,11 @@
     - **Hero-Based MOBA**: Each player controls a single powerful character with unique abilities.
     - **Objective-Focused MOBA**: In addition to combat, players must complete specific objectives on the map.
     - **Hybrid MOBA**: Combines elements of MOBAs with other genres, such as shooters or RPGs.
+
+- **[[Autobattler/ Auto Chess\|Autobattler/ Auto Chess]]**
+    - **Tactical Auto Chess**: Grid-based automated tactical battlers focusing on formation placement and racial/class trait synergies.
+    - **Draft & Shop Autobattler**: Economy-driven auto battlers centered around refreshing shops, managing gold interest, and upgrading unit stars.
+    - **Asynchronous Autobattler**: Autobattlers where players build teams that fight ghostly copies of other players' rosters asynchronously.
 
 ### **[[Game Design/Genre Dissection/Game Genres/In Progress/Sports\|Sports]]**
 
@@ -648,7 +674,7 @@
 
 - **[[Game Design/Genre Dissection/Game Genres/In Progress/Creativity and Art Education\|Creativity and Art Education]]**
     - **Digital Painting and Drawing**: Teaches art skills using digital tools.
-    - **Music Composition and Theory**: Focuses on music creation and understanding musical concepts.
+    - **Music Composition and Theory**: Focuses on music composition and understanding musical concepts.
     - **Crafts and DIY Projects**: Encourages creativity through virtual crafting and DIY activities.
 
 - **[[Game Design/Genre Dissection/Game Genres/In Progress/Health and Lifestyle Education\|Health and Lifestyle Education]]**
@@ -863,9 +889,9 @@
 ### **[[Game Design/Genre Dissection/Game Genres/In Progress/Tabletop\|Tabletop]]**
 
 - **[[Game Design/Genre Dissection/Game Genres/In Progress/Digital Board Games\|Digital Board Games]]**
-    - **Classic Board Game Digital Versions**: Digital adaptations of classic board games like Monopoly or Risk.
-    - **Modern Board Game Adaptations**: Digital versions of newer board games, often with enhanced graphics and interactive elements.
-    - **Fantasy and Sci-Fi Board Games**: Digital board games set in fantasy or science fiction worlds.
+    - **Classic Board Game Digital Versions**: Digital adaptations of traditional board games like chess or checkers.
+    - **Themed Board Games**: Board games adapted to fit specific themes, like fantasy or science fiction.
+    - **Augmented Reality Board Games**: Board games that use AR technology to enhance gameplay.
 
 - **[[Game Design/Genre Dissection/Game Genres/In Progress/Tabletop RPG Adaptations\|Tabletop RPG Adaptations]]**
     - **Fantasy RPG Adaptations**: Digital adaptations of fantasy tabletop RPGs like Dungeons & Dragons.
@@ -901,7 +927,7 @@
     - **Team-Based Strategy Games**: Games where players work together in teams to achieve objectives.
     - **Narrative Cooperative Games**: Cooperative games with a strong storytelling component.
     - **Puzzle and Problem-Solving Cooperative Games**: Games that focus on solving puzzles or problems as a group.
-  
+
 ## 3. Identifying and Analyzing Existing Games
    - Methods for identifying a game's primary genre
    - Analyzing gameplay mechanics, narrative elements, and aesthetics
@@ -937,4 +963,3 @@
    - Summarizing key points
    - Emphasizing the dynamic nature of genres in game design
    - Encouraging continuous learning and experimentation
-
