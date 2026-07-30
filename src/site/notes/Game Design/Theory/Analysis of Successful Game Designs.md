@@ -81,7 +81,7 @@ In each of these examples, game theory's principles are evident in crafting game
 #The_Sims Series - [[Game Design/Theory/Case Studies/Upcoming Case Studies/The Sims - Game Theory\|The Sims - Game Theory]] - #Coming_Soon 
 	- Life simulation game, focusing on decision-making and resource management.
 
-#Minecraft - [[Game Design/Theory/Case Studies/Upcoming Case Studies/Minecraft - Game Theory\|Minecraft - Game Theory]] - #Coming_Soon 
+#Minecraft - [[Game Design/Theory/Case Studies/Minecraft - Game Theory\|Minecraft - Game Theory]]
 	- Sandbox game emphasizing creativity, exploration, and survival.
 
 #League_of_Legends - [[Game Design/Theory/Case Studies/Upcoming Case Studies/League of Legends - Game Theory\|League of Legends - Game Theory]] - #Coming_Soon 
