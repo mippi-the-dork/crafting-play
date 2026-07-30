@@ -441,7 +441,8 @@ A primary cause of player disconnect is dissonance between System Space and Stor
 
 To audit or author game mechanics using the 6–11 Framework, system architects trace interaction design through a standardized five-stage mapping pipeline:
 
-$$\text{Action (Verb)} \longrightarrow \text{Gameplay Rule (System)} \longrightarrow \text{Triggered Instinct} \longrightarrow \text{Elicited Emotion} \longrightarrow \text{Terminal Payoff}$$
+###### Action (Verb) -> Gameplay Rule (System) -> Triggered Instinct -> Elicited Emotion -> Terminal Payoff
+
 
 ### 5.1 Standardized Tracing Pipeline
 
