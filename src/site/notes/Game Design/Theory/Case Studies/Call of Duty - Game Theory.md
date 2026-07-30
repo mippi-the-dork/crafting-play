@@ -2,8 +2,6 @@
 {"dg-publish":true,"permalink":"/game-design/theory/case-studies/call-of-duty-game-theory/","dg-note-properties":{}}
 ---
 
-# Introduction and Game Overview
-
 #Call_of_Duty, developed and published by Activision, stands as a quintessential example of game theory applied in the realm of modern first-person shooters. This fast-paced military shooter franchise cleverly integrates fundamental principles of game theory into its core gameplay, spanning both competitive multiplayer, large-scale ground war, and tactical modes, offering a rich and complex experience that goes far beyond mere mechanical reflexes. 
 
 In this case study, we examine how #Call_of_Duty not only employs but also exemplifies key concepts of game theory, such as Nash Equilibrium, zero-sum and non-zero-sum dynamics, and the strategic interplay of cooperative and adversarial decisions. By dissecting its mechanics, player behaviors, and map architectures, this first section establishes how game theory operates as a practical framework governing every micro-interaction and macro-strategy in the franchise.
