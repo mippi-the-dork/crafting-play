@@ -269,7 +269,7 @@ Below is the deconstruction of the **11 Primal Instincts**, detailing their evol
 | **10. Exploration** | Fog of war, secrets, lore landmarks | Anticipation → Joy | Discovery, intellectual satisfaction |
 | **11. Color / Sensory** | Item tier colors, juice VFX, adaptive audio | Instant Aesthetic Joy | Sensory immersion, tactile satisfaction |
 
-## Section 4: Cross-Framework Systemic Integrations
+## Cross-Framework Systemic Integrations
 
 The 6–11 Framework does not exist in isolation. Within the _Crafting Play_ ecosystem, it functions as a universal **Affective Engine**—a psychological translation layer that plugs into structural, narrative, UX, and pedagogical game design frameworks.
 
