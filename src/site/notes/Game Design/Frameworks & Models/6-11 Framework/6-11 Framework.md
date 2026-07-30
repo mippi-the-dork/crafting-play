@@ -8,24 +8,13 @@ In game design theory, traditional structural frameworks like **MDA** (Mechanics
 
 The **6–11 Framework**, created by Dr. Roberto Dillon, bridges this gap by grounding game design in evolutionary psychology and human affect theory. It operates on the principle that player delight, frustration, tension, and immersion are not random byproduct effects; they are the direct psychological result of mechanics stimulating specific **subconscious instincts**.
 
-```
-┌─────────────────────────────────────────────────────────────────────────────────────────┐
-│                           THE 6–11 AFFECTIVE CASCADE PIPELINE                           │
-└─────────────────────────────────────────────────────────────────────────────────────────┘
-  [ Atomic Verbs / Actions ] ────► Physical inputs, button presses, movement
-              │
-              ▼
-  [ Gameplay Mechanics ] ────────► Rules, hazards, spatial constraints, timers
-              │
-              ▼
-  [ Subconscious Instincts (11) ] ► Survival, Greed, Protection, Exploration, etc.
-              │
-              ▼
-  [ Elicited Emotions (6) ] ──────► Fear, Anger, Excitement, Pride, Sadness, Joy
-              │
-              ▼
-  [ Terminal State ] ────────────► Mastery, Fulfillment, Emotional Resonance, Retention
-```
+| **Stage** | **Pipeline Layer**              | **System Description / Inputs**                      |
+| --------- | ------------------------------- | ---------------------------------------------------- |
+| **1**     | **Atomic Verbs / Actions**      | Physical inputs, button presses, movement            |
+| **2**     | **Gameplay Mechanics**          | Rules, hazards, spatial constraints, timers          |
+| **3**     | **Subconscious Instincts (11)** | Survival, Greed, Protection, Exploration, etc.       |
+| **4**     | **Elicited Emotions (6)**       | Fear, Anger, Excitement, Pride, Sadness, Joy         |
+| **5**     | **Terminal State**              | Mastery, Fulfillment, Emotional Resonance, Retention |
 
 ### Analytical Role in the Crafting Play Architecture
 
@@ -112,19 +101,13 @@ Emotions act as the player's immediate psychological feedback receptors and inte
 
 While the **6 Universal Emotions** define the player’s felt psychological state, **Instincts** act as the underlying behavioral drivers. In the 6–11 Framework, game systems do not generate emotion directly out of nothing; mechanics engage primal human instincts, and the satisfaction, frustration, or dynamic tension of those instincts produces the corresponding emotional state.
 
-```
-┌────────────────────────────────────────────────────────────────────────────────────────┐
-│                        INSTINCT-TO-EMOTION SYSTEMIC ENGINE                             │
-└────────────────────────────────────────────────────────────────────────────────────────┘
-  [ System Mechanic / Rule ] ──► [ Subconscious Instinct ] ──► [ Primary Elicited Emotion ]
-  ----------------------------------------------------------------------------------------
-  • Scarce Ammo / Survival Hazard ──► Survival               ──► Fear ──► Joy (Relief)
-  • Rare Boss Loot Drop           ──► Greed / Collecting     ──► Excitement ──► Joy / Pride
-  • Defeat by Rival / Boss        ──► Revenge                ──► Anger ──► Pride (Victory)
-  • Hidden Map Location / Lore    ──► Exploration            ──► Excitement ──► Joy (Wonder)
-  • Escort / Defense Objective    ──► Protection / Care      ──► Fear ──► Pride / Attachment
-```
-
+| **System Mechanic / Rule**        | **Subconscious Instinct** | **Primary Elicited Emotion Arc** | **Terminal Payoff**             |
+| --------------------------------- | ------------------------- | -------------------------------- | ------------------------------- |
+| **Scarce Ammo / Survival Hazard** | Survival                  | Fear → Joy                       | Relief                          |
+| **Rare Boss Loot Drop**           | Greed / Collecting        | Excitement → Joy                 | Pride & Satisfaction            |
+| **Defeat by Rival / Boss**        | Revenge                   | Anger → Pride                    | Victory & Retribution           |
+| **Hidden Map Location / Lore**    | Exploration               | Excitement → Joy                 | Wonder & Discovery              |
+| **Escort / Defense Objective**    | Protection / Care         | Fear → Pride                     | Attachment & Shelter Validation |
 Below is the deconstruction of the **11 Primal Instincts**, detailing their evolutionary psychological basis, systemic mechanical implementations, resulting emotional payoffs, and industry design anti-patterns.
 
 ### 1. Survival (Fight or Flight)
@@ -292,23 +275,13 @@ The 6–11 Framework does not exist in isolation. Within the _Crafting Play_ eco
 
 While structural frameworks define _how systems are built_ and narrative models define _what stories are told_, the 6–11 Framework defines _how those systems and stories feel to the human subconscious_.
 
-```
-┌────────────────────────────────────────────────────────────────────────────────────────┐
-│                        CRAFTING PLAY INTEGRATION ARCHITECTURE                          │
-└────────────────────────────────────────────────────────────────────────────────────────┘
-                                ┌────────────────────────┐
-                                │     6–11 FRAMEWORK     │
-                                │   (Affective Engine)   │
-                                └───────────┬────────────┘
-                                            │
-        ┌───────────────────┬───────────────┼───────────────┬───────────────────┐
-        ▼                   ▼               ▼               ▼                   ▼
-┌───────────────┐   ┌───────────────┐   ┌───────┐   ┌───────────────┐   ┌───────────────┐
-│ A.G.E.        │   │ MDA / RMDA    │   │CLARITY│   │ EMOTIONEERING │   │   GEB / SSM   │
-│ Architectural │   │ Aesthetics    │   │ Signal│   │ & DDE & DORK  │   │ Educational & │
-│ Pipeline      │   │ Model         │   │ UX    │   │ Decisioning   │   │ System-Story  │
-└───────────────┘   └───────────────┘   └───────┘   └───────────────┘   └───────────────┘
-```
+| **Connected Framework**        | **Architectural Domain**   | **6–11 Functional Integration Role**                                     |
+| ------------------------------ | -------------------------- | ------------------------------------------------------------------------ |
+| **A.G.E. Framework**           | Architectural Pipeline     | Functions as the explicit theoretical model for the _Experience_ layer   |
+| **MDA / RMDA**                 | Systemic Aesthetics        | Replaces abstract aesthetic labels with quantifiable emotional mechanics |
+| **Clarity Model**              | Signal & UX                | Ensures game feedback communicates instinct triggers with low friction   |
+| **Emotioneering / DDE / DORK** | Design & Decisioning       | Anchors player agency, narrative empathy, and prototyping loops          |
+| **GEB / SSM Frameworks**       | Educational & System-Story | Bridges gamified learning and narrative lore with primal human drives    |
 
 ### 4.1 Integration with the A.G.E. Framework (Actions, Gameplay, Experience)
 
@@ -316,22 +289,11 @@ The **A.G.E. Framework** (developed by Dr. Roberto Dillon) structures game analy
 
 The 6–11 Framework provides the explicit theoretical content for the **Experience** tier in A.G.E.
 
-```
-┌────────────────────────────────────────────────────────────────────────────────────────┐
-│                       A.G.E. ──► 6–11 ARCHITECTURAL MAPPING                            │
-└────────────────────────────────────────────────────────────────────────────────────────┘
-  [ Actions (Micro) ]      Input Verbs: Aim, shoot, reload, sprint, ping
-          │
-          ▼
-  [ Gameplay (Meso) ]      Rules & Constraints: Enemy line-of-sight, ammunition limits,
-                           time-to-kill (TTK), extraction zone timer
-          │
-          ▼
-  [ Experience (Macro) ]   6–11 Affective Engine:
-                           • Triggered Instincts: Survival + Greed + Competition
-                           • Elicited Emotion Arc: Fear ──► Excitement ──► Pride
-                           • Terminal Payoff: Adrenaline release & competence validation
-```
+| **A.G.E. Layer** | **System Scope** | **Mapping & Systemic Components**                                                                                                                                                                               |
+| ---------------- | ---------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Actions**      | Micro            | **Input Verbs:** Aim, shoot, reload, sprint, ping                                                                                                                                                               |
+| **Gameplay**     | Meso             | **Rules & Constraints:** Enemy line-of-sight, ammunition limits, time-to-kill (TTK), extraction zone timer                                                                                                      |
+| **Experience**   | Macro            | **6–11 Affective Engine:**<br>• _Triggered Instincts:_ Survival + Greed + Competition<br>• _Elicited Emotion Arc:_ Fear → Excitement → Pride<br>• _Terminal Payoff:_ Adrenaline release & competence validation |
 
 #### Systemic Alignment Rules
 
@@ -374,32 +336,13 @@ The **Clarity Model** evaluates how effectively game state information is transm
 - **Germane Load:** The mental bandwidth used to build long-term skill schemas.
     
 - **Extraneous Load:** Undesired cognitive friction caused by obscure UI, poor contrast, hidden rules, or delayed audio-visual feedback.
-    
 
-```
-┌────────────────────────────────────────────────────────────────────────────────────────┐
-│                      CLARITY MODEL ──► 6–11 EMOTIONAL HEALTH LINK                      │
-└────────────────────────────────────────────────────────────────────────────────────────┘
-                                 ┌──────────────────────┐
-                                 │ GAME SYSTEM SIGNAL   │
-                                 └──────────┬───────────┘
-                                            │
-                     ┌──────────────────────┴──────────────────────┐
-                     ▼                                             ▼
-       [ High Clarity / Low Friction ]               [ Low Clarity / High Friction ]
-                     │                                             │
-                     ▼                                             ▼
-        Accurate Instinct Trigger                     Extraneous Cognitive Overload
-        (Survival / Competition)                                   │
-                     │                                             ▼
-                     ▼                                 Unintended Toxic Anger
-           Intrinsic Challenge                              & Confusion
-                     │                                             │
-                     ▼                                             ▼
-        Intended Emotional Arc:                        Player Abandonment
-        Fear ──► Excitement ──► Pride                  & Rage-Quitting
-```
-
+| **Design Metric**        | **High Clarity / Low Friction Path**                 | **Low Clarity / High Friction Path** |
+| ------------------------ | ---------------------------------------------------- | ------------------------------------ |
+| **Cognitive Processing** | Accurate Instinct Trigger _(Survival / Competition)_ | Extraneous Cognitive Overload        |
+| **Systemic Challenge**   | Intrinsic Challenge                                  | Unintended UX Friction               |
+| **Affective Outcome**    | **Intended Arc:** Fear → Excitement → Pride          | **Toxic State:** Anger & Confusion   |
+| **Terminal Impact**      | Skill Mastery & Retention                            | Player Abandonment & Rage-Quitting   |
 #### Systemic Interaction Rules
 
 1. **Preserving Intrinsic Emotion:** To feel genuine **Fear** (Survival) or **Excitement** (Competition), the player must understand _why_ they are in danger. If a player dies due to muddy visual telegraphs, they experience **Extraneous Anger** aimed at the developer, rather than **Intrinsic Fear** aimed at the game world.
@@ -424,15 +367,12 @@ When applied alongside 6–11:
 
 The **DORK Model** focuses on player-centric decision-making, aligning player expectations through iterative prototyping, and balancing predictability with surprise.
 
-```
-┌────────────────────────────────────────────────────────────────────────────────────────┐
-│                        DORK MODEL ──► 6–11 FEEDBACK LOOP                               │
-└────────────────────────────────────────────────────────────────────────────────────────┘
-  [ Player Expectations ] ──► [ Prototyping Iteration ] ──► [ 6–11 Affective Audit ]
-          ▲                                                         │
-          │                                                         ▼
-          └─────────────────── [ Refine Mechanics ] ◄───────────────┘
-```
+| **Loop Stage**               | **Design Action**     | **Focus & Systemic Purpose**                                           |
+| ---------------------------- | --------------------- | ---------------------------------------------------------------------- |
+| **1. Player Expectations**   | Expectation Alignment | Mapping player expectations to core 6–11 instinct drives               |
+| **2. Prototyping Iteration** | Grey-Box Build        | Implementing mechanics and rulesets for dynamic playtesting            |
+| **3. 6–11 Affective Audit**  | Emotional Evaluation  | Auditing playtester affect (e.g., verifying _Excitement_ over boredom) |
+| **4. Refine Mechanics**      | Systemic Tuning       | Eliminating friction and tuning feedback before cycling back           |
 
 1. **Expectation Mapping:** Player genre expectations are rooted in instinctual desires (e.g., RPG players expect _Collecting_, _Self-Identification_, and _Exploration_).
     
@@ -471,28 +411,11 @@ The **SSM Framework** analyzes the interplay between **System Space** (ludic rul
 
 A primary cause of player disconnect is dissonance between System Space and Story Space. The 6–11 Framework acts as the unifying psychological bridge ensuring emotional alignment between both spaces:
 
-```
-┌────────────────────────────────────────────────────────────────────────────────────────┐
-│                         SSM FRAMEWORK ──► 6–11 BRIDGING MODEL                          │
-└────────────────────────────────────────────────────────────────────────────────────────┘
-                                 ┌──────────────────────┐
-                                 │   6–11 FRAMEWORK     │
-                                 │  (Unified Psychology)│
-                                 └──────────┬───────────┘
-                                            │
-                     ┌──────────────────────┴──────────────────────┐
-                     ▼                                             ▼
-            [ SYSTEM SPACE ]                                [ STORY SPACE ]
-  Mechanics: Low health, intense           Narrative: Protagonist is stranded,
-  boss attacks, scarce supplies.           outnumbered, and fighting for home.
-  Instincts: Survival + Aggressiveness.    Instincts: Protection + Survival.
-  Elicited Emotion: Fear / Excitement.     Elicited Emotion: Fear / Desperation.
-                     │                                             │
-                     └──────────────────────┬──────────────────────┘
-                                            ▼
-                              [ HARMONIOUS IMMERSION ]
-                              Zero Ludonarrative Dissonance
-```
+| **SSM Dimension**  | **Systemic & Narrative Components**                        | **6–11 Instinct Triggers** | **Elicited Emotion Arc**     |
+| ------------------ | ---------------------------------------------------------- | -------------------------- | ---------------------------- |
+| **System Space**   | Low health, intense boss attacks, scarce supplies          | Survival + Aggressiveness  | Fear / Excitement            |
+| **Story Space**    | Protagonist is stranded, outnumbered, fighting for home    | Protection + Survival      | Fear / Desperation           |
+| **Unified Output** | **HARMONIOUS IMMERSION** _(Zero Ludonarrative Dissonance)_ | Integrated Primal Drives   | Cohesive Emotional Resonance |
 
 #### Cohesion Verification
 
@@ -601,21 +524,12 @@ $$\text{Action (Verb)} \longrightarrow \text{Gameplay Rule (System)} \longrighta
 
 To integrate the 6–11 Framework into an active game design pipeline, game directors and systems designers can follow a four-phase evaluation and tuning workflow. This process ensures that mechanics consistently engage subconscious instincts and resolve into meaningful emotional payoffs without causing player fatigue or frustration.
 
-```
-┌────────────────────────────────────────────────────────────────────────────────────────┐
-│                        6–11 SYSTEMIC DESIGN & AUDIT WORKFLOW                           │
-└────────────────────────────────────────────────────────────────────────────────────────┘
-  Phase 1: Target Definition ──► Define target emotional arc and core instinct triggers.
-             │
-             ▼
-  Phase 2: Mechanical Mapping ─► Align atomic verbs and rules to selected instincts.
-             │
-             ▼
-  Phase 3: Pacing & Arc Audit ─► Verify tension-and-release cycles (resolve negative states).
-             │
-             ▼
-  Phase 4: Sensory Polish ─────► Elevate signals through visual/audio sensory appreciation.
-```
+|**Phase**|**Audit Stage**|**Core Objective & Design Actions**|
+|---|---|---|
+|**Phase 1**|**Target Definition**|Define target emotional arc and core instinct triggers|
+|**Phase 2**|**Mechanical Mapping**|Align atomic verbs and rules to selected instincts|
+|**Phase 3**|**Pacing & Arc Audit**|Verify tension-and-release cycles (resolve negative states)|
+|**Phase 4**|**Sensory Polish**|Elevate signals through visual/audio sensory appreciation|
 
 ### 6.1 Phase-by-Phase Design Workflow
 
