@@ -92,9 +92,9 @@ Here is a list of Frameworks and Models explored in "Mippi's Handbook to Craftin
 
 - [[Game Design/Frameworks & Models/6-11 Framework/6-11 Framework\|6-11 Framework]] - Suits games focusing on player psychology, mapping basic emotions and instincts directly to mechanical loops to engineer intentional emotional engagement.
 	
-- [[Game Design/Frameworks & Models/AGE Framework/AGE framework\|AGE framework]] - #Coming_Soon - Excels at structuring game design from raw atomic actions and rules up to high-level psychological experiences.
+- [[Game Design/Frameworks & Models/AGE Framework/AGE framework\|AGE framework]] - Excels at structuring game design from raw atomic actions and rules up to high-level psychological experiences.
 	
-- [[Game Design/Frameworks & Models/Clarity Framework/Clarity Model\|Clarity Model]] - #Coming_Soon - Excels at optimizing game UX by eliminating cognitive friction and ensuring transparent player communication.
+- [[Game Design/Frameworks & Models/Clarity Framework/Clarity Model\|Clarity Model]] - Excels at optimizing game UX by eliminating cognitive friction and ensuring transparent player communication.
 	
 - [[Game Design/Frameworks & Models/DDE Model/DDE Model\|DDE Model]] - Suits games prioritizing design, dynamics, and user experience, fostering immersive, engaging gameplay experiences.
 	
