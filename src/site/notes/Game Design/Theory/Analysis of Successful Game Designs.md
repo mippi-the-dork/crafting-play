@@ -87,13 +87,13 @@ In each of these examples, game theory's principles are evident in crafting game
 #League_of_Legends - [[League of Legends - Game Theory \|Case Study]]
 	- MOBA game, showcasing team-based strategy and competitive play.
 
-#Call_of_Duty Series - [[Call of Duty - Game Theory \|Case Study]]
+#Call_of_Duty Series - [[Game Design/Theory/Case Studies/Call of Duty - Game Theory\|Call of Duty - Game Theory]]
 	- First-person shooter known for its competitive multiplayer modes.
 
 #Civilization Series - [[Civilization - Game Theory \|Case Study]]
 	- Turn-based strategy game, where players build and manage empires.
 
-#Among_Us - [[Among Us - Game Theory \|Case Study]]
+#Among_Us - [[Game Design/Theory/Case Studies/Among Us - Game Theory\|Among Us - Game Theory]]
 	- Social deduction game, highlighting cooperation and betrayal dynamics.
 
 #Candy_Crush_Saga - [[Candy Crush Saga - Game Theory \|Case Study]]
