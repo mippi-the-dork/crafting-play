@@ -93,11 +93,7 @@ The A.G.E. Framework divides all interactive systems into a three-tier upwardly 
 |**Gameplay**|Meso (Structural)|Rules, constraints & challenge|Combat encounters, ammo limits, spatial platforming, resource decay|Boring loops, bullet-sponge enemies, uncalibrated difficulty|
 |**Experience**|Macro (Experiential)|Psychological & emotional payoff|Flow state, sense of mastery, tension/relief, pride, immersion|Tedious grind, unearned rewards, lack of emotional resonance|
 
-Got it. We will use the inline text notation `Word (Word) -> Word (Word) -> Word (Word)` for all pipelines and cascades across the documentation to ensure text stays cleanly within page margins.
-
-Here is the revised **Section 3**, followed by **Section 4**.
-
-## Section 3: Mechanical Cascades & Industry Case Studies
+## Mechanical Cascades & Industry Case Studies
 
 System deconstruction using the A.G.E. Framework relies on tracing mechanics along a strict bottom-up cascade:
 
@@ -170,14 +166,12 @@ By isolating mechanics at each level, game designers can evaluate whether low-le
 |**Turn-Based Strategy**|Hex click, path drag, tech tree confirm|District adjacency yields, fog of war, turn limits|Intellectual agency, strategic mastery, session retention|
 |**Survival Horror**|Aim, sprint, reload, inventory drag|Restricted inventory slots, unkillable AI pursuers|Acute vulnerability, resource anxiety, relief|
 
-## Section 4: Systemic Design Workflows & Grey-Box Diagnostic Audits
+## Systemic Design Workflows & Grey-Box Diagnostic Audits
 
 To integrate the A.G.E. Framework into game development, designers utilize a bottom-up construction process paired with a top-down diagnostic audit.
 
-```
 Design Pipeline:     Actions (Micro) -> Gameplay (Meso) -> Experience (Macro)
 Diagnostic Audit:    Experience (Macro) -> Gameplay (Meso) -> Actions (Micro)
-```
 
 ### 4.1 The Diagnostic Grey-Box Audit Workflow
 
