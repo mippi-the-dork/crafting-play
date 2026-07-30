@@ -35,11 +35,11 @@ Table of Contents:
 		
 		- [[Game Design/Frameworks & Models/SSM Framework/SSM Framework\|SSM Framework]] - Excels in games emphasizing emotional narratives, adaptive gameplay, and player-centric experiences.
 		  
-		- [Octalysis Framwork] - Coming Soon - Suits live-service and progression systems requiring strategic balancing of behavioral core drives and long-term retention loops.
+		- [[Octalysis Framework\|Octalysis Framework]] - Coming Soon - Suits live-service and progression systems requiring strategic balancing of behavioral core drives and long-term retention loops.
 		  
-		- [PENS Model] - Coming Soon - Suits games aiming for deep intrinsic motivation by evaluating and fulfilling core psychological needs like autonomy, competence, and relatedness.
+		- [[PENS Model\|PENS Model]] - Coming Soon - Suits games aiming for deep intrinsic motivation by evaluating and fulfilling core psychological needs like autonomy, competence, and relatedness.
 		  
-		- [Elemental Tetrad Model] - Coming Soon - Excels at holistic creative direction and system balancing across the four interdependent pillars of mechanics, story, aesthetics, and technology.
+		- [[Elemental Tetrad Model\|Elemental Tetrad Model]] - Coming Soon - Excels at holistic creative direction and system balancing across the four interdependent pillars of mechanics, story, aesthetics, and technology.
 	
 	-  [[Game Design/Genre Dissection/Genre Dissection\|Genre Dissection]]
 	
