@@ -69,11 +69,11 @@ The 8 Core Drives are abbreviated throughout this document as **CD1 through CD8*
 
 To engineer systems using Octalysis, designers must deconstruct how each of the 8 Core Drives functions independently and how they interlock across the two core psychological axes: **Left Brain vs. Right Brain** and **White Hat vs. Black Hat**.
 
-White Hat (Empowerment/Meaning) <----------------------------------> Black Hat (Urgency/Anxiety)
+White Hat (Empowerment/Meaning) <------------------> Black Hat (Urgency/Anxiety)
 
 VERSUS
 
-Left Brain (Extrinsic/Logic) <----------------+----------------> Right Brain (Intrinsic/Emotion)
+Left Brain (Extrinsic/Logic) <--------+--------> Right Brain (Intrinsic/Emotion)
 
 
 ### 2.1 The 8 Core Drives Breakdown
