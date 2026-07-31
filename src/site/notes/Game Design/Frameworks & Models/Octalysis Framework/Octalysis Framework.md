@@ -53,6 +53,9 @@ The Octalysis Framework categorizes its 8 Core Drives along two intersecting psy
 |**CD7**|**Unpredictability & Curiosity**|Novelty, surprise, mystery, chance outcomes|Right Brain (Intrinsic)|Black Hat|Procedural generation, loot boxes, random encounters, hidden easter eggs.|
 |**CD8**|**Loss & Avoidance**|Preventing negative outcomes, protecting investment|Left Brain (Extrinsic)|Black Hat|Expiring battle passes, daily login streaks, permadeath, decaying ranks.|
 
+The 8 Core Drives are abbreviated throughout this document as **CD1 through CD8**.
+
+
 ### Core Analytical & Practical Functions
 
 1. **Live-Service Health Auditing:** Evaluates live-service titles to ensure daily engagement loops rely on sustainable White Hat motivation rather than purely coercive Black Hat timers.
@@ -67,7 +70,9 @@ The Octalysis Framework categorizes its 8 Core Drives along two intersecting psy
 To engineer systems using Octalysis, designers must deconstruct how each of the 8 Core Drives functions independently and how they interlock across the two core psychological axes: **Left Brain vs. Right Brain** and **White Hat vs. Black Hat**.
 
 White Hat (Empowerment/Meaning) <----------------------------------> Black Hat (Urgency/Anxiety)
-                                              |
+
+VERSUS
+
 Left Brain (Extrinsic/Logic) <----------------+----------------> Right Brain (Intrinsic/Emotion)
 
 
@@ -173,6 +178,7 @@ Left Brain (Extrinsic/Logic) <----------------+----------------> Right Brain (In
 |**CD6: Scarcity**|Left Brain|Black Hat|Desire & Impatience|Monetization & perceived asset value|Extreme player frustration and paywalls|
 |**CD7: Unpredictability**|Right Brain|Black Hat|Suspense & Dopamine|Moment-to-moment engagement|Gambling compulsion & loss of strategy|
 |**CD8: Loss Avoidance**|Left Brain|Black Hat|Anxiety & Obligation|Daily retention & habit enforcement|Acute burnout, resentment, and sudden churn|
+
 The 8 Core Drives are abbreviated throughout this document as **CD1 through CD8**.
 
 
