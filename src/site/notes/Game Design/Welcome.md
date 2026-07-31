@@ -35,7 +35,7 @@ Table of Contents:
 		
 		- [[Game Design/Frameworks & Models/SSM Framework/SSM Framework\|SSM Framework]] - Excels in games emphasizing emotional narratives, adaptive gameplay, and player-centric experiences.
 		  
-		- [[Game Design/Frameworks & Models/Octalysis Framework/Octalysis Framework\|Octalysis Framework]] - #Coming_Soon - Suits live-service and progression systems requiring strategic balancing of behavioral core drives and long-term retention loops.
+		- [[Game Design/Frameworks & Models/Octalysis Framework/Octalysis Framework\|Octalysis Framework]] - Suits live-service and progression systems requiring strategic balancing of behavioral core drives and long-term retention loops.
 		  
 		- [[Game Design/Frameworks & Models/PENS Model/PENS Model\|PENS Model]] - Suits games aiming for deep intrinsic motivation by evaluating and fulfilling core psychological needs like autonomy, competence, and relatedness.
 		  
