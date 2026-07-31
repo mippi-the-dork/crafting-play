@@ -39,7 +39,7 @@ Table of Contents:
 		  
 		- [[Game Design/Frameworks & Models/PENS Model/PENS Model\|PENS Model]] - #Coming_Soon - Suits games aiming for deep intrinsic motivation by evaluating and fulfilling core psychological needs like autonomy, competence, and relatedness.
 		  
-		- [[Game Design/Frameworks & Models/Elemental Tetrad Model/Elemental Tetrad Model\|Elemental Tetrad Model]] - #Coming_Soon - Excels at holistic creative direction and system balancing across the four interdependent pillars of mechanics, story, aesthetics, and technology.
+		- [[Game Design/Frameworks & Models/Elemental Tetrad Model/Elemental Tetrad Model\|Elemental Tetrad Model]] - Excels at holistic creative direction and system balancing across the four interdependent pillars of mechanics, story, aesthetics, and technology.
 	
 	-  [[Game Design/Genre Dissection/Genre Dissection\|Genre Dissection]]
 	
