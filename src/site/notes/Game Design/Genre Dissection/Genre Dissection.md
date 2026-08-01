@@ -189,6 +189,9 @@ When navigating the dedicated sub-pages in this repository, note where key moder
 
 Categorizing modern commercial titles requires moving beyond superficial marketing tags or thematic skins. This section provides the analytical framework for identifying a game's true mechanical anchor, evaluating its core design pillars, and applying this rubric through practical case studies.
 
+>  **Deep Dive Guide:** To map game mechanics directly to player psychology, emotional fulfillment, and cognitive session pacing when auditing benchmark games, use **[[Game Design/Genre Dissection/The Player Fantasy Motivation Framework\|The Player Fantasy Motivation Framework]]**.
+
+
 ### 3.1 Methods for Identifying a Game's Primary Genre
 
 Commercial game titles frequently layer multiple systems, thematic wrappers, and hybrid mechanics over their core loops. To accurately categorize a title and locate its true primary parent genre within this repository, apply a four-part diagnostic evaluation:
