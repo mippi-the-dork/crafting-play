@@ -2,966 +2,748 @@
 {"dg-publish":true,"permalink":"/game-design/genre-dissection/genre-dissection/","dg-note-properties":{}}
 ---
 
+# Introduction
 
-## 1. Introduction
-   - Brief overview of the importance of understanding genres in game design
-   - Purpose of the Genre Dissection section in the handbook
-## 2. Common Video Game Genres
-
-### **[[Game Design/Genre Dissection/Game Genres/Action\|Action]]**
-
-- **[[Game Design/Genre Dissection/Game Genres/Action#Arcade\|Action#Arcade]]**
-    - **Score Attack**: Games focusing on achieving high scores, often with limited lives or time constraints.
-    - **Endless Runner**: A sub-genre where the player continuously moves forward through a randomly generated, endless course.
-    - **Fast-Paced Action**: Arcade games designed around rapid reflexes and reaction times.
-
-- **[[Game Design/Genre Dissection/Game Genres/Action#Hack and Slash\|Action#Hack and Slash]]**
-    - **Character Action Games**: Focused on stylish combat and character abilities, often featuring combo systems.
-    - **Dungeon Hack**: Hack and slash games set in dungeons or fantasy settings, emphasizing loot collection.
-    - **Wave-Based Combat**: Games where players face waves of enemies, often culminating in a boss fight.
-
-- **[[Game Design/Genre Dissection/Game Genres/Action#Stealth\|Action#Stealth]]**
-    - **Tactical Stealth**: Emphasizes careful planning and execution of missions without being detected.
-    - **Infiltration Games**: Focus on sneaking into heavily guarded areas, often with objectives like espionage or theft.
-    - **Evasion-Based Stealth**: Games where the primary goal is to avoid detection and escape from hostile environments.
-
-- **[[Game Design/Genre Dissection/Game Genres/Action#Platformer\|Action#Platformer]]**
-    - **2D Platformer**: Traditional side-scrolling games focusing on precise jumping and obstacle navigation.
-    - **3D Platformer**: Platform games in a 3D environment, often with more exploration elements.
-    - **Puzzle Platformer**: Combines platform mechanics with puzzle-solving elements.
-
-- **[[Game Design/Genre Dissection/Game Genres/Action#Battle Royale\|Action#Battle Royale]]**
-    - **Survival Battle Royale**: Emphasizes survival mechanics, like resource gathering and environmental awareness, in addition to combat.
-    - **Last Man Standing**: A sub-genre focused on being the final survivor in a shrinking play area.
-    - **Team-Based Battle Royale**: Encourages cooperative play within teams to be the last group standing.
-
-- **[[Game Design/Genre Dissection/Game Genres/Action#Survivor-like\|Action#Survivor-like]]**
-    - **Bullet Heaven Arena Survivor**: Standard top-down horde survival games with endless auto-firing projectiles and exponential item stacking (*Vampire Survivors* style).
-	- **Physics-Based / Navigational Survivor**: Survivor-like games incorporating platforming, vehicle driving, or physics-driven navigation while dodging endless mobs.
-	- **Narrative / Extraction Survivor**: Survivor games incorporating structured mission runs, character unlocks, or extraction-based progression loops between sessions.
-
-### **[[Game Design/Genre Dissection/Game Genres/Adventure\|Adventure]]**
-
-- **[[Game Design/Genre Dissection/Game Genres/Adventure#Point-and-Click\|Adventure#Point-and-Click]]**
-    - **Narrative-Driven**: Focused on storytelling and character development, with less emphasis on complex puzzles.
-    - **Puzzle-Centric**: Features challenging puzzles as the core gameplay element.
-    - **Comedic**: Emphasizes humor and often includes satirical or whimsical storylines.
-
-- **[[Game Design/Genre Dissection/Game Genres/Adventure#Graphic Adventure\|Adventure#Graphic Adventure]]**
-    - **Cinematic Graphic Adventure**: Emphasizes a story-driven experience with high-quality graphics and cinematic presentation.
-    - **Exploration-Based**: Focuses on exploring environments with less emphasis on challenging puzzles.
-    - **Character-Driven**: Centers around deep character development and interactions.
-
-- **[[Game Design/Genre Dissection/Game Genres/Adventure#Interactive Fiction\|Adventure#Interactive Fiction]]**
-    - **Choice-Based**: Focuses on player choices to drive the narrative, with multiple branching paths and endings.
-    - **Text Puzzles**: Incorporates puzzles within the text that players must solve to progress.
-    - **Experimental Narratives**: Offers unique storytelling methods, often breaking traditional narrative structures.
-
-- **[[Game Design/Genre Dissection/Game Genres/Adventure#Survival\|Adventure#Survival]]**
-    - **Crafting and Building**: Emphasizes gathering resources to craft tools, build shelters, and create other survival items.
-    - **Post-Apocalyptic**: Set in a world after a catastrophic event, focusing on survival against harsh conditions and possible threats.
-    - **Natural Wilderness**: Focuses on survival in natural settings, often with realistic environmental challenges.
-
-- **[[Game Design/Genre Dissection/Game Genres/Adventure#Metroidvania\|Adventure#Metroidvania]]**
-    - **Ability-Based Exploration**: Unlocking new abilities that allow access to previously inaccessible areas.
-    - **Non-linear Exploration**: Encourages exploration in an open-ended world where players can choose their path.
-    - **Story-Intensive**: Offers a more in-depth narrative experience in addition to the exploration and ability progression.
-
-- **[[Game Design/Genre Dissection/Game Genres/Adventure#Visual Novel\|Adventure#Visual Novel]]**
-    - **Dating Sim**: A sub-genre focusing on romantic relationships, often with multiple potential partners and branching storylines.
-    - **Interactive Drama**: Heavily story-driven, focusing on emotional narratives and character development.
-    - **Mystery and Detective**: Centers around solving mysteries or crimes, often requiring player deduction and decision-making.
-
-### **[[Game Design/Genre Dissection/Game Genres/Educational - Informative\|Educational - Informative]]**
-
-- **[[Game Design/Genre Dissection/Game Genres/Educational - Informative#Learning Adventures\|Educational - Informative#Learning Adventures]]**
-    - **Historical Adventures**: Focuses on exploring historical periods and events.
-    - **Scientific Exploration Adventures**: Involves learning about different scientific concepts through adventure gameplay.
-    - **Cultural Discovery Adventures**: Explores different cultures and traditions around the world.
-
-- **[[Game Design/Genre Dissection/Game Genres/Educational - Informative#Math Games\|Educational - Informative#Math Games]]**
-    - **Basic Arithmetic Games**: Focuses on teaching basic math skills like addition, subtraction, multiplication, and division.
-    - **Problem-Solving Math Games**: Involves using math to solve complex problems and puzzles.
-    - **Math Logic Games**: Combines math skills with logical reasoning and critical thinking.
-
-- **[[Game Design/Genre Dissection/Game Genres/Educational - Informative#Language Learning\|Educational - Informative#Language Learning]]**
-    - **Vocabulary Building**: Focuses on expanding vocabulary in a new language.
-    - **Grammar and Structure**: Teaches grammatical rules and sentence structure.
-    - **Conversational Practice**: Simulates real-life conversations to improve language fluency.
-
-- **[[Game Design/Genre Dissection/Game Genres/Educational - Informative#Science and Nature Exploration\|Educational - Informative#Science and Nature Exploration]]**
-    - **Biology and Ecosystem Games**: Teaches about living organisms and their environments.
-    - **Physics and Chemistry Simulations**: Involves interactive experiments and simulations to understand physical and chemical concepts.
-    - **Astronomy and Space Exploration**: Explores celestial bodies and the universe.
-
-- **[[Game Design/Genre Dissection/Game Genres/Educational - Informative#History and Geography Learning\|Educational - Informative#History and Geography Learning]]**
-    - **World History Interactive Learning**: Covers various periods and events in world history.
-    - **Geography and Maps**: Focuses on teaching geography through map-based games and quizzes.
-    - **Cultural and Civilization Studies**: Explores different civilizations and their historical impact.
-
-- **[[Game Design/Genre Dissection/Game Genres/Educational - Informative#Puzzle-based Learning\|Educational - Informative#Puzzle-based Learning]]**
-    - **Educational Brain Teasers**: Puzzles designed to enhance cognitive skills and critical thinking.
-    - **Memory Improvement Games**: Focuses on exercises and challenges to improve memory.
-    - **Logic and Reasoning Puzzles**: Involves solving puzzles through logical thinking and reasoning.
-
-- **[[Game Design/Genre Dissection/Game Genres/Educational - Informative#Interactive Storybooks\|Educational - Informative#Interactive Storybooks]]**
-    - **Narrated Children’s Books**: Digital storybooks with narration for young readers.
-    - **Choose-Your-Own-Adventure Books**: Interactive stories where readers make choices that affect the outcome.
-    - **Educational Comics and Graphic Novels**: Combines storytelling with educational content in a comic format.
-
-- **[[Game Design/Genre Dissection/Game Genres/Educational - Informative#Educational Simulations\|Educational - Informative#Educational Simulations]]**
-    - **Virtual Labs and Experiments**: Simulates scientific experiments and lab work.
-    - **Economic and Business Simulations**: Teaches economic principles and business management.
-    - **Environmental and Ecological Simulations**: Focuses on understanding and managing environmental ecosystems.
-
-- **[[Game Design/Genre Dissection/Game Genres/Educational - Informative#Creativity and Art Education\|Educational - Informative#Creativity and Art Education]]**
-    - **Digital Painting and Drawing**: Teaches art skills using digital tools.
-    - **Music Composition and Theory**: Focuses on music composition and understanding musical concepts.
-    - **Crafts and DIY Projects**: Encourages creativity through virtual crafting and DIY activities.
-
-- **[[Game Design/Genre Dissection/Game Genres/Educational - Informative#Health and Lifestyle Education\|Educational - Informative#Health and Lifestyle Education]]**
-    - **Nutrition and Cooking Games**: Teaches about healthy eating, cooking, and nutrition.
-    - **Fitness and Exercise Apps**: Focuses on physical health, including exercise routines and fitness tracking.
-    - **Mindfulness and Well-being**: Promotes mental health through mindfulness exercises and stress-relief activities.
-
-- **[[Game Design/Genre Dissection/Game Genres/Educational - Informative#Advergame\|Educational - Informative#Advergame]]**
-    - **Brand Integration Games**: Games that integrate specific brands or products into gameplay.
-    - **Educational Marketing Games**: Uses game elements to educate players about a product or service.
-    - **Interactive Product Simulators**: Simulates the use of a product or service in an interactive environment.
-
-### **[[Game Design/Genre Dissection/Game Genres/Fighting\|Fighting]]**
-
-- **[[Game Design/Genre Dissection/Game Genres/Fighting#Traditional 2D Fighter\|Fighting#Traditional 2D Fighter]]**
-    - **Combo-Based Fighter**: Focuses on executing complex combinations of moves.
-    - **Aerial Combat Fighter**: Emphasizes aerial maneuvers and mid-air combat.
-    - **Counter Strike Fighter**: Centers around timing and executing counter moves.
-
-- **[[Game Design/Genre Dissection/Game Genres/Fighting#3D Fighter\|Fighting#3D Fighter]]**
-    - **Ring-Out Fighter**: Winning by knocking opponents out of the ring or arena.
-    - **Environmental Interaction Fighter**: Uses elements of the arena or environment as part of combat.
-    - **Free-Movement Fighter**: Allows players to move freely in a three-dimensional space.
-
-- **[[Game Design/Genre Dissection/Game Genres/Fighting#Wrestling\|Fighting#Wrestling]]**
-    - **Pro Wrestling Simulators**: Mimics professional wrestling shows, complete with theatrical moves and storylines.
-    - **Arcade-Style Wrestling**: Simplified and exaggerated wrestling gameplay, focusing on fun and accessibility.
-    - **Realistic Wrestling**: Aims to realistically simulate the sport of wrestling, including techniques and strategies.
-
-- **[[Game Design/Genre Dissection/Game Genres/Fighting#Arena Fighting\|Fighting#Arena Fighting]]**
-    - **Large Scale Battle Arena**: Features battles in large arenas, often with multiple combatants simultaneously.
-    - **Destructible Environment Arena**: Arenas where the surroundings can be destroyed or used in combat.
-    - **Multi-Level Arenas**: Fights take place across multiple vertical levels or platforms.
-
-- **[[Game Design/Genre Dissection/Game Genres/Fighting#Beat 'em up Fighting\|Fighting#Beat 'em up Fighting]]**
-    - **Side-Scrolling Beat 'em up**: Classic style where players move horizontally through levels, fighting groups of enemies.
-    - **Cooperative Beat 'em up**: Designed for two or more players to fight together against enemies.
-    - **Survival Beat 'em up**: Players must survive against waves of enemies for as long as possible.
-
-- **[[Game Design/Genre Dissection/Game Genres/Fighting#Weapon-based Fighting\|Fighting#Weapon-based Fighting]]**
-    - **Historical Weapons Fighter**: Features weapons based on historical periods (e.g., samurai swords, medieval armor).
-    - **Fantasy Weapons Fighter**: Includes imaginative and non-traditional weapons (e.g., magic, futuristic weapons).
-    - **Dual Wielding Fighter**: Focuses on combat with characters wielding two weapons simultaneously.
-
-- **[[Game Design/Genre Dissection/Game Genres/Fighting#Martial Arts Fighting\|Fighting#Martial Arts Fighting]]**
-    - **Realistic Martial Arts**: Simulates real-world martial arts styles and techniques.
-    - **Mixed Martial Arts (MMA)**: Combines elements from various martial arts disciplines.
-    - **Cinematic Martial Arts**: Emphasizes over-the-top, movie-style martial arts combat.
-
-- **[[Game Design/Genre Dissection/Game Genres/Fighting#Tactical Fighter\|Fighting#Tactical Fighter]]**
-    - **Strategic Positioning Fighter**: Emphasizes the importance of positioning and distance in combat.
-    - **Turn-Based Tactical Fighter**: Combines turn-based strategy elements with fighting game mechanics.
-    - **Resource Management Fighter**: Involves managing resources like energy or special move meters.
-
-- **[[Game Design/Genre Dissection/Game Genres/Fighting#Platform Fighter\|Fighting#Platform Fighter]]**
-    - **Multi-Level Platform Fighter**: Combat across various platforms and levels within the arena.
-    - **Environmental Hazards Fighter**: Arenas with hazards or elements that can affect the outcome of the battle.
-    - **Item-Based Platform Fighter**: Includes the use of items to gain an advantage in combat.
-
-- **[[Game Design/Genre Dissection/Game Genres/Fighting#Tag Team Fighting\|Fighting#Tag Team Fighting]]**
-    - **Switch-In/Out Fighter**: Allows players to switch between characters during a match.
-    - **Team Synergy Fighter**: Characters have special moves or abilities that work in tandem with their teammates.
-    - **Multiplayer Tag Team**: Designed for multiple players to each control a member of a tag team.
-
-### **[[Game Design/Genre Dissection/Game Genres/Gambling\|Gambling]]**
-
-- **[[Game Design/Genre Dissection/Game Genres/Gambling#Casino Simulation\|Gambling#Casino Simulation]]**
-    - **Virtual Casino Resorts**: Simulates the experience of visiting and playing in a full-scale virtual casino.
-    - **Table Games Simulation**: Focuses on classic casino table games like blackjack, roulette, and baccarat.
-    - **High-Stakes Casino Simulation**: Designed for simulating high roller casino experiences with large bets and risks.
-
-- **[[Game Design/Genre Dissection/Game Genres/Gambling#Gacha Games\|Gambling#Gacha Games]]**
-    - **Character Gacha**: Players spend in-game currency to receive random virtual characters, often for use in battles or quests.
-    - **Item Gacha**: Focuses on obtaining random virtual items that can enhance gameplay or aesthetics.
-    - **Cosmetic Gacha**: Involves collecting cosmetic items or appearances for characters or environments.
-
-- **[[Game Design/Genre Dissection/Game Genres/Gambling#Poker Simulation\|Gambling#Poker Simulation]]**
-    - **Texas Hold'em Poker**: Simulates the popular Texas Hold'em variant of poker.
-    - **Tournament Poker**: Focuses on playing through structured poker tournaments.
-    - **Casual Poker Games**: Designed for more relaxed and informal poker playing experiences.
-
-- **[[Game Design/Genre Dissection/Game Genres/Gambling#Slot Machine Games\|Gambling#Slot Machine Games]]**
-    - **Themed Slot Machines**: Slot games featuring specific themes like ancient civilizations, fantasy, or popular culture.
-    - **Progressive Slots Simulation**: Involves playing virtual slot machines with progressive jackpots.
-    - **Classic Slot Simulation**: Simulates traditional slot machines with basic mechanics and fewer paylines.
-
-- **[[Game Design/Genre Dissection/Game Genres/Gambling#Betting and Wagering Games\|Gambling#Betting and Wagering Games]]**
-    - **Parimutuel Betting Games**: Focuses on bets pooled together, like horse racing bets.
-    - **Fixed-Odds Betting Games**: Involves betting against odds set by the bookmaker or the game itself.
-    - **Peer-to-Peer Betting**: Players place bets against each other rather than against a house or bookmaker.
-
-- **[[Game Design/Genre Dissection/Game Genres/Gambling#Card Games with Gambling Elements\|Gambling#Card Games with Gambling Elements]]**
-    - **Blackjack and Variants**: Includes traditional blackjack and its various forms.
-    - **Baccarat Simulation**: Simulates the popular casino card game baccarat.
-    - **High-Low Card Games**: Involves guessing whether the next card will be higher or lower.
-
-- **[[Game Design/Genre Dissection/Game Genres/Gambling#Virtual Lottery Games\|Gambling#Virtual Lottery Games]]**
-    - **Scratch-off Lottery Simulation**: Simulates the experience of buying and scratching off lottery tickets.
-    - **Number Draw Lottery**: Involves selecting numbers and simulating a lottery draw.
-    - **Instant Win Games**: Quick-play lottery-style games with immediate outcomes.
-
-- **[[Game Design/Genre Dissection/Game Genres/Gambling#Dice Games and Craps Simulation\|Gambling#Dice Games and Craps Simulation]]**
-    - **Street Craps**: Simulates more informal versions of craps, often played on the streets.
-    - **Casino Craps Simulation**: Replicates the casino-style craps experience.
-    - **Dice Roll Prediction Games**: Involves predicting the outcome of dice rolls or combinations.
-
-- **[[Game Design/Genre Dissection/Game Genres/Gambling#Sports Betting Simulation\|Gambling#Sports Betting Simulation]]**
-    - **Fantasy Sports Betting**: Involves betting within a simulated fantasy sports environment.
-    - **Virtual Sports Betting**: Betting on simulated, computer-generated sports events.
-    - **In-game Live Sports Betting**: Offers live betting options during simulated sports matches.
-
-### **[[Game Design/Genre Dissection/Game Genres/Horror\|Horror]]**
-
-- **[[Game Design/Genre Dissection/Game Genres/Horror#Survival Horror\|Horror#Survival Horror]]**
-    - **Resource Management Survival**: Focuses on managing limited resources like ammunition and health items.
-    - **Isolation Horror**: Emphasizes the feeling of being alone in a hostile environment.
-    - **Escape Horror**: Involves puzzles and challenges where the main goal is to escape from a confined setting.
-
-- **[[Game Design/Genre Dissection/Game Genres/Horror#Psychological Horror\|Horror#Psychological Horror]]**
-    - **Mind-Bending Horror**: Features surreal environments and storylines that challenge the player's perception of reality.
-    - **Fear of the Unknown**: Focuses on creating fear through ambiguous threats and uncertain dangers.
-    - **Narrative-Driven Psychological Horror**: Emphasizes story and character development to convey horror.
-
-- **[[Game Design/Genre Dissection/Game Genres/Horror#Paranormal Horror\|Horror#Paranormal Horror]]**
-    - **Ghost and Haunting**: Involves supernatural entities like ghosts and spirits.
-    - **Occult and Rituals**: Centers around occult themes, including rituals and demonic summoning.
-    - **Exorcism Horror**: Focuses on the theme of exorcising malevolent spirits or demons.
-
-- **[[Game Design/Genre Dissection/Game Genres/Horror#Monster Horror\|Horror#Monster Horror]]**
-    - **Creature Feature**: Horror centered around encounters with monstrous creatures.
-    - **Mutant and Bio-Horror**: Involves genetically altered or mutated beings.
-    - **Alien Horror**: Focuses on extraterrestrial beings as the primary source of horror.
-
-- **[[Game Design/Genre Dissection/Game Genres/Horror#Zombie Horror\|Horror#Zombie Horror]]**
-    - **Post-Apocalyptic Zombie**: Set in a world overrun by zombies following an apocalypse.
-    - **Infection and Outbreak**: Focuses on the outbreak of a virus or disease that creates zombies.
-    - **Survival Against the Horde**: Emphasizes surviving against waves of zombie attacks.
-
-- **[[Game Design/Genre Dissection/Game Genres/Horror#Lovecraftian Horror\|Horror#Lovecraftian Horror]]**
-    - **Eldritch Abominations**: Features incomprehensible, cosmic entities.
-    - **Madness and Insanity**: Involves themes of sanity slipping away in the face of unimaginable horrors.
-    - **Uncovering Forbidden Knowledge**: Centers around the discovery of ancient, dangerous knowledge.
-
-- **[[Game Design/Genre Dissection/Game Genres/Horror#Found Footage Horror\|Horror#Found Footage Horror]]**
-    - **Mockumentary Horror**: Presented in the style of a documentary with horrifying revelations.
-    - **First-Person Camera Horror**: The game is experienced through a first-person camera, often shaky and limited.
-    - **Investigative Horror**: Involves investigating mysterious events, often leading to unsettling discoveries.
-
-- **[[Game Design/Genre Dissection/Game Genres/Horror#Slasher Horror\|Horror#Slasher Horror]]**
-    - **Serial Killer Pursuit**: Focuses on evading or confronting a serial killer.
-    - **Teen Horror**: Often features younger characters in scenarios reminiscent of slasher films.
-    - **Gore and Violence**: Emphasizes graphic violence and gore as key elements.
-
-- **[[Game Design/Genre Dissection/Game Genres/Horror#Gothic Horror\|Horror#Gothic Horror]]**
-    - **Victorian Horror**: Set in a Victorian setting with themes of decay and aristocratic decline.
-    - **Haunted Mansions and Castles**: Centers around exploration of old, haunted buildings.
-    - **Vampires and Werewolves**: Involves classic Gothic horror creatures like vampires, werewolves, and other beings.
-
-- **[[Game Design/Genre Dissection/Game Genres/Horror#J-Horror\|Horror#J-Horror]] (Japanese Horror)**
-    - **Onryo and Yokai**: Features traditional Japanese spirits and monsters.
-    - **Urban Legends**: Focuses on modern Japanese urban legends and folklore.
-    - **Psychological and Atmospheric**: Emphasizes a slow-building, atmospheric tension typical of Japanese horror.
-
-- **[[Game Design/Genre Dissection/Game Genres/Horror#Character Horror\|Horror#Character Horror]]**
-    - **Iconic Characters:** Centers around memorable antagonists with distinct personalities, appearances, and identities that become the primary source of fear.
-    - **Recurring Encounters:** Emphasizes repeated interactions with the same characters, allowing the player to learn, anticipate, and ultimately dread their unique behaviors and presence.
-    - **Character-Driven Narrative:** Uses the history, motivations, and relationships of its central characters to drive the mystery, world-building, and progression of the story.
-
-### **[[Game Design/Genre Dissection/Game Genres/Massively Multiplayer Online\|Massively Multiplayer Online]] (MMO)**
-
-- **[[Game Design/Genre Dissection/Game Genres/Massively Multiplayer Online#MMORPG\|Massively Multiplayer Online#MMORPG]] (Massively Multiplayer Online Role-Playing Game)**
-    - **Fantasy MMORPGs**: Set in magical realms with mythical creatures and magic systems.
-    - **Sci-Fi MMORPGs**: Featuring futuristic settings with advanced technology and space exploration.
-    - **Historical MMORPGs**: Based on historical periods, offering more realistic and historical settings.
-    - **Sandbox MMORPG**: Provides a vast, open world with player-driven content, economy, and storylines.
-
-- **[[Game Design/Genre Dissection/Game Genres/Massively Multiplayer Online#MMOFPS\|Massively Multiplayer Online#MMOFPS]] (Massively Multiplayer Online First-Person Shooter)**
-    - **Tactical MMOFPS**: Focuses on strategic and tactical gameplay in a first-person shooter format.
-    - **Sci-Fi MMOFPS**: Set in futuristic worlds, often with advanced weaponry and vehicles.
-    - **Warfare MMOFPS**: Centers around large-scale battles and military combat.
-
-- **[[Game Design/Genre Dissection/Game Genres/Massively Multiplayer Online#MMO Strategy Games\|Massively Multiplayer Online#MMO Strategy Games]]**
-    - **Real-Time MMO Strategy**: Involves managing resources, building bases, and commanding armies in real-time.
-    - **Turn-Based MMO Strategy**: Players take turns making strategic decisions and moves.
-    - **Economic MMO Strategy**: Focuses on economic management, trade, and resource allocation on a large scale.
-
-- **[[Game Design/Genre Dissection/Game Genres/Massively Multiplayer Online#MMO Racing Games\|Massively Multiplayer Online#MMO Racing Games]]**
-    - **Arcade-Style MMO Racing**: Emphasizes fast-paced, action-packed racing.
-    - **Simulation MMO Racing**: Offers a realistic racing experience with accurate physics and vehicle dynamics.
-    - **Open-World MMO Racing**: Combines racing with open-world exploration elements.
-
-- **[[Game Design/Genre Dissection/Game Genres/Massively Multiplayer Online#MMO Sports Games\|Massively Multiplayer Online#MMO Sports Games]]**
-    - **Team-Based MMO Sports**: Players control a team in sports like soccer, basketball, or football.
-    - **Individual Skill MMO Sports**: Focuses on individual performance in sports like tennis or golf.
-    - **Fantasy League MMO Sports**: Involves managing fantasy sports teams based on real-world players and statistics.
-
-- **[[Game Design/Genre Dissection/Game Genres/Massively Multiplayer Online#MMO Simulation Games\|Massively Multiplayer Online#MMO Simulation Games]]**
-    - **Life Simulation MMO**: Simulates aspects of daily life and social interactions.
-    - **Business and Economy Simulation MMO**: Focuses on running businesses and managing economies.
-    - **Vehicle Simulation MMO**: Involves operating and managing various types of vehicles, from cars to planes.
-
-- **[[Game Design/Genre Dissection/Game Genres/Massively Multiplayer Online#MMOTCG\|Massively Multiplayer Online#MMOTCG]] (Massively Multiplayer Online Trading Card Game)**
-    - **Fantasy-Themed MMOTCG**: Card games set in fantasy universes.
-    - **Strategy-Based MMOTCG**: Emphasizes strategic deck building and card play.
-    - **Collectible MMOTCG**: Focuses on collecting and trading digital cards.
-
-- **[[Game Design/Genre Dissection/Game Genres/Massively Multiplayer Online#MMO Social Games\|Massively Multiplayer Online#MMO Social Games]]**
-    - **Virtual World MMOs**: Creates a virtual space for players to interact socially.
-    - **MMO Party Games**: Includes mini-games and activities designed for social interaction.
-    - **Role-Playing Social MMOs**: Encourages role-playing in social contexts and settings.
-
-- **[[Game Design/Genre Dissection/Game Genres/Massively Multiplayer Online#MMO Sandbox Games\|Massively Multiplayer Online#MMO Sandbox Games]]**
-    - **Creative Sandbox MMOs**: Offers tools and freedom to create and modify the game world.
-    - **Survival Sandbox MMOs**: Combines sandbox mechanics with survival elements.
-    - **Exploration Sandbox MMOs**: Focuses on exploring and discovering within a sandbox environment.
-
-- **[[Game Design/Genre Dissection/Game Genres/Massively Multiplayer Online#MMO Battle Royale Games\|Massively Multiplayer Online#MMO Battle Royale Games]]**
-    - **Last-Man-Standing MMOs**: Focuses on survival and being the last player or team standing.
-    - **Large-Scale Battle MMOs**: Involves massive numbers of players in battle royale-style combat.
-    - **Resource Management Battle Royale**: Combines battle royale gameplay with resource gathering and management.
-
-### **[[Game Design/Genre Dissection/Game Genres/Music - Rhythm\|Music - Rhythm]]**
-
-- **[[Game Design/Genre Dissection/Game Genres/Music - Rhythm#Dance\|Music - Rhythm#Dance]]**
-    - **Arcade Dance**: Dance games typically found in arcades, often using dance pads.
-    - **VR Dance**: Utilizing virtual reality technology for an immersive dance experience.
-    - **Fitness Dance**: Focused on exercise and fitness routines based on dance moves.
-
-- **[[Game Design/Genre Dissection/Game Genres/Music - Rhythm#Music\|Music - Rhythm#Music]]**
-    - **Band Simulation**: Games where players simulate playing in a band with different instruments.
-    - **Interactive Music Videos**: Games that allow players to interact with and alter music videos.
-    - **Rhythm-Based Platformer**: Platform games where actions are synchronized with the music.
-
-- **[[Game Design/Genre Dissection/Game Genres/Music - Rhythm#Beat-matching\|Music - Rhythm#Beat-matching]]**
-    - **Color and Shape Matching**: Matching beats by color or shape recognition.
-    - **Speed Matching**: Games where matching speed increases with progression.
-    - **Freestyle Beat-matching**: Allows more creative freedom in matching beats.
-
-- **[[Game Design/Genre Dissection/Game Genres/Music - Rhythm#Rhythm-based Combat\|Music - Rhythm#Rhythm-based Combat]]**
-    - **Musical Fighting Games**: Combat actions are timed to the rhythm of the music.
-    - **Rhythm-Based Strategy**: Strategic actions in battles depend on matching the rhythm.
-    - **Adventure Rhythm Combat**: Combines rhythm mechanics with adventure-style combat.
-
-- **[[Game Design/Genre Dissection/Game Genres/Music - Rhythm#Instrument Simulation\|Music - Rhythm#Instrument Simulation]]**
-    - **Guitar Simulation**: Simulating playing a guitar, often with a guitar-shaped controller.
-    - **Drum Simulation**: Games focused on simulating drum playing.
-    - **Orchestra Simulation**: Simulating playing various orchestral instruments.
-
-- **[[Game Design/Genre Dissection/Game Genres/Music - Rhythm#Karaoke Games\|Music - Rhythm#Karaoke Games]]**
-    - **Competitive Karaoke**: Scoring based on pitch accuracy, often in a competitive setting.
-    - **Party Karaoke**: Casual, party-focused karaoke games, often with a variety of songs.
-    - **Singing Challenges**: Games that pose specific singing challenges or tasks.
-
-- **[[Game Design/Genre Dissection/Game Genres/Music - Rhythm#DJ Simulation\|Music - Rhythm#DJ Simulation]]**
-    - **Turntable Simulation**: Simulating the experience of being a DJ using turntables.
-    - **Mixing and Remixing**: Creating and remixing music tracks in-game.
-    - **Rhythm-Based DJ Challenges**: Challenges based on timing and rhythm in DJing.
-
-- **[[Game Design/Genre Dissection/Game Genres/Music - Rhythm#Music Creation\|Music - Rhythm#Music Creation]]**
-    - **Digital Audio Workstation (DAW) Simulation**: Simulates the experience of using professional music production software.
-    - **Loop-Based Composition**: Creating music by arranging pre-recorded loops and samples.
-    - **Interactive Music Creation**: Allows players to interactively create music in a game environment.
-
-- **[[Game Design/Genre Dissection/Game Genres/Music - Rhythm#Gesture-based Rhythm Games\|Music - Rhythm#Gesture-based Rhythm Games]]**
-    - **Motion-Controlled Rhythm**: Utilizing motion controls to match rhythms.
-    - **Touchscreen Rhythm Games**: Rhythm games played by tapping or swiping on a touchscreen.
-    - **Full-Body Rhythm Games**: Using the player's entire body to match the rhythm, often with camera-based systems.
-
-- **[[Game Design/Genre Dissection/Game Genres/Music - Rhythm#Story-driven Rhythm Games\|Music - Rhythm#Story-driven Rhythm Games]]**
-    - **Rhythm-Based Narratives**: Games where the story progresses through rhythm gameplay.
-    - **Character-Centric Rhythm Stories**: Focuses on characters and their development through music.
-    - **Musical Journey**: Games that take players on a journey or adventure through music.
-
-### **[[Game Design/Genre Dissection/Game Genres/Party - Board Games\|Party - Board Games]]**
-
-- **[[Game Design/Genre Dissection/Game Genres/Party - Board Games#Board Game Adaptations\|Party - Board Games#Board Game Adaptations]]**
-    - **Digital Versions of Classic Board Games**: Electronic adaptations of traditional board games like chess or checkers.
-    - **Themed Board Games**: Board games adapted to fit specific themes, like fantasy or science fiction.
-    - **Augmented Reality Board Games**: Board games that use AR technology to enhance gameplay.
-
-- **[[Game Design/Genre Dissection/Game Genres/Party - Board Games#Card Games\|Party - Board Games#Card Games]]**
-    - **Collectible Card Games (CCG)**: Games where players collect cards and build decks to compete against others.
-    - **Trick-taking Card Games**: Games like Spades or Bridge, where the objective is to win tricks.
-    - **Cooperative Card Games**: Card games where players work together to achieve common goals.
-
-- **[[Game Design/Genre Dissection/Game Genres/Party - Board Games#Trivia\|Party - Board Games#Trivia]]**
-    - **Pop Culture Trivia**: Trivia games focused on popular culture topics like movies, music, and celebrities.
-    - **Educational Trivia**: Trivia with an educational focus, covering subjects like history, science, or literature.
-    - **Theme-Based Trivia**: Trivia games centered around specific themes or topics.
-
-- **[[Game Design/Genre Dissection/Game Genres/Party - Board Games#Mini-games Compilation\|Party - Board Games#Mini-games Compilation]]**
-    - **Party Game Collections**: Collections of quick, easy-to-play mini-games designed for parties.
-    - **Family Game Nights**: Mini-games suitable for family play, including a mix of genres and styles.
-    - **Competitive Mini-games**: Fast-paced, competitive games focused on player vs. player action.
-
-- **[[Game Design/Genre Dissection/Game Genres/Party - Board Games#Social Deduction Games\|Party - Board Games#Social Deduction Games]]**
-    - **Bluffing and Deception**: Games where players must bluff or deceive others to win.
-    - **Role Assignment**: Games where each player has a secret role with specific goals.
-    - **Mystery Solving**: Involves deducing information based on clues and player interactions.
-
-- **[[Game Design/Genre Dissection/Game Genres/Party - Board Games#Casual Party Games\|Party - Board Games#Casual Party Games]]**
-    - **Icebreaker Games**: Designed to help players get to know each other in a fun, informal setting.
-    - **Quick Play Games**: Easy to learn and play in short timeframes, suitable for any skill level.
-    - **Interactive Party Games**: Games that involve physical interaction or activities beyond the game board.
-
-- **[[Game Design/Genre Dissection/Game Genres/Party - Board Games#Word Games\|Party - Board Games#Word Games]]**
-    - **Scrabble-like Games**: Focus on creating words from a set of given letters.
-    - **Word Association Games**: Games that involve connecting words or ideas in creative ways.
-    - **Word Puzzle Games**: Challenges that involve solving word puzzles or completing word-based tasks.
-
-- **[[Game Design/Genre Dissection/Game Genres/Party - Board Games#Strategy Board Games\|Party - Board Games#Strategy Board Games]]**
-    - **Resource Management Games**: Games where players manage resources to achieve objectives.
-    - **War and Conflict Games**: Strategy games centered around warfare or conflict scenarios.
-    - **Economic Strategy Games**: Games focused on economic growth, trade, and resource allocation.
-
-- **[[Game Design/Genre Dissection/Game Genres/Party - Board Games#Simulation of Traditional Board Games\|Party - Board Games#Simulation of Traditional Board Games]]**
-    - **Historical Simulations**: Board games that simulate historical events or periods.
-    - **Real-world Scenario Simulations**: Games that mimic real-world activities or professions.
-    - **Fantasy and Sci-Fi Simulations**: Simulations set in imaginative, non-realistic settings.
-
-- **[[Game Design/Genre Dissection/Game Genres/Party - Board Games#Board Game Adventure\|Party - Board Games#Board Game Adventure]]**
-    - **Role-Playing Board Games**: Combines elements of role-playing games with board game mechanics.
-    - **Story-Driven Campaigns**: Games with a strong narrative element, often played over multiple sessions.
-    - **Exploration and Discovery**: Focuses on exploring new areas or uncovering mysteries within the game.
-
-### **[[Game Design/Genre Dissection/Game Genres/Passive\|Passive]]**
-
-- **[[Game Design/Genre Dissection/Game Genres/Passive#Idle Games\|Passive#Idle Games]]**
-    - **Automated Business Simulators**: Focuses on setting up and automating various business operations.
-    - **Resource Management Idle Games**: Players manage resources that accumulate over time, optimizing strategies for growth.
-    - **Fantasy-Themed Idle Games**: Features fantasy elements and settings, often with character and story development.
-
-- **[[Game Design/Genre Dissection/Game Genres/Passive#Incremental Games\|Passive#Incremental Games]]**
-    - **Number Growth Games**: Focuses on growing numbers exponentially through upgrades and investments.
-    - **Story-Driven Incremental**: Incorporates a narrative that unfolds as the player progresses.
-    - **Science and Technology Incremental**: Themed around scientific discovery and technological advancement.
-
-- **[[Game Design/Genre Dissection/Game Genres/Passive#Clicker Games\|Passive#Clicker Games]]**
-    - **Action Clickers**: Requires frequent player interaction through clicking or tapping.
-    - **Adventure Clickers**: Incorporates elements of adventure games, like quests and exploration, with clicker mechanics.
-    - **Themed Clickers**: Set around specific themes or concepts, from cooking to space exploration.
-
-- **[[Game Design/Genre Dissection/Game Genres/Passive#Relaxation Games\|Passive#Relaxation Games]]**
-    - **Zen and Meditative Games**: Designed to induce relaxation through simple gameplay and soothing visuals.
-    - **Nature and Scenery Exploration**: Allows players to explore peaceful and beautiful natural settings.
-    - **Mindfulness and Stress Relief**: Focuses on activities that promote mindfulness and stress reduction.
-
-- **[[Game Design/Genre Dissection/Game Genres/Passive#Ambient Games\|Passive#Ambient Games]]**
-    - **Audio-Visual Experiences**: Combines calming visuals with ambient soundscapes.
-    - **Interactive Art**: Players interact with and influence artistic environments or elements.
-    - **Dynamic Environments**: Environments that change and evolve, often based on player input or in real-time.
-
-- **[[Game Design/Genre Dissection/Game Genres/Passive#Screensaver Games\|Passive#Screensaver Games]]**
-    - **Interactive Screensavers**: Allows minimal interaction, like influencing the movement or behavior of on-screen elements.
-    - **Virtual Aquariums and Terrariums**: Simulated natural environments that can be observed and sometimes interacted with.
-    - **Living Desktops**: Animated and interactive backgrounds for computer screens.
-
-- **[[Game Design/Genre Dissection/Game Genres/Passive#Non-interactive Experiences\|Passive#Non-interactive Experiences]]**
-    - **Visual Novels and Storybooks**: Primarily narrative experiences with limited interaction.
-    - **Cinematic Experiences**: Movie-like experiences where the player watches rather than interacts.
-    - **Virtual Tours**: Guided tours of real or fictional places, experienced passively.
-
-- **[[Game Design/Genre Dissection/Game Genres/Passive#Watching Simulators\|Passive#Watching Simulators]]**
-    - **Virtual Pet Watching**: Observing the behavior and interactions of virtual pets.
-    - **Nature and Wildlife Cams**: Simulated natural environments with wildlife to observe.
-    - **Surveillance Simulators**: Simulating the experience of monitoring cameras or surveillance systems.
-
-- **[[Game Design/Genre Dissection/Game Genres/Passive#Interactive Experiences\|Passive#Interactive Experiences]]**
-    - **Explorative Interactives**: Allows players to interact with and explore environments at a leisurely pace.
-    - **Educational Interactives**: Interactive experiences designed to teach or inform.
-    - **Narrative Exploration**: Combines story elements with exploration and interaction.
-
-### **[[Game Design/Genre Dissection/Game Genres/Puzzle\|Puzzle]]**
-
-- **[[Game Design/Genre Dissection/Game Genres/Puzzle#Logic Puzzles\|Puzzle#Logic Puzzles]]**
-    - **Deductive Reasoning**: Puzzles that require players to use logical deduction to solve.
-    - **Sequential Logic**: Involves solving puzzles in a particular order or sequence.
-    - **Spatial Logic**: Focuses on understanding and manipulating spatial relationships and geometry.
-
-- **[[Game Design/Genre Dissection/Game Genres/Puzzle#Match-3 Puzzles\|Puzzle#Match-3 Puzzles]]**
-    - **Cascading Match-3**: Includes elements that fall and replace matched items.
-    - **Swapping Match-3**: Players swap items to create matches.
-    - **Drag-and-Drop Match-3**: Involves dragging items to create matches instead of swapping.
-
-- **[[Game Design/Genre Dissection/Game Genres/Puzzle#Physics-based Puzzles\|Puzzle#Physics-based Puzzles]]**
-    - **Rube Goldberg Machines**: Involves creating complex contraptions to perform simple tasks.
-    - **Gravity-Based**: Centers around manipulating gravity to solve puzzles.
-    - **Construction Puzzles**: Players build structures or mechanisms to solve challenges.
-
-- **[[Game Design/Genre Dissection/Game Genres/Puzzle#Word Puzzles\|Puzzle#Word Puzzles]]**
-    - **Anagrams and Word Scrambles**: Rearranging letters to form words or phrases.
-    - **Word Search**: Finding specific words hidden in a grid of letters.
-    - **Word Association**: Involves finding connections between different words.
-
-- **[[Game Design/Genre Dissection/Game Genres/Puzzle#Sudoku\|Puzzle#Sudoku]]**
-    - **Traditional Number Sudoku**: Classic 9x9 grids with numbers.
-    - **Thematic Sudoku**: Variants that replace numbers with symbols, colors, or pictures.
-    - **Multi-Level Sudoku**: Complex versions with overlapping or interlinked puzzles.
-
-- **[[Game Design/Genre Dissection/Game Genres/Puzzle#Crossword Puzzles\|Puzzle#Crossword Puzzles]]**
-    - **Cryptic Crosswords**: Clues involve puzzles within themselves.
-    - **Themed Crosswords**: Crosswords revolving around a particular theme or subject.
-    - **Mini Crosswords**: Shorter, quicker versions of traditional crosswords.
-
-- **[[Game Design/Genre Dissection/Game Genres/Puzzle#Jigsaw Puzzles\|Puzzle#Jigsaw Puzzles]]**
-    - **Photorealistic Jigsaw**: Puzzles based on high-quality photographs.
-    - **Illustrative Jigsaw**: Features artistic or illustrative designs.
-    - **3D Jigsaw Puzzles**: Three-dimensional puzzles, often of buildings or objects.
-
-- **[[Game Design/Genre Dissection/Game Genres/Puzzle#Tile-matching Puzzles\|Puzzle#Tile-matching Puzzles]]**
-    - **Falling Block Tile-Matching**: Involving blocks that fall from the top of the screen.
-    - **Rotating Puzzle**: Requires players to rotate tiles or pieces to match.
-    - **Path Creation Tile-Matching**: Involves creating paths or connections between tiles.
-
-- **[[Game Design/Genre Dissection/Game Genres/Puzzle#Pattern Recognition Puzzles\|Puzzle#Pattern Recognition Puzzles]]**
-    - **Sequence Discovery**: Identifying and continuing patterns.
-    - **Shape and Color Patterns**: Involves recognizing patterns based on shapes or colors.
-    - **Hidden Object Puzzles**: Finding specific items or patterns within a complex image.
-
-- **[[Game Design/Genre Dissection/Game Genres/Puzzle#Riddle-based Puzzles\|Puzzle#Riddle-based Puzzles]]**
-    - **Textual Riddles**: Traditional riddles presented in text form.
-    - **Visual Riddles**: Riddles that involve interpreting images or visual cues.
-    - **Interactive Riddles**: Riddles that require interaction or manipulation to solve.
-
-### **[[Game Design/Genre Dissection/Game Genres/Racing\|Racing]]**
-
-- **[[Game Design/Genre Dissection/Game Genres/Racing#Simulative Racing\|Racing#Simulative Racing]]**
-    - **Realistic Track Racing**: Focuses on accurately simulating racing on professional tracks.
-    - **Vehicle Customization**: Emphasizes detailed customization of vehicles for performance and aesthetics.
-    - **Career Mode Racing**: Offers a career mode where players progress through a racing career.
-
-- **[[Game Design/Genre Dissection/Game Genres/Racing#Arcade Racing\|Racing#Arcade Racing]]**
-    - **High-Speed Thrills**: Features exaggerated speeds and simplified controls for a high-adrenaline experience.
-    - **Power-Ups and Boosts**: Includes special items or abilities to gain an advantage during races.
-    - **Stunt Racing**: Focuses on performing stunts or tricks during races.
-
-- **[[Game Design/Genre Dissection/Game Genres/Racing#Kart Racing\|Racing#Kart Racing]]**
-    - **Family-Friendly Kart Racing**: Designed for all ages with a focus on fun and accessibility.
-    - **Combat Kart Racing**: Includes combat elements, allowing players to hinder opponents with various attacks.
-    - **Fantasy Tracks**: Races take place on imaginative and unrealistic tracks.
-
-- **[[Game Design/Genre Dissection/Game Genres/Racing#Motocross\|Racing#Motocross]]**
-    - **Freestyle Motocross**: Focuses on performing tricks and stunts.
-    - **MX Racing**: Traditional motocross racing on dirt tracks.
-    - **Supercross**: Features stadium-based motocross with more technical tracks and obstacles.
-
-- **[[Game Design/Genre Dissection/Game Genres/Racing#Formula 1 Racing\|Racing#Formula 1 Racing]]**
-    - **F1 Simulation**: Realistically simulates Formula 1 races, with authentic tracks and cars.
-    - **Team Management**: Involves managing a Formula 1 team, including strategy and development.
-    - **Historical F1**: Races featuring historical Formula 1 cars and tracks.
-
-- **[[Game Design/Genre Dissection/Game Genres/Racing#Off-road Racing\|Racing#Off-road Racing]]**
-    - **Rally Cross**: Short races on mixed-surface tracks, often in closed circuits.
-    - **Open Terrain Exploration**: Races or challenges taking place in open, free-roam environments.
-    - **Extreme Off-road**: Focuses on extreme terrains and challenging conditions.
-
-- **[[Game Design/Genre Dissection/Game Genres/Racing#Street Racing\|Racing#Street Racing]]**
-    - **Illegal Street Racing**: Centers around unsanctioned races in urban environments.
-    - **Tuner Culture**: Emphasizes car modification and street racing culture.
-    - **Urban Circuit Racing**: Races that take place on closed city streets or urban environments.
-
-- **[[Game Design/Genre Dissection/Game Genres/Racing#Rally Racing\|Racing#Rally Racing]]**
-    - **Point-to-Point Rally**: Focuses on time trial races over closed public or private roads.
-    - **Stage-Based Rally**: Involves completing various stages and managing car condition between stages.
-    - **Cross-Country Rally**: Long-distance races often spanning multiple countries or terrains.
-
-- **[[Game Design/Genre Dissection/Game Genres/Racing#Drag Racing\|Racing#Drag Racing]]**
-    - **Classic Drag Racing**: Straight-line races focusing on quick starts and gear shifting.
-    - **Drag Race Tournaments**: Organized events with multiple rounds and varying classes of cars.
-    - **Street-style Drag Racing**: Informal drag races, often in urban settings.
-
-- **[[Game Design/Genre Dissection/Game Genres/Racing#Watercraft Racing\|Racing#Watercraft Racing]]**
-    - **Jet Ski Racing**: Races using personal watercraft on various water courses.
-    - **Powerboat Racing**: High-speed boat races on lakes, rivers, or coastal waters.
-    - **Sailing Competitions**: Focuses on sailing skills and navigating courses with wind-powered boats.
-
-- **[[Game Design/Genre Dissection/Game Genres/Racing#Aerospace Racing\|Racing#Aerospace Racing]]**
-    - **Futuristic Space Racing**: Races set in outer space with advanced spacecraft.
-    - **Air Racing**: Involves piloting aircraft through competitive courses.
-    - **Anti-Gravity Racing**: Features high-speed races with anti-gravity vehicles on futuristic tracks.
-
-### **[[Game Design/Genre Dissection/Game Genres/Role-playing\|Role-playing]] (RPG)**
-
-- **[[Game Design/Genre Dissection/Game Genres/Role-playing#Western RPG\|Role-playing#Western RPG]]**
-    - **Open World RPG**: Focuses on large, open environments with freedom in exploration and character progression.
-    - **Story-Driven RPG**: Emphasizes narrative and character development, often with complex storylines and deep lore.
-    - **Choices and Consequences RPG**: Offers meaningful choices that significantly impact the game's story and world.
-
-- **[[Game Design/Genre Dissection/Game Genres/Role-playing#Japanese RPG\|Role-playing#Japanese RPG]] (JRPG)**
-    - **Turn-Based JRPG**: Classic style with turn-based combat systems.
-    - **Anime-Styled JRPG**: Features anime-inspired art and storylines.
-    - **Strategic JRPG**: Combines traditional JRPG elements with more strategic, often grid-based, combat.
-
-- **[[Game Design/Genre Dissection/Game Genres/Role-playing#Action RPG\|Role-playing#Action RPG]] (ARPG)**
-    - **Loot-Based ARPG**: Focuses on collecting a variety of weapons, armor, and other items.
-    - **Hack-and-Slash ARPG**: Emphasizes fast-paced combat against large numbers of enemies.
-    - **Souls-like ARPG**: Characterized by challenging combat, a high level of difficulty, and a focus on learning from death.
-
-- **[[Game Design/Genre Dissection/Game Genres/Role-playing#Dungeon Crawler\|Role-playing#Dungeon Crawler]]**
-    - **Roguelike Dungeon Crawler**: Features procedurally generated dungeons and permadeath.
-    - **Labyrinth Exploration**: Focuses on complex maze-like dungeons that players must navigate.
-    - **Puzzle-Oriented Dungeon Crawler**: Incorporates puzzle-solving into the dungeon exploration experience.
-
-- **[[Game Design/Genre Dissection/Game Genres/Role-playing#Tactical RPG\|Role-playing#Tactical RPG]] (TRPG)**
-    - **Grid-Based Tactical RPG**: Involves strategic battles on grid-based maps.
-    - **Real-Time Tactics RPG**: Combines RPG elements with real-time tactical decision-making.
-    - **Story-Focused TRPG**: Emphasizes narrative elements within a tactical gameplay framework.
-
-- **[[Game Design/Genre Dissection/Game Genres/Role-playing#Rogue-like\|Role-playing#Rogue-like]]**
-    - **Procedural Rogue-like**: Focuses on procedurally generated levels for a new experience every playthrough.
-    - **Hardcore Rogue-like**: Features a high level of difficulty with permadeath and minimal player guidance.
-    - **Rogue-lite**: Blends rogue-like elements with other genres, often retaining some progress after death.
-    - **Rogue-like Deckbuilder**: Combines card-drafting and deck-building mechanics with roguelike procedural progression and randomized encounters.
-
-- **[[Game Design/Genre Dissection/Game Genres/Role-playing#Soulslike\|Role-playing#Soulslike]]**
-    - **Action Souls-like**: Fast-paced, stamina-driven melee combat set in dark fantasy worlds emphasizing dodge-timing and enemy telegraphs.
-    - **2D / Metroidvania Souls-like**: Side-scrolling or top-down interpretations of Soulslike combat, navigation, and checkpoint mechanics (often called "Soulsvania").
-    - **Extraction Souls-like**: Combines multiplayer extraction risk-reward mechanics with deliberate, stamina-based combat and permanent gear loss.
-
-### **[[Game Design/Genre Dissection/Game Genres/Sandbox - Open World\|Sandbox - Open World]]**
-
-- **[[Game Design/Genre Dissection/Game Genres/Sandbox - Open World#Open World RPG\|Sandbox - Open World#Open World RPG]]**
-    - **Fantasy Open World RPG**: Set in a fantasy universe with quests, magic, and mythical creatures.
-    - **Sci-Fi Open World RPG**: Features futuristic settings, advanced technology, and space exploration.
-    - **Historical Open World RPG**: Based in a historical setting, focusing on realism and historical accuracy.
-
-- **[[Game Design/Genre Dissection/Game Genres/Sandbox - Open World#Open World Action-Adventure\|Sandbox - Open World#Open World Action-Adventure]]**
-    - **Urban Adventure**: Set in large, modern cityscapes with a focus on exploration and action.
-    - **Wilderness Adventure**: Involves survival and exploration in natural, often untamed environments.
-    - **Mythological Adventure**: Centers around mythological themes and settings.
-
-- **[[Game Design/Genre Dissection/Game Genres/Sandbox - Open World#Open World Survival\|Sandbox - Open World#Open World Survival]]**
-    - **Post-Apocalyptic Survival**: Focuses on surviving in a world after a catastrophic event.
-    - **Natural Environment Survival**: Involves surviving in natural settings with a focus on resource gathering and crafting.
-    - **Sci-Fi Survival**: Set in futuristic or alien environments with survival against extraterrestrial elements.
-
-- **[[Game Design/Genre Dissection/Game Genres/Sandbox - Open World#Open World Simulation\|Sandbox - Open World#Open World Simulation]]**
-    - **Life Simulation**: Simulates various aspects of life, from daily activities to career progression.
-    - **Ecosystem Simulation**: Players influence and manage natural ecosystems and environments.
-    - **Economic and Business Simulation**: Involves managing economies, businesses, or entire cities.
-
-- **[[Game Design/Genre Dissection/Game Genres/Sandbox - Open World#Open World Racing\|Sandbox - Open World#Open World Racing]]**
-    - **Exploratory Racing**: Races that take place in a large, open environment, often with exploration elements.
-    - **Competitive Open World Racing**: Focuses on racing against other players in an open-world setting.
-    - **Off-road Racing**: Specializes in off-road terrain and challenges.
-
-- **[[Game Design/Genre Dissection/Game Genres/Sandbox - Open World#Open World Strategy\|Sandbox - Open World#Open World Strategy]]**
-    - **Empire Building**: Focuses on building and managing an empire within an open world.
-    - **Resource Management Strategy**: Involves gathering and managing resources across a vast open world.
-    - **Territorial Control**: Centers around gaining and defending territory within an open world.
-
-- **[[Game Design/Genre Dissection/Game Genres/Sandbox - Open World#Open World Exploration\|Sandbox - Open World#Open World Exploration]]**
-    - **Narrative-Driven Exploration**: Exploration that is guided by a strong story or narrative.
-    - **Discovery and Mystery**: Focuses on discovering secrets and solving mysteries within a vast world.
-    - **Non-linear Exploration**: Players choose their path and explore the world at their own pace.
-
-- **[[Game Design/Genre Dissection/Game Genres/Sandbox - Open World#Open World Crafting\|Sandbox - Open World#Open World Crafting]]**
-    - **Resource Gathering and Crafting**: Involves collecting resources and crafting them into tools, buildings, or other items.
-    - **Creative Crafting**: Offers a high degree of freedom in creating and customizing items or structures.
-    - **Survival Crafting**: Combines crafting with survival elements, where crafting is essential for progression.
-
-- **[[Game Design/Genre Dissection/Game Genres/Sandbox - Open World#Open World Building\|Sandbox - Open World#Open World Building]]**
-    - **City and Settlement Building**: Players build and manage cities or settlements.
-    - **Structure and Architecture Building**: Focuses on constructing individual buildings or architectural wonders.
-    - **Landscape and Environment Building**: Allows players to shape and modify the environment itself.
-
-- **[[Game Design/Genre Dissection/Game Genres/Sandbox - Open World#Open World Multiplayer\|Sandbox - Open World#Open World Multiplayer]]**
-    - **Massively Multiplayer Open World**: Supports a large number of players in a shared open world.
-    - **Cooperative Exploration and Building**: Focuses on players working together to explore and build.
-    - **Competitive Multiplayer**: Includes player vs. player (PvP) elements in an open world.
-
-### **[[Game Design/Genre Dissection/Game Genres/Shooter\|Shooter]]**
-
-- **[[Game Design/Genre Dissection/Game Genres/Shooter#First-Person Shooter\|Shooter#First-Person Shooter]] (FPS)**
-    - **Military FPS**: Focuses on realistic, military-based combat scenarios.
-    - **Sci-Fi FPS**: Set in futuristic or space environments, often with advanced weaponry and technology.
-    - **Horror FPS**: Combines first-person shooting mechanics with horror elements, creating a tense, frightening experience.
-
-- **[[Game Design/Genre Dissection/Game Genres/Shooter#Third-Person Shooter\|Shooter#Third-Person Shooter]] (TPS)**
-    - **Open World TPS**: Features large, open environments and a focus on exploration alongside shooting.
-    - **Cinematic TPS**: Emphasizes story and character, often with high-quality graphics and cinematic cutscenes.
-    - **Stealth TPS**: Incorporates stealth mechanics, allowing players to avoid direct confrontation.
-
-- **[[Game Design/Genre Dissection/Game Genres/Shooter#Tactical Shooter\|Shooter#Tactical Shooter]]**
-    - **Squad-Based Tactical Shooter**: Focuses on controlling a squad of characters, each with unique skills.
-    - **Realistic Tactical Shooter**: Emphasizes realism in weapons, tactics, and scenarios.
-    - **Strategic Planning Shooter**: Requires pre-mission planning and resource management.
-
-- **[[Game Design/Genre Dissection/Game Genres/Shooter#Arena Shooter\|Shooter#Arena Shooter]]**
-    - **Fast-Paced Arena Shooter**: Emphasizes quick reflexes and rapid movement.
-    - **Multiplayer Arena Shooter**: Designed primarily for multiplayer combat in closed arena settings.
-    - **Retro-Style Arena Shooter**: Pays homage to classic, older arena shooters in style and gameplay.
-
-- **[[Game Design/Genre Dissection/Game Genres/Shooter#Hero Shooter\|Shooter#Hero Shooter]]**
-    - **Ability-Based Hero Shooter**: Each character has unique abilities and roles.
-    - **Team-Based Hero Shooter**: Focuses on team play and strategy with diverse character rosters.
-    - **MOBA-Influenced Hero Shooter**: Combines elements of MOBAs with shooter gameplay.
-
-- **[[Game Design/Genre Dissection/Game Genres/Shooter#Cover Shooter\|Shooter#Cover Shooter]]**
-    - **Tactical Cover Shooter**: Combines cover mechanics with tactical gameplay elements.
-    - **Dynamic Environment Cover Shooter**: Environments provide interactive cover options.
-    - **Narrative-Driven Cover Shooter**: Story-focused gameplay intertwined with cover-based shooting.
-
-- **[[Game Design/Genre Dissection/Game Genres/Shooter#Precision Shooter\|Shooter#Precision Shooter]]**
-    - **Sniping Games**: Emphasizes long-range shooting accuracy.
-    - **Target Shooting**: Focuses on hitting static or moving targets with precision.
-    - **One-Shot Kill Shooter**: Games where precision and timing are crucial for survival.
-
-- **[[Game Design/Genre Dissection/Game Genres/Shooter#Run and Gun\|Shooter#Run and Gun]]**
-    - **Side-Scrolling Run and Gun**: Combines side-scrolling action with continuous shooting.
-    - **Platforming Run and Gun**: Integrates platforming elements with fast-paced shooting.
-    - **Arcade-Style Run and Gun**: Features over-the-top action and simplified controls reminiscent of arcade games.
-
-- **[[Game Design/Genre Dissection/Game Genres/Shooter#Bullet Hell - Shoot Em Up\|Shooter#Bullet Hell - Shoot Em Up]]**
-    - **Vertical Scrolling Shooters**: The action primarily moves vertically upwards.
-    - **Horizontal Scrolling Shooters**: Side-scrolling action where players navigate left or right.
-    - **Pattern-Based Shooters**: Focuses on memorizing enemy attack patterns for survival.
-
-- **[[Game Design/Genre Dissection/Game Genres/Shooter#Twin-Stick Shooter\|Shooter#Twin-Stick Shooter]]**
-    - **Rogue-like Twin-Stick Shooter**: Incorporates elements of randomness and permadeath.
-    - **Arcade Twin-Stick Shooter**: Emphasizes high scores and wave-based progression.
-    - **Cooperative Twin-Stick Shooter**: Designed for multiplayer gameplay, often with shared objectives.
-
-- **[[Game Design/Genre Dissection/Game Genres/Shooter#Light Gun Shooter\|Shooter#Light Gun Shooter]]**
-    - **Arcade Rail Shooter**: On-rails shooters typically found in arcade settings.
-    - **Home Console Light Gun Games**: Designed for home console light gun accessories.
-    - **VR-Based Light Gun Shooter**: Utilizes virtual reality technology for immersive shooting experiences.
-
-- **[[Game Design/Genre Dissection/Game Genres/Shooter#Top-Down Shooter\|Shooter#Top-Down Shooter]]**
-    - **Twin-Stick Top-Down Shooter**: Uses dual joystick controls for movement and shooting.
-    - **Strategy Top-Down Shooter**: Combines top-down shooting with strategic elements like resource management.
-    - **Rogue-like Top-Down Shooter**: Features procedurally generated levels and permadeath mechanics.
-
-- **[[Game Design/Genre Dissection/Game Genres/Shooter#Extraction Shooter\|Shooter#Extraction Shooter]]**
-    - **Raid-Based Extraction**: Session-based multiplayer shooters where players deploy into a contested zone to loot, complete objectives, and escape via restricted extraction points while risking all carried gear upon death.
-    - **Extraction Royale**: A hybrid merging battle royale shrinking map dynamics with player-versus-environment threats and gear persistence.
-    - **Cooperative Extraction**: PvE-focused extraction shooters prioritizing squad tactics and objective survival against AI hordes over player conflict.
-
-### **[[Game Design/Genre Dissection/Game Genres/Simulation\|Simulation]]**
-
-- **[[Game Design/Genre Dissection/Game Genres/Simulation#Life Simulation\|Simulation#Life Simulation]]**
-    - **Virtual World**: Simulates everyday activities in a virtual environment, often with open-ended gameplay.
-    - **Social Simulation**: Focuses on social interactions and relationship building within a simulated environment.
-    - **Pet Raising Simulation**: Involves nurturing and caring for virtual pets or creatures.
-
-- **[[Game Design/Genre Dissection/Game Genres/Simulation#Vehicle Simulation\|Simulation#Vehicle Simulation]]**
-    - **Flight Simulation**: Realistically simulates aircraft flying, often with detailed cockpits and physics.
-    - **Driving and Racing Simulation**: Focuses on realistically simulating driving mechanics, including vehicle handling and road conditions.
-    - **Marine Simulation**: Simulates naval vessels, including boats, ships, or submarines, often focusing on navigation and maritime activities.
-
-- **[[Game Design/Genre Dissection/Game Genres/Simulation#Construction and Management Simulation\|Simulation#Construction and Management Simulation]]**
-    - **City Building**: Players design, build, and manage a city, including infrastructure, utilities, and citizen welfare.
-    - **Theme Park Management**: Involves creating and running a theme park, including ride design, guest satisfaction, and financial management.
-    - **Hospital Management**: Simulates the running of a hospital, including patient care, staff management, and facility expansion.
-
-- **[[Game Design/Genre Dissection/Game Genres/Simulation#Business Simulation\|Simulation#Business Simulation]]**
-    - **Corporate Tycoon**: Involves running a corporation, making strategic business decisions to maximize profits.
-    - **Retail Management**: Focuses on managing a retail business, including inventory, sales, and customer service.
-    - **Startup Simulation**: Simulates the experience of founding and growing a startup company.
-
-- **[[Game Design/Genre Dissection/Game Genres/Simulation#Farming Simulation\|Simulation#Farming Simulation]]**
-    - **Agricultural Management**: Involves cultivating crops, managing livestock, and selling produce.
-    - **Homestead Management**: Combines farming with broader homesteading activities, such as crafting and building.
-    - **Rural Life Simulation**: Emphasizes the lifestyle and daily activities associated with rural living and farming.
-
-- **[[Game Design/Genre Dissection/Game Genres/Simulation#God Game\|Simulation#God Game]]**
-    - **World-Building**: Players have control over an entire world, shaping landscapes and ecosystems.
-    - **Population Management**: Focuses on managing and guiding a population of followers.
-    - **Moral Decision-Making**: Involves making decisions that affect the game world, often with moral or ethical implications.
-
-- **[[Game Design/Genre Dissection/Game Genres/Simulation#Space Simulation\|Simulation#Space Simulation]]**
-    - **Space Exploration**: Focuses on exploring space, discovering new planets, and encountering various space phenomena.
-    - **Space Combat Simulation**: Involves piloting spacecraft in combat, often with realistic space physics.
-    - **Space Colony Management**: Simulates managing a space colony, including resource gathering, habitat building, and interstellar trade.
-
-- **[[Game Design/Genre Dissection/Game Genres/Simulation#Immersive Sim\|Simulation#Immersive Sim]]**
-    - **First-Person Immersive Sim**: Classic immersive sims prioritizing first-person player choice, interconnected systems, and environmental problem-solving (e.g., _Deus Ex_, _Dishonored_).
-    - **Isometric / Third-Person Immersive Sim**: Immersive sims rendered from top-down or third-person perspectives while retaining deep systemic simulation and multiple solution paths (e.g., _Shadow Gambit_, _Divinity_ immersive elements).
-    - **Systemic Roguelike Immersive Sim**: A genre fusion combining randomized dungeon generation and permadeath with immersive sim emergent mechanics.
-
-### **[[Game Design/Genre Dissection/Game Genres/Sports\|Sports]]**
-
-- **[[Game Design/Genre Dissection/Game Genres/Sports#Soccer - Football\|Sports#Soccer - Football]]**
-    - **Club Management Simulation**: Focuses on managing a soccer club, including tactics, transfers, and financial decisions.
-    - **Street Soccer**: Centers around more casual, urban-style soccer games with fewer players and improvised fields.
-    - **International Tournament**: Simulates international soccer tournaments like the World Cup.
-
-- **[[Game Design/Genre Dissection/Game Genres/Sports#Basketball\|Sports#Basketball]]**
-    - **Arcade-Style Basketball**: Fast-paced, often with exaggerated gameplay and less adherence to traditional rules.
-    - **Pro Basketball Simulation**: Realistic simulation of professional basketball leagues and gameplay.
-    - **Street Basketball**: Focuses on 3-on-3, half-court basketball games, often played on urban courts.
-
-- **[[Game Design/Genre Dissection/Game Genres/Sports#Baseball\|Sports#Baseball]]**
-    - **MLB Simulation**: Simulates Major League Baseball with authentic teams, players, and stadiums.
-    - **Fantasy Baseball**: Involves creating and managing a fantasy baseball team based on real player statistics.
-    - **Arcade Baseball**: Simplified, fast-paced baseball games with emphasis on fun and accessibility.
-
-- **[[Game Design/Genre Dissection/Game Genres/Sports#American Football\|Sports#American Football]]**
-    - **NFL Simulation**: Realistic simulation of National Football League games.
-    - **College Football**: Focuses on the unique aspects of college-level American football.
-    - **Tactical Football Management**: Involves managing a football team’s strategies, rosters, and play calling.
-
-- **[[Game Design/Genre Dissection/Game Genres/Sports#Golf\|Sports#Golf]]**
-    - **Realistic Golf Simulation**: Accurately simulates golf physics, courses, and professional play.
-    - **Mini Golf**: Focuses on fun and creative mini golf courses, often with whimsical themes.
-    - **Fantasy Golf**: Adds imaginative elements to golf, such as power-ups or unusual courses.
-
-- **[[Game Design/Genre Dissection/Game Genres/Sports#Tennis\|Sports#Tennis]]**
-    - **Professional Tennis Simulation**: Simulates professional tennis matches and tournaments.
-    - **Arcade Tennis**: Simplified and fast-paced tennis gameplay, often with power-ups and special moves.
-    - **Doubles Tennis**: Focuses specifically on the doubles format of tennis play.
-
-- **[[Game Design/Genre Dissection/Game Genres/Sports#Volleyball\|Sports#Volleyball]]**
-    - **Beach Volleyball**: Centered around beach volleyball mechanics and environments.
-    - **Indoor Volleyball**: Simulates traditional six-player indoor volleyball.
-    - **Arcade Volleyball**: Simplified, action-oriented volleyball with less focus on realistic gameplay.
-
-- **[[Game Design/Genre Dissection/Game Genres/Sports#Hockey\|Sports#Hockey]]**
-    - **NHL Simulation**: Realistic simulation of National Hockey League games.
-    - **Street Hockey**: Focuses on casual, street-level hockey games, typically played on non-ice surfaces.
-    - **Arcade Hockey**: Fast-paced, action-oriented gameplay with exaggerated physics and rules.
-
-- **[[Game Design/Genre Dissection/Game Genres/Sports#Cricket\|Sports#Cricket]]**
-    - **Test Match Cricket**: Simulates the longer, more strategic form of cricket.
-    - **Twenty20 Cricket**: Focuses on the shorter, more explosive version of the game.
-    - **Street Cricket**: Casual form of cricket often played in urban or backyard environments.
-
-- **[[Game Design/Genre Dissection/Game Genres/Sports#Exergame\|Sports#Exergame]]**
-    - **Fitness and Workout Games**: Designed to provide a physical workout, often using motion sensors or VR.
-    - **Dance-Based Exergames**: Focuses on dance routines as a form of exercise and entertainment.
-    - **Sports-Training Exergames**: Simulates various sports activities for training and fitness purposes.
-
-### **[[Game Design/Genre Dissection/Game Genres/Strategy\|Strategy]]**
-
-- **[[Game Design/Genre Dissection/Game Genres/Strategy#Real-Time Strategy\|Strategy#Real-Time Strategy]] (RTS)**
-    - **Base Building RTS**: Focuses on constructing and managing a base or headquarters while expanding territory and resources.
-    - **Military Warfare RTS**: Centers on large-scale military engagements, often with historical or futuristic themes.
-    - **Economic Management RTS**: Emphasizes resource management, economic growth, and trade over military conquest.
-
-- **[[Game Design/Genre Dissection/Game Genres/Strategy#Turn-Based Strategy\|Strategy#Turn-Based Strategy]] (TBS)**
-    - **Grid-Based TBS**: Utilizes a grid system for movement and combat, emphasizing tactical positioning.
-    - **4X TBS**: A blend of TBS with 'explore, expand, exploit, exterminate' mechanics, often set in space or historical settings.
-    - **Character-Driven TBS**: Focuses on individual units or characters with unique abilities, often in a squad-based setup.
-
-- **[[Game Design/Genre Dissection/Game Genres/Strategy#4X\|Strategy#4X]] (Explore, Expand, Exploit, Exterminate)**
-    - **Space 4X**: Set in space, with exploration of galaxies, colonization of planets, and space warfare.
-    - **Historical 4X**: Based on real-world history, focusing on the growth and expansion of civilizations over time.
-    - **Fantasy 4X**: Features fantasy settings with mythical creatures, magic, and unique lore-driven mechanics.
-
-- **[[Game Design/Genre Dissection/Game Genres/Strategy#Grand Strategy\|Strategy#Grand Strategy]]**
-    - **World Domination Grand Strategy**: Involves controlling a nation or empire with the goal of global dominance.
-    - **Political Intrigue Strategy**: Focuses on diplomacy, political maneuvering, and backdoor dealings.
-    - **Economic and Resource Management**: Emphasizes managing a nation's economy, resources, and trade policies.
-
-- **[[Game Design/Genre Dissection/Game Genres/Strategy#Tower Defense\|Strategy#Tower Defense]]**
-    - **Maze Tower Defense**: Players create mazes with towers to strategically direct and eliminate enemies.
-    - **Survival Tower Defense**: Focuses on enduring waves of enemies with increasing difficulty.
-    - **Offensive Tower Defense**: Incorporates elements of attacking or invading while defending.
-
-- **[[Game Design/Genre Dissection/Game Genres/Strategy#MOBA\|Strategy#MOBA]] (Multiplayer Online Battle Arena)**
-    - **Hero-Based MOBA**: Each player controls a single powerful character with unique abilities.
-    - **Objective-Focused MOBA**: In addition to combat, players must complete specific objectives on the map.
-    - **Hybrid MOBA**: Combines elements of MOBAs with other genres, such as shooters or RPGs.
-
-- **[[Game Design/Genre Dissection/Game Genres/Strategy#Autobattler\|Strategy#Autobattler]]**
-    - **Tactical Auto Chess**: Grid-based automated tactical battlers focusing on formation placement and racial/class trait synergies.
-    - **Draft & Shop Autobattler**: Economy-driven auto battlers centered around refreshing shops, managing gold interest, and upgrading unit stars.
-    - **Asynchronous Autobattler**: Autobattlers where players build teams that fight ghostly copies of other players' rosters asynchronously.
-
-### **[[Game Design/Genre Dissection/Game Genres/Tabletop\|Tabletop]]**
-
-- **[[Game Design/Genre Dissection/Game Genres/Tabletop#Digital Board Games\|Tabletop#Digital Board Games]]**
-    - **Classic Board Game Digital Versions**: Digital adaptations of traditional board games like chess or checkers.
-    - **Themed Board Games**: Board games adapted to fit specific themes, like fantasy or science fiction.
-    - **Augmented Reality Board Games**: Board games that use AR technology to enhance gameplay.
-
-- **[[Game Design/Genre Dissection/Game Genres/Tabletop#Tabletop RPG Adaptations\|Tabletop#Tabletop RPG Adaptations]]**
-    - **Fantasy RPG Adaptations**: Digital adaptations of fantasy tabletop RPGs like Dungeons & Dragons.
-    - **Sci-Fi RPG Adaptations**: Adaptations of science fiction tabletop RPGs, including futuristic settings and technologies.
-    - **Horror and Mystery RPG Adaptations**: Digital versions of tabletop RPGs focused on horror or mystery themes.
-
-- **[[Game Design/Genre Dissection/Game Genres/Tabletop#Card Game Adaptations\|Tabletop#Card Game Adaptations]]**
-    - **Trading Card Game (TCG) Adaptations**: Digital versions of popular trading card games.
-    - **Traditional Card Game Adaptations**: Digital adaptations of classic card games like poker or bridge.
-    - **Strategy Card Game Adaptations**: Digital versions of more complex, strategy-oriented card games.
-
-- **[[Game Design/Genre Dissection/Game Genres/Tabletop#Virtual Tabletop Simulators\|Tabletop#Virtual Tabletop Simulators]]**
-    - **Multi-Game Simulators**: Platforms that allow players to simulate a variety of tabletop games.
-    - **Customizable Simulators**: Offer tools for players to create and customize their own tabletop games.
-    - **Community-Driven Simulators**: Simulators with strong community support for sharing and playing user-created content.
-
-- **[[Game Design/Genre Dissection/Game Genres/Tabletop#Turn-based Strategy Board Games\|Tabletop#Turn-based Strategy Board Games]]**
-    - **Historical Strategy Games**: Focus on historical settings and events.
-    - **Abstract Strategy Games**: Games that rely more on strategy than on luck or a strong theme.
-    - **War and Conflict Games**: Board games that simulate warfare or conflict scenarios.
-
-- **[[Game Design/Genre Dissection/Game Genres/Tabletop#Multiplayer Board Game Simulations\|Tabletop#Multiplayer Board Game Simulations]]**
-    - **Competitive Multiplayer**: Digital board games designed for player vs. player competition.
-    - **Massively Multiplayer Board Games**: Large-scale board games supporting many players simultaneously.
-    - **Online Social Board Games**: Board games that emphasize social interaction and community building.
-
-- **[[Game Design/Genre Dissection/Game Genres/Tabletop#Classic Tabletop Game Adaptations\|Tabletop#Classic Tabletop Game Adaptations]]**
-    - **Ancient and Traditional Game Adaptations**: Digital versions of ancient or traditional games like Go or Chess.
-    - **Family-Friendly Game Adaptations**: Adaptations of games that are suitable for players of all ages.
-    - **Party Game Adaptations**: Digital adaptations of popular party games, often with a focus on group fun.
-
-- **[[Game Design/Genre Dissection/Game Genres/Tabletop#Cooperative Board Games\|Tabletop#Cooperative Board Games]]**
-    - **Team-Based Strategy Games**: Games where players work together in teams to achieve objectives.
-    - **Narrative Cooperative Games**: Cooperative games with a strong storytelling component.
-    - **Puzzle and Problem-Solving Cooperative Games**: Games that focus on solving puzzles or problems as a group.
-
-
-
-## 3. Identifying and Analyzing Existing Games
-   - Methods for identifying a game's primary genre
-   - Analyzing gameplay mechanics, narrative elements, and aesthetics
-   - Case studies of successful genre identification
-## 4. Genre Hybridization
-   - Understanding hybrid genres
-   - Examples of successful genre hybrids
-      - Action-Adventure
-      - Strategy-RPG
-      - Puzzle-Platformer
-   - Benefits and challenges of hybridization
-## 5. Building Execution Plans
-   - Importance of aligning with genre conventions
-   - Step-by-step guide to creating execution plans
-      - Setting clear goals
-      - Defining core mechanics
-      - Storytelling considerations
-      - Art and sound design alignment
-      - Playtesting for genre adherence
-## 6. Breaking Genre Conventions
-   - Creative exploration of breaking genre conventions
-   - Examples of games that successfully challenge genre norms
-   - Risks and rewards of breaking conventions
-## 7. Case Studies
-   - In-depth analysis of specific games
-   - Examining genre decisions and their impact on player experience
-   - Learning from both successes and failures
-## 8. Hypothetical Scenarios
-   - Creating hypothetical game design scenarios
-   - Encouraging readers to apply genre dissection principles
-   - Promoting critical thinking and problem-solving
-## 9. Conclusion
-   - Summarizing key points
-   - Emphasizing the dynamic nature of genres in game design
-   - Encouraging continuous learning and experimentation
+## 1.1 Definition of Video Game Genres
+
+In game design, a **genre** is far more than a marketing tag or a storefront filter—it is a functional taxonomy of player expectation and systemic interaction. At its core, a video game genre defines a recurring, structural pattern of **interaction verbs, dynamic feedback loops, input spaces, resource economies, and victory/fail state rules**.
+
+Unlike traditional linear media (such as film, theater, or literature)—which are categorized primarily by thematic, narrative, or stylistic tropes (e.g., Sci-Fi, Film Noir, Western)—video game genres are fundamentally categorized by **agency, interactivity, and control systems**. While narrative setting and visual direction inform the player’s emotional framing, a game’s underlying mechanical structure determines its primary genre identity.
+
+### The Dual Lens: Functional Mechanics vs. Thematic Framing
+
+To analyze or construct a game genre with engineering rigor, designers must separate a game's interactive engine from its aesthetic wrapping:
+
+| **Primary Genre Identity** | **Functional Taxonomy (Mechanic-Driven)**                                                                       | **Thematic Taxonomy (Sensational)**                                                                         |
+| -------------------------- | --------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------- |
+| **Core Components**        | • Interaction Verbs<br><br>• State Machine Rules<br><br>• Dynamic Feedback Loops<br><br>• Economy & Constraints | • Atmospheric Mood<br><br>• Aesthetic & Art Style<br><br>• World-Building & Lore<br><br>• Narrative Framing |
+| **Focus Area**             | What the player _does_ and how the system responds.                                                             | What the player _feels_ and how the world presents itself.                                                  |
+| **Systemic Benchmarks**    | First-Person Shooter (FPS), Turn-Based Strategy (TBS), Metroidvania, Deckbuilder Roguelike                      | Psychological Horror, Cyberpunk Simulation, High-Fantasy RPG, Space Opera                                   |
+
+A game’s functional mechanics dictate how the player processes decisions and solves problems, while its thematic taxonomy establishes context, feedback legibility, and emotional resonance.
+
+### Predictive Systems vs. Blind Guesswork
+
+A key principle of professional game design is treating genre structures as **predictive frameworks** rather than rigid restrictions.
+
+When a genre is deconstructed into its systemic components, game design ceases to be a process of random trial-and-error prototyping ("throwing mechanics at the wall to see what sticks"). Instead, it becomes an **executable discipline**:
+
+- **Schema Continuity:** Players enter a genre with an established mental model (e.g., expecting animation locks in a _Fighting_ game, or camera-relative navigation in a 3D _Platformer_). Understanding these conventions allows designers to predict friction points, cognitive load, and player learning curves before writing code or building assets.
+    
+- **Systemic Interdependence:** Mechanics do not exist in isolation. A mechanics-driven definition clarifies _why_ specific rule systems align—such as why high spatial precision pairs naturally with tight animation feedback, or why meta-progression scales predictably within run-based loops.
+    
+
+### Fluidity and Schema Evolution
+
+Genres are dynamic, historical constructs. They evolve through technological breakthroughs, hardware shifts, player literacy, and deliberate design subversion. As novel mechanical combinations stabilize and prove market viable, they solidify into new recognizable sub-genres (e.g., _Survival Crafting_, _Auto-Battler_, _Extraction Shooter_, _Survivor-like_).
+
+By establishing a clear, functional definition of video game genres, designers gain a rigorous foundation for auditing existing systems, predicting player behavior, and building mechanically sound interactive experiences.
+
+
+## 1.2 Purpose of Dissecting Genres for Game Design
+
+Dissecting game genres is far more than an academic exercise in taxonomy—it is an essential operational methodology for modern game development. By breaking genres down into their foundational mechanics, interaction verbs, dynamic feedback loops, and systemic constraints, designers transition from reactive guesswork to predictive design execution.
+
+### 1. Predictive Design vs. Blind Iteration
+
+A common misconception among novice creators and cross-disciplinary teams is that game design consists entirely of _"idea generation $\rightarrow$ prototyping $\rightarrow$ testing $\rightarrow$ iteration."_ While iteration is vital to game development, iteration without structural principles is merely costly trial-and-error. Prototyping every unvetted idea burns engineering bandwidth, exhausts team resources, and often yields inconsistent results.
+
+Predictive design treats game systems as executable logic. By dissecting genre conventions, designers can evaluate structural friction, balance curves, and cognitive load on paper before writing code or building 3D assets:
+
+|**Design Approach**|**Blind Iteration (Trial-and-Error)**|**Predictive Systems Design (Genre Dissection)**|
+|---|---|---|
+|**Methodology**|Build a prototype to see if a mechanic "feels fun."|Analyze dynamic loops, systemic dependencies, and player schemas to forecast outcome.|
+|**Resource Cost**|High (frequent code rewrites, scrapped art assets, extended schedules).|Low (pre-production mathematical modeling, systemic mapping, targeted prototyping).|
+|**Failure Mode**|Unclear _why_ a feature fails, leading to random feature creep.|Clear identification of mechanical friction or misaligned feedback loops.|
+|**Outcome Consistency**|Low; reliant on luck or endless revision cycles.|High; built on proven interaction models and intentional subversion.|
+
+### 2. Deconstructing Systems, Loops, and Dependencies
+
+Genres are not arbitrary lists of features; they are interconnected ecosystems of rules. Dissecting a genre exposes how individual mechanics support or conflict with one another:
+
+- **Isolating Core Loops:** Systematic dissection traces how primary player actions (verbs) feed into secondary progression systems and tertiary meta-economies.
+    
+- **Mapping Dependencies:** A mechanic that succeeds in one genre can destabilize another. For example, full-loot drop mechanics create high-stakes tension in hardcore sandbox economies but destroy motivation in linear narrative RPGs. Dissection illuminates _why_ these mechanics interact the way they do.
+    
+
+### 3. Leveraging Player Mental Models and Literacy
+
+When players start a new game within a recognized genre, they bring pre-existing mental models regarding controls, camera behaviors, spatial logic, and UI conventions.
+
+- **Reducing Onboarding Friction:** Honoring established genre shorthand allows players to rely on muscle memory and spatial literacy, lowering cognitive load so they can immediately engage with your game's novel elements.
+    
+- **Intentional Subversion:** You cannot effectively subvert a rule you do not fully understand. By deconstructing genre expectations, designers can choose precisely when to break conventions to create surprise, tension, or fresh strategic depth without breaking the core loop.
+    
+
+### 4. Bridging Cross-Disciplinary Skill Gaps
+
+In modern development, programmers, artists, audio designers, and producers often assume design responsibilities on indie teams or solo projects. While technical and visual disciplines have concrete, demonstrable learning paths, design is often incorrectly treated as subjective opinion or personal intuition.
+
+- **Concrete Frameworks Over "Vibes":** Genre dissection provides clear engineering specifications—attribute tables, state machine transitions, and loop diagrams—that transform design from a subjective debate into an objective, executable craft.
+    
+- **Shared Technical Vocabulary:** Establishing precise terminology (e.g., _frame advantage_, _resource sinks_, _spatial zoning_, _input buffering_) ensures engineers, artists, and designers remain aligned throughout production.
+    
+
+## 1.3 Operational Workflows & Repository Navigation
+
+This repository is built as a functional system manual rather than a linear textbook. Depending on your role, technical background, or active phase of production, navigate this repository using the following operational entry points:
+
+| **Design Task / Objective**                        | **Recommended Repository Section**                                                               | **Applied Workflow**                                                                                                                                                           |
+| -------------------------------------------------- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Pre-Production & Scope Definition**              | **Section 2:** Common Video Game Genres<br><br>  <br><br>**Section 5:** Building Execution Plans | Establish core interaction verbs, benchmark industry standards, and define feature constraints before writing code or building assets.                                         |
+| **Prototype Auditing & Friction Diagnosis**        | **Section 3:** Identifying & Analyzing Existing Games                                            | Deconstruct your active prototype through a three-tier audit: **Verbs $\rightarrow$ Dynamic Loops $\rightarrow$ Economy & Meta-Systems** to isolate mechanical failure points. |
+| **System Hybridization & Feature Expansion**       | **Section 4:** Genre Hybridization<br><br>  <br><br>**Section 6:** Breaking Genre Conventions    | Evaluate rule-set compatibility and cognitive load using hybridization matrices before merging disparate genre mechanics.                                                      |
+| **Cross-Disciplinary Alignment (Art/Code/Design)** | **Section 2 Sub-Pages** _(Action, RPG, Strategy, etc.)_                                          | Utilize standardized attribute tables and state-machine terminology to ensure engineers, artists, and producers share an identical design spec.                                |
+
+# Common Video Game Genres
+
+The following section serves as the central navigational and taxonomy hub for the 19 primary video game genres analyzed in this repository. While each genre has its own dedicated sub-page detailing granular attribute tables, historical evolutions, and case studies, this section organizes them into functional clusters based on their underlying interaction paradigms.
+
+> [!TIP]
+> For quick text definitions and summary descriptions of each genre, see the dedicated [[Game Design/Genre Dissection/Genre Glossary\|Genre Glossary]].
+
+
+### 2.1 Interaction Paradigm Clusters
+
+Rather than listing genres strictly alphabetically, game designers benefit from evaluating genres through the lens of **player agency and state-machine interaction**. The 19 core genres fall into four primary interaction clusters:
+
+#### 1. Spatial & Real-Time Execution
+* **Genres:** [[Game Design/Genre Dissection/Game Genres/Action\|Action]], [[Game Design/Genre Dissection/Game Genres/Fighting\|Fighting]], [[Game Design/Genre Dissection/Game Genres/Racing\|Racing]], [[Game Design/Genre Dissection/Game Genres/Shooter\|Shooter]], [[Game Design/Genre Dissection/Game Genres/Sports\|Sports]]
+* **Interaction Engine:** High-frequency, real-time inputs; spatial precision; camera-relative positioning; input buffering; animation lock management.
+* **Core Design Challenge:** Balancing mechanical execution thresholds (player skill) against visual readability and input latency.
+
+#### 2. Systemic & Strategic Decision-Making
+* **Genres:** [[Game Design/Genre Dissection/Game Genres/Strategy\|Strategy]], [[Game Design/Genre Dissection/Game Genres/Puzzle\|Puzzle]], [[Game Design/Genre Dissection/Game Genres/Tabletop\|Tabletop]], [[Game Design/Genre Dissection/Game Genres/Party - Board Games\|Party - Board Games]]
+* **Interaction Engine:** Discrete state evaluations; turn-based or pauseable time steps; resource allocation; combinatorial rule spaces; board/spatial topology optimization.
+* **Core Design Challenge:** Managing cognitive load and decision paralysis while engineering deep, emergent systemic complexity.
+
+#### 3. World, Narrative & Progression Driven
+* **Genres:** [[Game Design/Genre Dissection/Game Genres/Role-playing\|Role-playing]] (RPG), [[Game Design/Genre Dissection/Game Genres/Adventure\|Adventure]], [[Game Design/Genre Dissection/Game Genres/Sandbox - Open World\|Sandbox - Open World]], [[Game Design/Genre Dissection/Game Genres/Massively Multiplayer Online\|Massively Multiplayer Online]] (MMO)
+* **Interaction Engine:** Long-term feedback loops; numerical stat progression; inventory and economy management; spatial exploration; persistent world state shifts.
+* **Core Design Challenge:** Preventing power-creep trivialization while scaling economic sinks and maintaining narrative momentum.
+
+#### 4. Sensational & Emulative Simulation
+* **Genres:** [[Game Design/Genre Dissection/Game Genres/Horror\|Horror]], [[Game Design/Genre Dissection/Game Genres/Simulation\|Simulation]], [[Game Design/Genre Dissection/Game Genres/Educational - Informative\|Educational - Informative]], [[Game Design/Genre Dissection/Game Genres/Music - Rhythm\|Music - Rhythm]], [[Game Design/Genre Dissection/Game Genres/Gambling\|Gambling]], [[Game Design/Genre Dissection/Game Genres/Passive\|Passive]]
+* **Interaction Engine:** Targeted psychological/emotional triggers; real-world rule emulation; specialized peripheral or timing inputs; risk-reward probability loops.
+* **Core Design Challenge:** Sustaining specific player emotional states (e.g., dread, flow, immersion) without causing mechanics exhaustion.
+
+
+### 2.2 Macro-Taxonomy Matrix
+
+This comparison table provides an executive-level view of all 19 primary genres, their core verbs, primary temporal engines, and failure state mechanics:
+
+| Macro Genre | Core Interaction Verbs | Primary Temporal Engine | Dominant Failure State |
+| :--- | :--- | :--- | :--- |
+| **[[Game Design/Genre Dissection/Game Genres/Action\|Action]]** | Strike, dodge, jump, parry, balance | Real-time (High-frequency) | Health depletion / Spatial fall |
+| **[[Game Design/Genre Dissection/Game Genres/Adventure\|Adventure]]** | Inspect, combine, dialogue, navigate | Self-paced / Event-driven | Soft lock / Puzzle gate block |
+| **[[Game Design/Genre Dissection/Game Genres/Educational - Informative\|Educational - Informative]]** | Solve, apply, recall, practice, inspect | Self-paced | Knowledge-check failure |
+| **[[Game Design/Genre Dissection/Game Genres/Fighting\|Fighting]]** | Combo, block, spacing, punish, frame-cancel | Real-time (Frame-accurate) | Knockout / Guard break |
+| **[[Game Design/Genre Dissection/Game Genres/Gambling\|Gambling]]** | Bet, spin, fold, hold, wager | Discrete round steps | Bankroll depletion / Bankruptcy |
+| **[[Game Design/Genre Dissection/Game Genres/Horror\|Horror]]** | Hide, flee, manage, illuminate, conserve | Real-time (Resource-scarce) | Psychological dread / Death |
+| **[[Game Design/Genre Dissection/Game Genres/Massively Multiplayer Online\|Massively Multiplayer Online]] (MMO)** | Raid, trade, guild, grind, specialize | Real-time (Persistent server) | Economy collapse / Party wipe |
+| **[[Game Design/Genre Dissection/Game Genres/Music - Rhythm\|Music - Rhythm]]** | Tap, hold, swipe, sync, keep tempo | Real-time (Audio-synced) | Song failure / Multiplier loss |
+| **[[Game Design/Genre Dissection/Game Genres/Party - Board Games\|Party - Board Games]]** | Roll, compete, sabotage, react, wager | Turn-based / Minigame loops | Round elimination / Point deficit |
+| **[[Game Design/Genre Dissection/Game Genres/Passive\|Passive]]** | Observe, trigger, ambient scroll, step back | Automated / Continuous | None (Experience termination) |
+| **[[Game Design/Genre Dissection/Game Genres/Puzzle\|Puzzle]]** | Match, rotate, sequence, infer, clear | Static / Step-pressured | Invalid move / Board lockup |
+| **[[Game Design/Genre Dissection/Game Genres/Racing\|Racing]]** | Accelerate, steer, brake, drift, apex | Real-time (Continuous physics) | Crash / Lap time deficit |
+| **[[Game Design/Genre Dissection/Game Genres/Role-playing\|Role-playing]] (RPG)** | Equip, level, converse, spec, quest | Real-time or Turn-based | Stat-gate failure / Party wipe |
+| **[[Game Design/Genre Dissection/Game Genres/Sandbox - Open World\|Sandbox - Open World]]** | Explore, craft, build, modify, harvest | Real-time (Open loop) | Hazard death / Resource drain |
+| **[[Game Design/Genre Dissection/Game Genres/Shooter\|Shooter]]** | Aim, fire, reload, take cover, flank | Real-time (Precision spatial) | Spatial death / Line-of-sight loss |
+| **[[Game Design/Genre Dissection/Game Genres/Simulation\|Simulation]]** | Operate, tune, manage, balance, emulate | Real-time / Accelerated time | Systemic collapse / Insolvency |
+| **[[Game Design/Genre Dissection/Game Genres/Sports\|Sports]]** | Pass, shoot, tackle, position, cycle | Real-time (Physics-simulated) | Score deficit / Clock expiration |
+| **[[Game Design/Genre Dissection/Game Genres/Strategy\|Strategy]]** | Build, recruit, position, command, harvest | Turn-based / Real-time pause | Base destruction / Economic crash |
+| **[[Game Design/Genre Dissection/Game Genres/Tabletop\|Tabletop]]** | Draft, place, negotiate, roll, score | Turn-based | Victory point deficit |
+
+### 2.3 Emergent & Sub-Genre Mapping
+
+> [!NOTE] 
+> **Scope & Selection:** Modern commercial games routinely blend mechanics across categories. The sub-genres listed below represent a curated selection of prominent, high-frequency industry benchmarks rather than an exhaustive index. They demonstrate how major contemporary design paradigms map back to specific sections within the primary parent genre pages in this repository.
+
+When navigating the dedicated sub-pages in this repository, note where key modern sub-genres are anchored within the primary genre pages:
+
+* **Soulslike:** Located within **[[Game Design/Genre Dissection/Game Genres/Role-playing#Soulslike\|Role-playing (RPG)]]** 
+	* *(Focus: stamina management, high spatial punishment, recovery mechanics)*.
+* **Survivor-like (Auto-Shooter):** Located within **[[Game Design/Genre Dissection/Game Genres/Action#Survivor-like\|Action]]** 
+	* *(Focus: automated interaction verbs, exponential spatial density, passive upgrade selection)*.
+* **Deckbuilder Roguelike:** Located within **[[Game Design/Genre Dissection/Game Genres/Role-playing#Deckbuilder Roguelike\|Role-playing (RPG)]]** 
+	* *(Focus: procedural run loops, deck synergy assembly, turn-based card economies)*.
+* **Extraction Shooter:** Located within **[[Game Design/Genre Dissection/Game Genres/Shooter#Extraction Shooter\|Shooter]]** 
+	* *(Focus: high-stakes loot valuation, asymmetric risk-reward extractions, session persistence)*.
+* **Auto-Battler:** Located within **[[Game Design/Genre Dissection/Game Genres/Strategy#Autobattler\|Strategy]]** 
+	* *(Focus: drafting phase optimization, spatial board positioning, automated resolution phase)*.
+* **Metroidvania:** Located within **[[Game Design/Genre Dissection/Game Genres/Adventure#Metroidvania\|Adventure]]** 
+	* *(Focus: ability-gated spatial exploration, non-linear backtracking, structural world topology)*.
+* **Immersive Sim:** Located within **[[Game Design/Genre Dissection/Game Genres/Simulation#Immersive Sim\|Simulation]]** 
+	* *(Focus: emergent systemic interactions, multi-solution objective design, reactive environment logic)*.
+* **Open World Survival Crafting:** Located within **[[Game Design/Genre Dissection/Game Genres/Sandbox - Open World#Open World Crafting\|Sandbox - Open World]]** 
+	* *(Focus: resource loop harvesting, crafting tech trees, persistent base construction)*.
+* **MOBA:** Located within **[[Game Design/Genre Dissection/Game Genres/Strategy#MOBA\|Strategy]]** 
+	* *(Focus: real-time lane economy, hero power-spike scaling, asymmetric team objective control)*.
+* **Survival Horror:** Located within **[[Game Design/Genre Dissection/Game Genres/Horror#Survival Horror\|Horror]]** 
+	* *(Focus: extreme resource scarcity, spatial vulnerability, defensive inventory management)*.
+* **Character / Mascot Horror:** Located within **[[Game Design/Genre Dissection/Game Genres/Horror#Character Horror\|Horror]]** 
+	* *(Focus: subversion of nostalgic childhood icons/mascots, environmental tool puzzles, lore-driven environmental investigation)*.
+
+
+# Identifying and Analyzing Existing Games
+
+Categorizing modern commercial titles requires moving beyond superficial marketing tags or thematic skins. This section provides the analytical framework for identifying a game's true mechanical anchor, evaluating its core design pillars, and applying this rubric through practical case studies.
+
+### 3.1 Methods for Identifying a Game's Primary Genre
+
+Commercial game titles frequently layer multiple systems, thematic wrappers, and hybrid mechanics over their core loops. To accurately categorize a title and locate its true primary parent genre within this repository, apply a four-part diagnostic evaluation:
+
+#### 1. The Primary Interaction Verb Test
+
+- **The Core Question:** _What interaction verbs occupy the player's physical inputs and active cognitive focus during 80% of core gameplay?_
+    
+- **Diagnostic Rule:** Separate the _aesthetic presentation_ from the _underlying verb set_.
+    
+    - If the primary active loop requires aiming, spatial tracking, recoil management, and line-of-sight engagement, the game is mechanically anchored in **[[Game Design/Genre Dissection/Game Genres/Shooter\|Shooter]]**, even if it features extensive RPG dialogue trees or inventory weight systems.
+        
+    - If the primary active loop revolves around hand evaluation, energy budgeting, card drafting, and draw order calculation, the game is mechanically anchored in **[[Game Design/Genre Dissection/Game Genres/Role-playing#Deckbuilder Roguelike\|Role-playing (RPG)]]**, even if combat is visually rendered as an animated real-time action fight.
+        
+
+#### 2. Failure State & Recovery Loop Analysis
+
+- **The Core Question:** _What happens when the player fails, and how does the game engine handle state persistence and progression recovery?_
+    
+- **Diagnostic Rule:** The structural penalty for failure reveals a game's foundational loop framework:
+    
+    - **Absolute Run Termination (Permadeath):** Session resets completely to a starting hub $\rightarrow$ **Rogue-like** / **Rogue-lite** dynamics.
+        
+    - **Resource Forfeiture & Retrieval:** Currency/progress is dropped at the exact coordinate of death, requiring a high-risk recovery run through reset enemies $\rightarrow$ **Soulslike**.
+        
+    - **Session Persistence & Loot Loss:** Dying results in total loss of carried gear within an asymmetric extraction window $\rightarrow$ **Extraction Shooter**.
+        
+    - **State Restoration / Checkpoint Loading:** Failure simply reloads a static prior save state $\rightarrow$ Traditional **Action**, **Adventure**, or **CRPG/JRPG**.
+        
+
+#### 3. Dominant Interaction Paradigm Mapping
+
+- **The Core Question:** _Which of the four primary interaction clusters (from Section 2.1) governs the player's primary agency?_
+    
+    - **Spatial & Real-Time Execution:** Demands twitch reflexes, spatial positioning, frame timing, and immediate physical control (_Action, Shooter, Fighting, Racing_).
+        
+    - **Systemic & Strategic Decision-Making:** Demands resource allocation, turn planning, macro board evaluation, and systemic optimization (_Strategy, Puzzle, Tabletop_).
+        
+    - **World & Progression-Driven:** Demands character build-crafting, stat investment, quest navigation, and narrative steering (_Role-playing, Adventure, MMO_).
+        
+    - **Sensational & Emulative Simulation:** Demands physical environmental interaction, systemic world reactivity, or vehicle/craft emulation (_Simulation, Sandbox - Open World, Horror_).
+        
+
+#### 4. Cognitive Load & Skill Floor Allocation
+
+- **The Core Question:** _Where does the game place its primary skill floor—in physical execution timing or tactical evaluation?_
+    
+    - If a player can pause time or take infinite time to plan their next move without penalty, the game leans heavily into **Systemic & Strategic** or **Turn-Based RPG** design.
+        
+    - If player mastery relies on execution precision under real-time pressure (e.g., animation canceling, i-frame rolling, precision tracking), the game is anchored in **Real-Time Execution** paradigms regardless of underlying stat layers.
+        
+
+### 3.2 Analyzing Gameplay Mechanics, Narrative Elements, and Aesthetics
+
+Once a game's primary genre anchor is identified, evaluating its design requires analyzing how three foundational pillars interlock: **Gameplay Mechanics**, **Narrative Elements**, and **Aesthetics**.
+
+#### 1. Gameplay Mechanics (The Systemic Engine)
+
+Mechanics form the structural backbone of the game, defining player agency, constraints, and progression loops.
+
+- **Interaction Verbs:** The fundamental actions available to the player (e.g., jump, aim, draft, parry, harvest, stealth).
+    
+- **Systemic Rules & Logic:** The underlying mathematical formulas governing damage mitigation, resource costs, stamina consumption, cooldown timers, hit detection, and spatial collision.
+    
+- **Economic & Progression Loops:**
+    
+    - **Micro-Loop (Moment-to-Moment):** The immediate 3-to-10 second execution cycle (e.g., aim $\rightarrow$ shoot $\rightarrow$ reload $\rightarrow$ take cover).
+        
+    - **Meso-Loop (Session/Level):** The 15-to-45 minute run or objective cycle (e.g., enter dungeon $\rightarrow$ gather loot $\rightarrow$ defeat boss $\rightarrow$ extract).
+        
+    - **Macro-Loop (Campaign/Meta):** Long-term progression across sessions (e.g., meta-currency spending, skill tree unlocks, act completion).
+        
+- **Failure States & Attrition:** How the game engine handles state persistence, penalizes mistakes, or forces resource recovery (e.g., permadeath, currency drop on death, save-state reloads).
+    
+
+#### 2. Narrative Elements (Contextual Framing)
+
+Narrative provides emotional context, world-building, and systemic motivation for player actions.
+
+- **Storytelling Delivery Systems:**
+    
+    - **Direct / Authorial:** Dialogue trees, cinematic sequences, quest logs, audio logs, codex entries.
+        
+    - **Systemic / Emergent:** Unscripted player stories generated dynamically through physics engines, AI interactions, or procedural encounters.
+        
+    - **Cryptic / Environmental:** World architecture, item flavor text, visual decay, and non-verbal spatial cues.
+        
+- **Player Agency & Reactivity:** The degree to which player choices alter world states, faction reputations, character arcs, and narrative endings.
+    
+- **Ludonarrative Cohesion:** Evaluating how effectively mechanics and narrative reinforce each other, identifying areas where mechanical loops conflict with narrative stakes.
+    
+
+#### 3. Aesthetics & Audio-Visual Presentation
+
+Aesthetics translate underlying math and mechanical code into intuitive, feedback-rich sensory feedback.
+
+- **Visual Framing & Spatial Perspective:** Camera positioning (1st-person, 3rd-person, top-down isometric, side-scrolling 2D) and visual field readability.
+    
+- **UI/UX & Information Visibility:** Visual hierarchy, color-coded threat states, telegraphing cues (e.g., attack flash indicators, intent icons), and inventory interface friction.
+    
+- **Tactile & Audio Feedback:**
+    
+    - **Audio SFX & Spatial Sound:** Positional enemy audio cues, hit-reaction SFX, ambient soundscapes, and dynamic musical layering.
+        
+    - **Tactile Responsiveness (Game Feel):** Animation cancellation windows, hit-stop frames, screen shake, input buffering, and physical weight response.
+        
+
+
+### 3.3 Case Studies of Successful Genre Identification
+
+To demonstrate this diagnostic framework in practice, the following case studies evaluate three highly hybridized commercial titles, deconstructing their surface presentation to identify their true primary parent genre anchors within this repository.
+
+#### Case Study 1: _Hades_ (2020)
+
+- **Surface Presentation:** Fast-paced isometric combat, fully voiced dialogue trees, divine Greek mythology framing, and stylized 2D artwork.
+    
+- **Diagnostic Evaluation:**
+    
+    - **Primary Interaction Verb:** Isometric attack/dash execution (**Action**) paired with iterative room-by-room reward evaluation and build drafting (**RPG / Rogue-like**).
+        
+    - **Failure State & Persistence:** Absolute run termination upon death, returning the player to the central hub palace while retaining persistent meta-currencies (Darkness, Keys, Gemstones).
+        
+    - **Dominant Paradigm:** _World & Progression-Driven_ integrated with _Spatial & Real-Time Execution_.
+        
+- **Genre Identification Breakdown:**
+    
+    - While moment-to-moment combat demands twitch execution, the structural engine governing session length, randomized boon synergies, procedural floor scaling, and narrative pacing is defined by procedural runs and permadeath resets.
+        
+- **Primary Repository Anchor:** **[[Game Design/Genre Dissection/Game Genres/Role-playing#Rogue-like\|Role-playing (RPG)]]** _(Sub-genre: Rogue-like)_.
+    
+
+#### Case Study 2: _Elden Ring_ (2022)
+
+- **Surface Presentation:** Expansive open-world map, mounted traversal, crafting tech trees, dynamic weather, and multi-region dungeon hubs.
+    
+- **Diagnostic Evaluation:**
+    
+    - **Primary Interaction Verb:** Animation-committed weapon swings, stamina-gated rolling, parrying, and boss pattern recognition.
+        
+    - **Failure State & Persistence:** Currency (Runes) dropped at the exact coordinate of death; dying a second time prior to retrieval results in permanent currency forfeiture. Resetting at Sites of Grace restores non-boss world enemies.
+        
+    - **Dominant Paradigm:** _World & Progression-Driven_ paired with _Sensational & Emulative Simulation_.
+        
+- **Genre Identification Breakdown:**
+    
+    - Although the game utilizes macro-world topology typical of **[[Game Design/Genre Dissection/Game Genres/Sandbox - Open World\|Sandbox - Open World]]** design, its foundational mechanics—stamina budgeting, spatial punishment, bonfire/rest resetting loops, and risk-reward currency retrieval—strictly anchor its core loop in Soulslike design principles.
+        
+- **Primary Repository Anchor:** **[[Game Design/Genre Dissection/Game Genres/Role-playing#Soulslike\|Role-playing (RPG)]]** _(Sub-genre: Soulslike)_.
+    
+
+#### Case Study 3: _Slay the Spire_ (2017)
+
+- **Surface Presentation:** Fantasy dungeon crawling, animated hero models, turn-based monster encounters, and ascending spire map floors.
+    
+- **Diagnostic Evaluation:**
+    
+    - **Primary Interaction Verb:** Hand evaluation, turn energy budgeting, card drafting, card purging, and intent telegraph analysis.
+        
+    - **Failure State & Persistence:** Total HP depletion resets the spire run to Act 1, requiring a new character deck to be drafted from scratch.
+        
+    - **Dominant Paradigm:** _Systemic & Strategic Decision-Making_.
+        
+- **Genre Identification Breakdown:**
+    
+    - Despite visual fantasy RPG skinning, 100% of player agency occurs through managing draw pools, evaluating enemy intent indicators, and assembling passive relic synergies. Combat execution requires zero physical reaction timing, leaning entirely into probability forecasting and deck optimization.
+        
+- **Primary Repository Anchor:** **[[Game Design/Genre Dissection/Game Genres/Role-playing#Deckbuilder Roguelike\|Role-playing (RPG)]]** _(Sub-genre: Deckbuilder Roguelike)_.
+    
+
+# Genre Hybridization
+
+Modern commercial game development rarely exists within isolated genre silos. As design conventions mature, developers frequently synthesize mechanics from distinct categories to create novel player experiences. Section 4 explores how hybrid genres emerge, evaluates classic hybridization benchmarks, and analyzes the systemic trade-offs inherent in blending core gameplay loops.
+
+### 4.1 Understanding Hybrid Genres
+
+Genre hybridization occurs when a title synthesizes core interaction verbs, progression loops, or temporal models from two or more distinct parent genres into a unified gameplay experience. Rather than adhering to established template formulas, hybrid titles create new systemic interaction spaces for the player.
+
+#### Sub-Genre Refinement vs. Cross-Genre Hybridization
+
+To analyze design structures accurately, it is critical to distinguish between *sub-genre evolution* and *cross-genre hybridization*:
+
+* **Sub-Genre Refinement (Vertical Depth):** Specializing and deepening mechanics *within* a single parent genre family.
+  * *Example:* A **Soulslike** refines stamina budgeting and spatial punishment, but remains fundamentally anchored inside **[[Game Design/Genre Dissection/Game Genres/Role-playing\|Role-playing]]**.
+* **Cross-Genre Hybridization (Horizontal Synthesis):** Bridging two or more fundamentally distinct *interaction paradigms* (from Section 2.1) to construct a new core loop.
+  * *Example:* Fusing real-time twitch targeting from **[[Game Design/Genre Dissection/Game Genres/Shooter\|Shooter]]** with procedural deck assembly from **[[Game Design/Genre Dissection/Game Genres/Role-playing#Deckbuilder Roguelike\|Role-playing]]** to create a card-driven action game.
+
+#### Mechanics Fusion: Primary Verbs & Secondary Macro Engines
+
+Most successful cross-genre hybrids operate by pairing a **primary execution verb** (what the player physically does second-to-second) with a **secondary macro engine** (how systems, choices, and progression scale over time):
+
+1. **Real-Time Execution + Systemic Strategy:** * Layering macro board management and resource management over real-time mechanical inputs.
+   * *Pattern:* Real-time action control → Hero leveling & lane resource management (*MOBAs*).
+2. **Progression + Procedural Run Engines:** * Pairing long-term build-crafting with session-based permadeath run loops.
+   * *Pattern:* Turn-based card evaluation → Procedural node-map runs (*Deckbuilder Roguelikes*).
+3. **Sensational Emulation + Tactical Logic Puzzles:** * Integrating immersive environmental physics with discrete logic puzzles.
+   * *Pattern:* First-person spatial navigation → Physics-manipulation puzzle mechanics (*Immersive Sims & Physics Puzzle-Platformers*).
+
+### 4.2 Examples of Successful Genre Hybrids
+
+To understand how distinct parent genres synthesize into cohesive hybrid loops, consider three foundational commercial benchmarks:
+
+#### 1. Action-Adventure
+* **Parent Genres:** **[[Game Design/Genre Dissection/Game Genres/Action\|Action]]** $\times$ **[[Game Design/Genre Dissection/Game Genres/Adventure\|Adventure]]**
+* **The Fusion Framework:** Integrates real-time spatial execution (reflex-based combat, dodging, platforming) with inventory-based ability gating, non-linear environmental backtracking, and spatial puzzle solving.
+* **Benchmark Examples:** *The Legend of Zelda: Tears of the Kingdom* / *Metroid Prime* / *Control*
+* **Systemic Execution:**
+  * **Action Layer:** Real-time physical combat, frame-accurate dodging, aiming, and spatial movement.
+  * **Adventure Layer:** Progression is gated not by numerical character levels or stats, but by acquiring physical tools/abilities (e.g., hookshots, ice beams, magnetic gloves) that unlock new paths in previously explored world topology.
+
+#### 2. Strategy-RPG (Tactical RPG)
+* **Parent Genres:** **[[Game Design/Genre Dissection/Game Genres/Strategy\|Strategy]]** $\times$ **[[Game Design/Genre Dissection/Game Genres/Role-playing\|Role-playing]]**
+* **The Fusion Framework:** Merges turn-based isometric grid movement, unit positioning, and spatial field control (**Strategy**) with deep character leveling, class job trees, equipment customization, and branching narrative arcs (**RPG**).
+* **Benchmark Examples:** *Final Fantasy Tactics* / *Fire Emblem: Three Houses* / *Tactics Ogre: Reborn*
+* **Systemic Execution:**
+  * **Strategy Layer:** Battles are evaluated as macro tactical board state puzzles where elevation, tile positioning, flanking angles, and unit initiative turn queues dictate victory.
+  * **RPG Layer:** Long-term success relies on stat scaling, class skill synergies, equipment optimization, and interpersonal narrative relationships built between missions.
+
+#### 3. Puzzle-Platformer
+* **Parent Genres:** **[[Game Design/Genre Dissection/Game Genres/Puzzle\|Puzzle]]** $\times$ **[[Game Design/Genre Dissection/Game Genres/Action\|Action]]** (Platformer)
+* **The Fusion Framework:** Combines precise physical spatial traversal (jumping, wall-sliding, momentum preservation) with discrete logic puzzles, environmental manipulation, or temporal mechanics.
+* **Benchmark Examples:** *Portal* / *Braid* / *Celeste*
+* **Systemic Execution:**
+  * **Platformer Layer:** Second-to-second gameplay demands physical execution timing, jump precision, and spatial momentum control.
+  * **Puzzle Layer:** Level traversal is blocked by environmental logic barriers (e.g., physics portals, time-rewind paradoxes, weight switches) that require analytical problem-solving to uncover the correct path before physical execution can succeed.
+
+### 4.3 Benefits and Challenges of Hybridization
+
+Synthesizing mechanics across distinct parent genres offers powerful creative and commercial opportunities, but it also introduces friction in balancing, pacing, and player mental models.
+
+#### Systemic Benefits
+
+* **Novel Core Loop Synthesis:** Fusing unexpected interaction verbs creates distinct, high-concept gameplay hooks that stand out in crowded commercial markets (e.g., combining deckbuilding with real-time grid movement in *One Step From Eden*).
+* **Cross-Audience Appeal:** Hybridization can bridge player demographics by appealing to multiple core motivations simultaneously, such as pairing twitch action reflexes with deep RPG stat optimization (*Action RPGs*).
+* **Enhanced Build Variety & Replayability:** Layering strategic decision-making or procedural run structures over physical execution engines dramatically expands the space for emergent play styles and replay value.
+
+#### Design Challenges
+
+* **Cognitive Overload & Systemic Friction:** Forcing players to track disparate mental models simultaneously (e.g., navigating complex inventory management spreadsheets while under high-pressure real-time combat) can cause cognitive fatigue and disrupt game flow.
+* **Ludonarrative & Mechanical Dissonance:** Intersecting rule sets can undermine core design intent—such as when high-scaling RPG character stats trivialize the spatial tension of a precision stealth system.
+* **Complex Balance & Vector-Bug Density:** Combining distinct rule engines exponentially increases the likelihood of unintended exploit loops, broken character builds, and complex QA testing vectors.
+
+
+Here is a complete, practical draft for **Section 5: Building Execution Plans**, built specifically around using Genre Dissection as an active creation, scoping, and team-alignment framework.
+
+# Building Execution Plans
+
+For designers starting with a blank canvas or production teams stuck in feature bloat, Genre Dissection is not merely an analytical post-mortem tool, it is an active **execution engine**.
+
+When a project begins as a vague concept (e.g., _"a dark sci-fi game about an outcast space pirate"_), teams easily fall into the trap of over-scoping or building conflicting mechanics. This section provides a practical, step-by-step workflow for translating abstract ideas into aligned, production-ready execution plans.
+
+### 5.1 The Importance of Aligning with Genre Conventions
+
+When starting a new project or evaluating a game already in production, developers often begin with high-level thematic ideas (e.g., *"a dark fantasy game about an exiled alchemist"*) or a collection of cool features. Without a clear structural anchor, early development frequently devolves into scope creep, conflicting mechanics, and team misalignment.
+
+Understanding and aligning with genre conventions is not about stifling creativity or copying existing games—it is about establishing a shared **mental model** between the design team and the player.
+
+#### The Player Mental Model & Expectation Contract
+
+Every genre and sub-genre carries an implicit "contract" with the player. When a player picks up a game tagged as a *Soulslike*, a *Deckbuilder Roguelike*, or a *Tactical RPG*, they bring pre-existing expectations regarding:
+
+* **Control Responsiveness:** Instant button execution vs. deliberate animation commitments or turn queues.
+* **Information Availability:** Perfect intent telegraphing vs. hidden information and fog-of-war.
+* **Failure Stakes:** Permanent session resets (permadeath) vs. checkpoint reloading or resource retrieval runs.
+* **Pacing & Cognitive Load:** Twitch spatial reflexes vs. methodical calculation and planning.
+
+Aligning with conventions ensures that players can immediately leverage their existing mental models, reducing initial learning friction and allowing them to engage with your game's unique features right away.
+
+#### Unintentional Misalignment vs. Calculated Innovation
+
+One of the most common pitfalls for indie developers and non-designers is **unintentional misalignment**—violating player expectations without realizing it:
+
+* **Unintentional Misalignment:** Giving players precision real-time reflex requirements in a game marketed as a slow, strategic puzzle-builder. The player feels frustrated because their cognitive expectations conflict with physical execution demands.
+* **Calculated Innovation:** Deliberately preserving 80–90% of a genre's foundational mental model while breaking or twisting 10–20% of the conventions to create a distinct commercial hook (e.g., *Slay the Spire* keeping traditional turn-based card play, but replacing static battles with procedural node-map runs and perfect intent visibility).
+
+#### Genre Alignment as a Scope & Production Filter
+
+For a team stuck in production fog or overwhelmed by too many ideas, a genre anchor acts as an immediate **scoping filter**. By mapping your project to a primary genre parent and sub-genre anchor, you can instantly categorize features using the following framework:
+
+| Feature Bucket | Target Allocation | Description & Action Rule |
+| :--- | :--- | :--- |
+| **Core Anchor Conventions** | **Mandatory (~80%)** | Essential features required to fulfill basic genre expectations (e.g., turn energy, deck pruning, and card drafting in a Deckbuilder Roguelike). **Keep & Polish.** |
+| **Differentiating Hooks** | **Calculated (~20%)** | Specific mechanical twists or hybridizations that give your project its unique identity (e.g., *Monster Train* adding 3-floor vertical train defense and clan merging). **Innovate Here.** |
+| **Out-of-Scope Bloat** | **0% (Immediate Cuts)** | Mechanics that conflict with your primary interaction paradigm or distract from your core loop (e.g., adding complex real-time lockpicking minigames to a slow-paced turn-based deckbuilder). **Cut or Quarantine.** |
+
+### 5.2 Step-by-Step Guide to Creating Execution Plans
+
+To move from a vague concept or an over-scoped feature list to an executable, aligned design plan, teams can follow this five-stage diagnostic pipeline:
+
+#### Step 1: Establish the Primary Anchor & Core Interaction Verb
+Begin by stripping away thematic flavor (lore, art style, setting) to isolate the physical and cognitive realities of gameplay.
+
+* **Isolate the Primary Verb:** Identify the single physical or mental action the player will perform 80% of the time (e.g., aiming/tracking, hand drafting/evaluating, timing parries/dodges, resource harvesting).
+* **Assign the Parent Paradigm:** Map that core verb directly to one of the four core interaction clusters (Section 2.1).
+* **Select the Sub-Genre Anchor:** Choose the existing commercial sub-genre that best matches the mental model you want players to bring into the experience (e.g., *Role-playing > Soulslike* or *Action > Survivor-like*).
+
+#### Step 2: Map the Systemic Loop & Three Economies
+Define the structural rules, failure states, and resource flows that support your primary interaction verb.
+
+* **Define the Failure & Recovery State:** Explicitly establish what happens when the player loses (e.g., permadeath run reset, dropping currency at exact coordinates, simple save-state reload).
+* **Structure the Three Economies:**
+  * **Micro Economy (Moment-to-Moment):** Short-term execution resources (e.g., stamina bars, ammo clips, turn energy, mana).
+  * **Meso Economy (Session/Level):** Medium-term run or objective resources (e.g., health potions, keys, gold, temporary card drops).
+  * **Macro Economy (Campaign/Meta):** Long-term persistent progression across sessions (e.g., skill trees, persistent unlocks, hub upgrades).
+
+#### Step 3: Align Narrative Delivery with Temporal Pacing
+Ensure your storytelling method complements—rather than disrupts—the rhythm of your core interaction paradigm.
+
+* **Match Narrative Friction to Pace:**
+  * Fast-paced real-time execution games (*Shooters, Hack-and-Slash*) thrive on environmental cues, brief audio logs, and non-intrusive ambient banter.
+  * Strategic or turn-based games (*CRPGs, Strategy*) naturally support deep dialogue trees, extensive codex entries, and branching narrative scripts.
+* **Audit Ludonarrative Harmony:** Check that narrative stakes match systemic stakes (e.g., if the narrative frames the protagonist as fragile and desperate, mechanics should reflect vulnerability rather than god-like power scaling).
+
+#### Step 4: Synchronize Art, Audio, and UI Information Hierarchy
+Aesthetics should translate the underlying math of your mechanics into effortless visual and auditory cues.
+
+* **Prioritize Information Readability:** Ensure critical tactical information is telegraphed clearly (e.g., enemy intent icons in a deckbuilder, visible wind-up animations in a soulslike, or directional audio in a shooter).
+* **Provide Tactile Feedback:** Match interaction verbs with satisfying sensory responses—utilizing animation hit-stops, screen shake, input buffering, and distinct impact audio.
+
+#### Step 5: Conduct Targeted Mental Model Playtesting
+Run early, uninstructed playtests specifically to evaluate whether playtesters are adopting the mental model you designed.
+
+| Diagnostic Playtest Focus | Key Question to Ask | What to Look For |
+| :--- | :--- | :--- |
+| **Control & Input Expectations** | *"What do you expect to happen when you press this button?"* | Misalignment between player muscle memory and your input responsiveness. |
+| **Cognitive Strategy** | *"Why did you choose that specific action or path?"* | Players using unintended brute-force tactics instead of engaging with your core strategy. |
+| **Friction & Failure Perception** | *"Did that failure feel fair or frustrating?"* | Misalignment between enemy telegraphing readability and player reaction windows. |
+
+# Breaking Genre Conventions
+
+While aligning with genre conventions builds a reliable foundation, groundbreaking commercial and critical hits often achieve their success by intentionally defying player expectations. Section 6 explores how to strategically subvert genre rules without alienating players or destroying core gameplay stability.
+
+### 6.1 Creative Exploration & The "Load-Bearing" Rule Framework
+
+Breaking genre conventions should never be a random act of chaos. To subvert conventions effectively, designers must distinguish between **Load-Bearing Conventions** and **Decorative Conventions**.
+
+| Rule Type | Definition | Impact of Breaking It | Example |
+| :--- | :--- | :--- | :--- |
+| **Load-Bearing Conventions** | Foundational mechanics that sustain the genre's primary interaction paradigm and failure state loop. | Breaking these without replacing them breaks the core game loop, resulting in confusion and frustration. | Removing intent telegraphing in a deckbuilder without providing alternative tactical information. |
+| **Decorative Conventions** | Surface-level traditions, thematic tropes, or legacy interface layouts attached to a genre by habit. | Breaking these creates fresh, unexpected hooks while preserving structural readability. | Replacing dark fantasy tropes in a Soulslike with bright, Belle Époque puppet horror (*Lies of P*). |
+
+#### The 80/20 Innovation Rule
+High-impact design innovation generally follows an **80/20 rule**:
+* **Preserve 80%:** Keep the load-bearing mental models intact (e.g., control responsiveness, core verbs, fundamental failure stakes) so players feel grounded.
+* **Subvert 20%:** Target specific decorative conventions or introduce a single cross-genre hybrid mechanic to create an unmistakable, high-concept market hook.
+
+### 6.2 Examples of Games That Successfully Challenge Genre Norms
+
+Examining titles that successfully subverted genre expectations demonstrates how targeted innovation creates industry-defining hits:
+
+#### 1. *Crypt of the NecroDancer* (Rogue-like × Rhythm)
+* **Convention Broken:** Traditional turn-based Rogue-like dungeon crawlers allow players infinite time to plan each step or attack.
+* **The Subversion:** Forced discrete turn movement to synchronize with the beat of the soundtrack, converting slow, analytical tile-stepping into a high-pressure rhythm execution test.
+* **Why It Worked:** It preserved the load-bearing elements of Rogue-likes (procedural dungeons, permadeath, grid movement, item drops) while replacing the temporal engine with rhythmic precision.
+
+#### 2. *Inscryption* (Deckbuilder Roguelike × Escape Room Horror)
+* **Convention Broken:** Deckbuilder Roguelikes traditionally present card battles through abstract 2D interfaces and node maps without physical spatial agency.
+* **The Subversion:** Embedded the card game inside a physical first-person 3D cabin where players can stand up from the table, solve escape-room puzzles, and manipulate the physical environment to unlock new cards and narrative secrets.
+* **Why It Worked:** The core card mechanics retained strict tactical depth, while the physical environment broke the visual isolation typical of the sub-genre.
+
+#### 3. *Superhot* (First-Person Shooter × Puzzle)
+* **Convention Broken:** First-person shooters traditionally operate on continuous, real-time spatial reflexes and recoil management.
+* **The Subversion:** Linked time progression directly to player movement—time moves *only* when the player moves.
+* **Why It Worked:** It stripped away twitch reaction demands while retaining 1st-person aiming, transforming standard room-clearing firefights into deliberate, tactical spatial puzzles.
+
+
+### 6.3 Risks and Rewards of Breaking Conventions
+
+Subverting genre norms is a high-stakes design strategy. When executed with precision, it creates market-defining hits; when done haphazardly, it alienates players and undermines the game's core loop.
+
+#### The Rewards of Calculated Subversion
+
+* **High Commercial & Marketing Readability:** Subverting a well-known convention yields an instant, highly marketable "pitch hook" (e.g., *"A shooter where time only moves when you move"*).
+* **Unprecedented Player Engagement:** Delivering a fresh experience within a familiar framework creates deep intellectual satisfaction, reigniting interest for veteran genre fans.
+* **Genre Codification:** Successfully breaking and redefining a convention can establish a brand-new sub-genre benchmark that future developers emulate (e.g., *Slay the Spire* establishing intent telegraphing in digital deckbuilders).
+
+#### The Risks of Unintentional or Unfocused Subversion
+
+* **Player Friction & Alienation:** Violating load-bearing conventions destroys the player's mental model, leading to confusion, unfair failure perceptions, and early player drop-off.
+* **Cognitive Fatigue:** Subverting too many conventions simultaneously overwhelms players, forcing them to learn multiple complex rule sets at once without a familiar baseline anchor.
+* **Complex Balance & Vector-Bug Inflation:** Introducing unprecedented systemic interactions exponentially increases the likelihood of unintended exploit loops, unviable play styles, and QA testing challenges.
+
+#### The Convention Audit Diagnostic Table
+
+Before committing to a genre subversion in production, evaluate your proposed mechanic against this diagnostic checklist:
+
+| Evaluation Criteria | Diagnostic Question | Green Light Indicator | Red Light Warning |
+| :--- | :--- | :--- | :--- |
+| **Rule Classification** | Is the convention you are breaking *decorative* or *load-bearing*? | Breaking a decorative convention (art style, thematic skin, camera angle). | Removing a load-bearing mechanic without replacing its structural function. |
+| **Mental Model Anchoring** | Does the player retain at least 80% of their familiar mental model? | Core controls, interaction verbs, and failure loops remain readable. | Players have no intuitive understanding of how to play or succeed. |
+| **Pacing & Friction** | Does the subversion enhance the primary verb loop or disrupt it? | The twist creates a satisfying new tactical layer or emotional payoff. | The twist causes jarring pacing stalls or severe cognitive fatigue. |
+
+
+# Case Studies
+
+Deconstructing theoretical frameworks is essential, but analyzing real-world production decisions demonstrates how genre selection directly governs player sentiment, design scope, and commercial outcome. Section 7 presents detailed case studies of titles that succeeded—or struggled—based on their alignment with genre conventions.
+
+### 7.1 Deep Dive: Successes in Genre Alignment and Innovation
+
+Examining titles that successfully navigated the balance between genre stability and mechanical innovation offers clear lessons for design execution.
+
+#### Case Study 1: *Dead Cells* (Action Platformer × Rogue-lite)
+
+* **The Core Concept:** A high-speed 2D action game featuring fluid combat combined with the endless replayability of procedural run loops.
+* **Genre Strategy:** Blended the precise spatial controls and ability-gated traversal of a 2D **[[Game Design/Genre Dissection/Game Genres/Action\|Action]]** platformer with the procedural room layouts, permadeath resets, and meta-currencies of a **[[Game Design/Genre Dissection/Game Genres/Role-playing#Rogue-like\|Rogue-lite]]**.
+* **Systemic Alignment Execution:**
+  * **Primary Verb:** Frame-accurate dodging, parrying, jump-slashing, and high-velocity spatial positioning.
+  * **Load-Bearing Preservation:** Kept twitch input responsiveness 100% deterministic—no RNG missed hits or stat-gated combat delays.
+  * **Calculated Innovation:** Subverted traditional static map saving by replacing it with procedurally generated biome runs, weapon drafting, and permanent cell-vault unlocks between deaths.
+* **Player Impact & Outcome:** By preserving the crisp physical control contract of action games while adopting the procedural loop of rogue-lites, *Dead Cells* eliminated run monotony without frustrating high-skill action fans.
+
+#### Case Study 2: *Balatro* (Poker × Deckbuilder Roguelike)
+
+* **The Core Concept:** A roguelike deckbuilder built entirely around modifying standard playing cards and scoring poker hands.
+* **Genre Strategy:** Took the complex drafting, passive relic synergies (Jokers), and escalating score quotas of a **[[Game Design/Genre Dissection/Game Genres/Role-playing#Deckbuilder Roguelike\|Deckbuilder Roguelike]]** and anchored them inside the universally understood rules of **Poker**.
+* **Systemic Alignment Execution:**
+  * **Primary Verb:** Hand evaluation, card purging, probability forecasting, and multiplier engine optimization.
+  * **Load-Bearing Preservation:** Maintained classic deckbuilding node structures (Ante blinds, shop phases, consumable tarots/planets, scaling score targets).
+  * **Calculated Innovation:** Stripped away abstract fantasy health bars, enemy intent turns, and complex custom lore decks. The "enemy" is simply an escalating point threshold, and the "deck" is a standard 52-card playing deck that players manipulate.
+* **Player Impact & Outcome:** Leveraging a universally recognized mental model (Poker) eliminated initial learning friction. Players immediately understood baseline card interactions, allowing them to focus entirely on learning complex multiplier math and Joker passive synergies.
+
+#### Case Study 3: *Subnautica* (Survival Crafting × Environmental Horror)
+
+* **The Core Concept:** An underwater open-world exploration game that transforms resource gathering into deep psychological survival tension.
+* **Genre Strategy:** Layered the resource loops, base building, and craft gating of **[[Game Design/Genre Dissection/Game Genres/Simulation#Survival Crafting\|Survival]]** games over the psychological dread, spatial vulnerability, and sensory deprivation of **[[Game Design/Genre Dissection/Game Genres/Horror\|Horror]]**.
+* **Systemic Alignment Execution:**
+  * **Primary Verb:** Resource harvesting, oxygen/depth management, vehicle piloting, and spatial navigation.
+  * **Load-Bearing Preservation:** Maintained standard survival crafting loops (gather raw materials $\rightarrow$ craft tools $\rightarrow$ build bases $\rightarrow$ reach deeper biomes).
+  * **Calculated Innovation:** Removed traditional weapons and combat mechanics almost entirely. Progression is gated by pressure depth limits and oxygen budgets, forcing players to venture into terrifying, pitch-black leviathan territories with zero defensive combat capabilities.
+* **Player Impact & Outcome:** By replacing traditional monster-slaying with depth-gated exploration, the game used survival craft progression to drive systemic environmental horror naturally, creating unprecedented immersion.
+
+#### Case Study 4: *Vampire Survivors* (Survivor-like / Auto-Shooter)
+
+* **The Core Concept:** A minimal-input horde survival game where the player focuses entirely on spatial dodging while attacks execute automatically.
+* **Genre Strategy:** Distilled top-down arena **[[Game Design/Genre Dissection/Game Genres/Shooter\|Shooter]]** and **[[Game Design/Genre Dissection/Game Genres/Action\|Action]]** mechanics into their absolute essence, hybridizing them with exponential rogue-lite item stacking.
+* **Systemic Alignment Execution:**
+  * **Primary Verb:** Pure spatial positioning, mob herd maneuvering, and drop collection.
+  * **Load-Bearing Preservation:** Maintained top-down horde survival pressure, timer-gated boss spawns, and XP-driven level upgrades.
+  * **Calculated Innovation:** Eliminated the manual aiming and shooting buttons entirely. By automating the primary execution verb (firing), all cognitive load shifted to spatial navigation and power-up synergy selection.
+* **Player Impact & Outcome:** Removing input complexity created an extremely addictive, low-friction core loop that spawned a massive new sub-genre ecosystem (*Survivor-like / Bullet Heaven*).
+
+### 7.2 Post-Mortem Analysis: Struggles in Misalignment
+
+Analyzing projects that faced critical friction or player disconnect reveals the danger of unintentional genre misalignment. When conflicting interaction paradigms are forced together without a unifying primary verb, the core loop collapses.
+
+#### Case Study 1: *Redfall* (Looter Shooter × Immersive Sim Tension)
+
+* **The Core Concept:** An open-world cooperative first-person shooter featuring vampire hunting, weapon tier upgrades, and supernatural hero abilities.
+* **The Structural Conflict:** Attempted to blend the slow, environmental exploration, stealth choices, and spatial tension of an **Immersive Sim** with the fast-paced, level-gated loot drops and high-density co-op combat of a **Looter Shooter**.
+* **Systemic Breakdown:**
+  * **Pacing Mismatch:** Looter shooter loops demand high enemy respawn rates, continuous mob clearance, and rapid numerical stat progression. Conversely, immersive sim design demands deliberate room layouts, stealth positioning, persistent world reactivity, and quiet tension.
+  * **Primary Verb Disconnect:** The game encouraged stealthy exploration, but punished it by spawning groups of aggressive vampires that required sustained high-DPS co-op weapon fire to eliminate, rendering stealth mechanics mechanically unviable.
+* **Player Impact & Outcome:** The opposing temporal rhythms actively undermined each other. Fast-paced co-op shooting ruined environmental horror tension, while slow stealth progression felt tedious during chaotic multiplayer firefights, resulting in severe ludonarrative and systemic dissonance.
+
+#### Case Study 2: *Godfall* (Looter Slasher × Action Character Combat)
+
+* **The Core Concept:** A third-person melee combat game focusing on heavy swordplay, shield throws, and equipment-based stat optimization.
+* **The Structural Conflict:** Hybridized the frame-accurate, high-commitment physical execution of character **[[Game Design/Genre Dissection/Game Genres/Action\|Action]]** combat (reminiscent of *Monster Hunter* or *God of War*) with the number-crunching, randomized rarity loot drops and DPS-check gear gating of a live-service **Looter RPG**.
+* **Systemic Breakdown:**
+  * **Combat vs. Stats Collision:** Character action games rely on player skill, spatial positioning, and learning enemy telegraph windows. Looter RPGs rely on gear scores, stat checks, and numerical damage scaling.
+  * **Friction in Execution:** Players found that mastering boss patterns and physical parry timings mattered less than grinding low-level zones to inflate passive damage percentages, stripping away the visceral satisfaction of the action combat layer.
+* **Player Impact & Outcome:** The mechanical requirements contradicted the reward loop. High-skill execution felt unrewarding when encounters were gated by gear score mathematics, leading to quick player attrition and critical friction.
+
+### 7.3 Lessons Learned: Diagnostic Post-Mortem Summary
+
+Reviewing real-world commercial successes and missteps reveals consistent patterns in how genre alignment, interaction verbs, and pacing intersect. The following diagnostic summary highlights the primary takeaways for design execution:
+
+| Game | Core Design Focus | Structural Outcome | Key Design Takeaway |
+| :--- | :--- | :--- | :--- |
+| ***Dead Cells*** | Paired twitch 2D action control with procedural run loops. | High replayability without sacrificing action game feel. | High-execution verbs can thrive in procedural loops if core input responsiveness remains 100% deterministic. |
+| ***Balatro*** | Anchored complex deckbuilder mechanics in a universally known mental model (Poker). | Eliminated initial cognitive friction for card drafting and scoring. | Familiar decorative frameworks lower the learning barrier for complex systemic engines. |
+| ***Subnautica*** | Layered survival crafting loops over depth-gated spatial horror. | Driven horror naturally through exploration pacing rather than combat. | Removing traditional combat can heighten environmental tension when paired with survival resource pressure. |
+| ***Vampire Survivors*** | Automated the primary shooting verb to focus entirely on spatial dodging. | Created an addictive, low-friction core gameplay loop. | Stripping away manual input complexity can birth entirely new sub-genre ecosystems (*Survivor-like*). |
+| ***Redfall*** | Layered high-density co-op looting over slow immersive sim stealth. | Conflicting pacing models created systemic and aesthetic dissonance. | Never pair paradigms with opposing temporal rhythms without establishing a unified primary verb. |
+| ***Godfall*** | Hybridized high-commitment character action combat with numerical looter RPG stats. | Combat mastery felt unrewarding when gated by gear score math. | Numerical stat inflation must never override player skill and execution precision in action games. |
+
+
+# Hypothetical Scenarios
+
+Theory and case studies provide the map, but active problem-solving builds the muscle. Section 8 presents two common game development crises. Use the Genre Dissection principles established throughout this repository to diagnose the systemic root causes and formulate corrective execution plans.
+
+### 8.1 Scenario A: The "Kitchen Sink" Feature Trap
+
+#### The Scenario
+An indie development team is six months into production on a game initially pitched as *"a gritty cyberpunk bounty hunter game."* However, over the course of development, different team members have continuously added features they loved from other disparate games:
+* The lead programmer implemented an open-world vehicle crafting system inspired by *Subnautica*.
+* The lead designer added card-drafting hand management for gun fights inspired by *Slay the Spire*.
+* The writer demanded deep branching romance dialogues and inventory weight limits inspired by CRPGs.
+
+#### The Problem
+Playtesters report that the game feels exhausting, disjointed, and confusing. Players spend fifteen minutes managing crafting spreadsheets and card hands just to complete a thirty-second shootout, and no one on the team or among the playtesters understands what the core gameplay loop is actually supposed to be.
+
+#### The Diagnostic Task (Applying Genre Dissection)
+
+| Diagnostic Step | Analysis |
+| :--- | :--- |
+| **1. Identify the Primary Interaction Verb Failure** | The player is forced to juggle real-time shooting, card drafting, and inventory resource micro-management simultaneously. This creates massive cognitive overload because the verbs belong to entirely different interaction paradigms. |
+| **2. Apply the Scoping Filter** | Using the 80/20 Alignment Rule from Section 5.1, the project lacks a single anchor. The team must make immediate structural cuts to salvage the core loop. |
+
+#### Recommended Resolution
+* **Choose a Single Anchor:** The team must select *one* primary paradigm. If the unique hook is card-based tactical gunfights, anchor the project strictly in [[Game Design/Genre Dissection/Game Genres/Role-playing#Deckbuilder Roguelike\|Deckbuilder Roguelike]] mechanics.
+* **Quarantine or Cut:** Strip out the open-world vehicle crafting and inventory weight management entirely. If card drafting is the core verb, streamline the shooting element into card execution, eliminating real-time execution friction.
+
+### 8.2 Scenario B: The Accidental Power-Fantasy
+
+#### The Scenario
+A studio is developing a psychological survival-horror game where players are supposed to feel fragile, hunted, and terrified. 
+
+To give players "long-term progression satisfaction," the design team implemented an extensive RPG leveling tree, rare tier-dropping weapon loot, and high-scaling damage multipliers inspired by *Looter Shooter* and ARPG progression models.
+
+#### The Problem
+By Act 2 of the game, players are no longer sneaking or running away from monsters. Instead, because of exponential stat scaling and high-tier gear drops, players are aggressively rushing boss rooms, face-tanking damage, and one-shotting terrifying horror monsters with overpowered shotgun blasts. The horror atmosphere has completely collapsed.
+
+#### The Diagnostic Task (Applying Genre Dissection)
+
+| Diagnostic Step | Analysis |
+| :--- | :--- |
+| **1. Identify the Ludonarrative Dissonance** | The mechanics actively fight the narrative intent. Numerical RPG stat scaling and high-DPS weapon drops directly contradict the foundational spatial vulnerability and helplessness required by survival horror. |
+| **2. Formulate a Structural Correction** | The team must eliminate numerical power scaling to restore the horror loop, realigning system rewards with atmospheric tension. |
+
+#### Recommended Resolution
+* **Flatten the Economy:** Remove exponential damage scaling, weapon tier rarities, and heavy stat-inflation skill trees. 
+* **Shift Progression to Utility, Not Power:** Replace numerical damage upgrades with utility unlocks (e.g., better flashlights, silent movement boots, map-marking tools) that aid navigation and situational awareness rather than inflating combat dominance. Keep the player physically vulnerable throughout the entire experience.
+
+
+### 8.3 Creator Workshop: Your Own Project Audit
+
+If you are currently facing misalignment, confusion, or feature bloat on a game you are building or planning, pause production and run this quick three-step audit right now:
+
+| Audit Step | Diagnostic Action | Decision Rule |
+| :--- | :--- | :--- |
+| **1. Verb Isolation** | Write down what the player does for 80% of active gameplay in a single, concrete sentence. | If your sentence includes more than two disparate verbs (e.g., *"shooting, crafting, and trading"*), your core interaction loop is unaligned. |
+| **2. Mental Model Check** | Ask a colleague, friend, or playtester what game genre yours reminds them of based on a 2-minute look. | If their answer doesn't match your intended sub-genre anchor, your mechanical telegraphing or input contract is misaligned. |
+| **3. The Bloat Purge** | Review your current feature backlog item by item. | If a feature does not directly serve your primary interaction paradigm or your 20% differentiating hook, **cut or quarantine it immediately**. |
+
+# Conclusion
+
+Genres in video game development are often treated as rigid marketing boxes or immutable design cages. However, as we have explored throughout this repository, genres are actually **dynamic, living mental models** shaped by the shared expectations between creators and players.
+
+### 9.1 Summary of Key Principles
+
+As you move forward with your own game design and production endeavors, keep these foundational pillars of Genre Dissection at the forefront:
+
+* **The Power of the Primary Verb:** Every successful game is anchored in a clear primary interaction paradigm. Strip away the theme, lore, and surface-level art to ensure your core loop drives eighty percent of player engagement without cognitive friction.
+* **Genre as an Alignment Engine:** Use genre conventions not as a rulebook to blindly obey, but as a scoping filter to eliminate feature bloat, prevent team misalignment, and protect your player's mental model.
+* **Calculated vs. Unintentional Innovation:** Breaking rules can create breakout hits, but you must distinguish between *load-bearing* conventions (foundational rules that sustain the loop) and *decorative* conventions (surface traditions ripe for subversion). Preserve the 80% foundational mental model while introducing your 20% differentiating hook.
+* **Iterative Post-Mortem Analysis:** Treat existing games and your own prototypes as active diagnostic case studies. Look past surface aesthetics to understand how micro, meso, and macro economies support, or undermine, the player's experiential goals.
+
+### 9.2 The Dynamic Future of Play
+
+Game design is an evolving conversation. As new technologies emerge, player expectations shift, and developers continue to cross-pollinate unexpected mechanics, boundaries between traditional genres will continue to dissolve. Hybridization is no longer a niche anomaly, it is a primary engine for industry innovation.
+
+Embrace experimentation, but anchor your creative risks in rigorous structural clarity. By understanding the mechanical anatomy of play, you transform game design from a guessing game into an intentional craft.
+
+### 9.3 Continuing the Journey
+
+Genre Dissection is not a one-time checklist; it is a continuous practice. Whether you are starting a blank canvas project, debugging a misaligned production pipeline, or studying the mechanics of your favorite new release, apply these lenses to keep your designs focused, your players engaged, and your creative vision sharp. 
+
+Keep building, keep dissecting, and let structural clarity guide your craft.
