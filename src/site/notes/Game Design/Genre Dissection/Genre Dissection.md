@@ -8,6 +8,9 @@
    - Purpose of the Genre Dissection section in the handbook
 ## 2. Basics of Video Game Genres
 
+[[Game Design/Genre Dissection/Game Genres/Action\|boop]]
+ **[[Game Design/Genre Dissection/Game Genres/Action#Arcade\|Beep]]**
+
 ### **[[Game Design/Genre Dissection/Game Genres/Action\|Action]]**
 
 - **[[Game Design/Genre Dissection/Game Genres/Action#Arcade\|Action#Arcade]]**
