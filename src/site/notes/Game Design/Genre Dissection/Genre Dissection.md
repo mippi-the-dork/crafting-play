@@ -440,6 +440,11 @@ For designers starting with a blank canvas or production teams stuck in feature 
 
 When a project begins as a vague concept (e.g., _"a dark sci-fi game about an outcast space pirate"_), teams easily fall into the trap of over-scoping or building conflicting mechanics. This section provides a practical, step-by-step workflow for translating abstract ideas into aligned, production-ready execution plans.
 
+Selecting a genre dictates your project's technical architecture, verb density, and scope limitations long before production begins. Aligning your core mechanics, technical prerequisites, and input ergonomics early prevents feature creep and production bottlenecks.
+
+> 📘 **Deep Dive Guide:** For a practical pre-production toolkit on verb budgeting, technical architecture requirements, and minimum viable loops, audit your project using **[[Game Design/Genre Dissection/The Genre Execution and Scoping Blueprint\|The Genre Execution and Scoping Blueprint]]**.
+
+
 ### 5.1 The Importance of Aligning with Genre Conventions
 
 When starting a new project or evaluating a game already in production, developers often begin with high-level thematic ideas (e.g., *"a dark fantasy game about an exiled alchemist"*) or a collection of cool features. Without a clear structural anchor, early development frequently devolves into scope creep, conflicting mechanics, and team misalignment.
