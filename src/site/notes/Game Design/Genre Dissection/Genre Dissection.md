@@ -445,7 +445,7 @@ When a project begins as a vague concept (e.g., _"a dark sci-fi game about an ou
 
 Selecting a genre dictates your project's technical architecture, verb density, and scope limitations long before production begins. Aligning your core mechanics, technical prerequisites, and input ergonomics early prevents feature creep and production bottlenecks.
 
-> 📘 **Deep Dive Guide:** For a practical pre-production toolkit on verb budgeting, technical architecture requirements, and minimum viable loops, audit your project using **[[Game Design/Genre Dissection/The Genre Execution and Scoping Blueprint\|The Genre Execution and Scoping Blueprint]]**.
+> **Deep Dive Guide:** For a practical pre-production toolkit on verb budgeting, technical architecture requirements, and minimum viable loops, audit your project using **[[Game Design/Genre Dissection/The Genre Execution and Scoping Blueprint\|The Genre Execution and Scoping Blueprint]]**.
 
 
 ### 5.1 The Importance of Aligning with Genre Conventions
@@ -531,7 +531,7 @@ While aligning with genre conventions builds a reliable foundation, groundbreaki
 
 Subverting established tropes is one of the most effective ways to create memorable, innovative games. However, breaking rules without understanding player mental models risks destroying player trust and creating severe mechanics friction.
 
-> 📘 **Deep Dive Guide:** For a comprehensive pre-production toolkit on subverting tropes cleanly, audit your design using **[[Game Design/Genre Dissection/The Convention Subversion Framework\|The Convention Subversion Framework]]**.
+> **Deep Dive Guide:** For a comprehensive pre-production toolkit on subverting tropes cleanly, audit your design using **[[Game Design/Genre Dissection/The Convention Subversion Framework\|The Convention Subversion Framework]]**.
 
 
 ### 6.1 Creative Exploration & The "Load-Bearing" Rule Framework
