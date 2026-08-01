@@ -430,8 +430,8 @@ Synthesizing mechanics across distinct parent genres offers powerful creative an
 * **Ludonarrative & Mechanical Dissonance:** Intersecting rule sets can undermine core design intent, such as when high-scaling RPG character stats trivialize the spatial tension of a precision stealth system.
 * **Complex Balance & Vector-Bug Density:** Combining distinct rule engines exponentially increases the likelihood of unintended exploit loops, broken character builds, and complex QA testing vectors.
 
-
-Here is a complete, practical draft for **Section 5: Building Execution Plans**, built specifically around using Genre Dissection as an active creation, scoping, and team-alignment framework.
+> [!NOTE] Deep Dive Available
+> Want to diagnose and prevent systemic friction before it breaks your game? Explore the dedicated [[Game Design/Genre Dissection/The Hybridization Collision Matrix\|The Hybridization Collision Matrix]] for a granular breakdown of economy collisions, temporal pacing mismatches, and pre-production stress-testing worksheets.
 
 # Building Execution Plans
 
