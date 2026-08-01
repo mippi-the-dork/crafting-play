@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/game-design/genre-dissection/the-hybridization-collision-matrix/","dg-note-properties":{}}
 ---
 
-# Introduction: Anatomy of a Systemic Collision
+# Anatomy of a Systemic Collision
 
 When game creators cross-pollinate two distinct genres, the high-concept elevator pitch usually sounds revolutionary on paper: *“It’s an Immersive Sim combined with a Looter Shooter,”* or *“It’s a Deckbuilder Roguelike crossed with a Real-Time Strategy game.”* On the surface, the aesthetic, thematic, and marketing synergy feels natural. The concept art aligns, the pitch deck turns heads, and early trailer cuts generate high engagement.
 
