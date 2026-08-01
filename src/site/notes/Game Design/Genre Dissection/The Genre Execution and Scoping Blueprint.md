@@ -53,6 +53,7 @@ To manage cognitive load effectively, categorize every action verb in your desig
 | **Tertiary Verbs** | Low frequency (meta-game or paused state). | Analytical / Strategic planning. | Start/Select, Touchpad, sub-menus, mouse UI. | Inventory Management, Skill Trees, Map Scouting, Quest Logs. |
 
 ##### The Verb Saturation Warning
+
 > **The Rule of Ergonomic Overload:** If a game forces players to manage more than **3 Primary Verbs** simultaneously during high-velocity gameplay, execution error rates spike exponentially. Secondary verbs must complement, never fight for inputs with, primary verbs during intense encounters.
 
 #### 2.2 Input Mapping & Physical Ergonomics
@@ -113,6 +114,7 @@ Pre-production scoping requires categorizing planned features into structural ne
 | **Surface Trim & Meta Systems** | Secondary progression, customization, or visual layers wrapped around the primary loop. | **Negotiable:** Can be scaled, delayed, or cut entirely during production without breaking core playability. | • Weapon crafting sub-menus<br>• Stat-allocated talent trees<br>• Dynamic cosmetics & skin unlocks |
 
 ##### The Surface Trim Delusion
+
 > **The Feature Mirage:** Designers often attempt to fix an unengaging core loop by adding surface trim (e.g., *"Combat feels a bit flat, but once we add loot drops and crafting, it will be fun"*). Secondary progression systems only amplify the quality of an existing loop; they cannot save a broken foundation.
 
 
@@ -261,6 +263,7 @@ Use this scoring rubric during greenlight reviews to evaluate your project’s s
 To see how the execution audit functions in practice, let's run a high-concept pitch through the framework.
 
 ##### Concept Elevator Pitch
+
 > *"A high-speed, multiplayer 3D Character Action Game featuring frame-accurate sword combat, real-time voxel terraforming, deep survival crafting skill trees, and 100-player Battle Royale matches."*
 
 ##### Step-by-Step Diagnostic Audit

@@ -253,6 +253,7 @@ Use this scoring rubric during pre-production pitch reviews to calculate your pr
 To see how the 4-step audit and scorecard function in practice, let's run a high-concept pitch through the diagnostic framework.
 
 ##### Concept Elevator Pitch
+
 > *"A high-velocity 3D hack-and-slash game where combat combos, special abilities, and defensive maneuvers are drawn randomly from a customizable deck of cards in real time mid-fight."*
 
 ##### Step-by-Step Diagnostic Audit

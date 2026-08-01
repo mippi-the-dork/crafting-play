@@ -90,6 +90,7 @@ Parent genres dictate not only what players *desire*, but also what mechanical f
 | **Precision Platformer** | Competence | Mastery & Challenge | Action & Thrill | Dynamic physics randomness or sloppy, un-buffered input execution. |
 | **Cozy / Life Sim** | Autonomy | Creativity & Autonomy | Immersion & World-Building | High-stakes time limits or punishing death/failure penalties. |
 
+> [!NOTE] 
 > **Design Warning:** Attempting to appeal to every motivation cluster simultaneously results in **Psychological Dilution**. A game designed for everyone satisfies no one, as the mechanics required for one cluster (e.g., severe permadeath for Mastery) directly destroy another (e.g., long-term cozy building for Creativity).
 
 
@@ -163,6 +164,8 @@ Players approach different genres with distinct expectations regarding time comm
 | **Deep Immersion** | 2+ hours | High mental investment; spatial presence; systemic complexity. | PC, Home Console. | Grand Strategy, CRPGs, MMOs, Open-World Simulators. |
 
 ##### The Session Horizon Disconnect
+
+> [!NOTE] 
 > **Design Warning:** Forcing Deep Immersion save/exit structures (e.g., rigid 45-minute unpausable dungeon runs with no mid-way save checkpoints) onto platforms or player bases targeting Tactical or Micro horizons creates immediate drop-off and negative review sentiment.
 
 #### 4.2 Managing Cognitive Fatigue & Flow State
@@ -283,6 +286,7 @@ Use this 20-point diagnostic rubric during pre-production reviews to evaluate yo
 To illustrate the motivation audit in practice, analyze a high-concept pitch evaluated through the diagnostic scorecard.
 
 ##### Concept Elevator Pitch
+
 > *"A hyper-realistic 3D wilderness survival game featuring permadeath, deep narrative branching, 50-hour story campaigns, complex medical simulation, and unpausable real-time multiplayer raids."*
 
 ##### Step-by-Step Diagnostic Audit
