@@ -11,9 +11,9 @@ Let's get to work.
 
 Table of Contents:
 
-- [[Game Design/Welcome\|Welcome]]
+- [[Game Design/Welcome\|Welcome]] - This is the page you're  on currently.
 	
-	- [[Game Design/Frameworks & Models/Frameworks and Models\| Frameworks & Models]]
+	- [[Game Design/Frameworks & Models/Frameworks and Models\| Frameworks & Models]] - A collection of Game Design Frameworks & Models to provide practical tools for analyzing, communicating, and solving design problems through structured principles, decision-making frameworks, and proven design methodologies.
 	
 		- [[Game Design/Frameworks & Models/6-11 Framework/6-11 Framework\|6-11 Framework]] - Suits games focusing on player psychology, mapping basic emotions and instincts directly to mechanical loops to engineer intentional emotional engagement.
 		
@@ -41,8 +41,18 @@ Table of Contents:
 		  
 		- [[Game Design/Frameworks & Models/Elemental Tetrad Model/Elemental Tetrad Model\|Elemental Tetrad Model]] - Excels at holistic creative direction and system balancing across the four interdependent pillars of mechanics, story, aesthetics, and technology.
 	
-	-  [[Game Design/Genre Dissection/Genre Dissection\|Genre Dissection]]
+	-  [[Game Design/Genre Dissection/Genre Dissection\|Genre Dissection]] - Design reference for analyzing games through their core experiences, mechanics, player motivations, and genre structures, helping designers understand, communicate, and intentionally shape the identity of a game.
+	  
+		- [[Game Design/Genre Dissection/Genre Glossary\|Genre Glossary]] - An alphabetical glossary of Genres, Sub-Genres, and Sub-Sub-Genres that link to deeper larger pages on the genres and the specifics of them.
+		  
+		- [[Game Design/Genre Dissection/The Player Fantasy Motivation Framework\|The Player Fantasy Motivation Framework]] - Explores the psychological fantasies and intrinsic motivations that drive player engagement, helping designers understand **why** players are drawn to different game experiences beyond genre alone.
+		  
+		- [[Game Design/Genre Dissection/The Hybridization Collision Matrix\|The Hybridization Collision Matrix]] - A design tool for exploring how different genres, mechanics, and player experiences naturally complement, reinforce, or conflict with one another, helping designers create more cohesive hybrid game concepts.
+		  
+		- [[Game Design/Genre Dissection/The Genre Execution and Scoping Blueprint\|The Genre Execution and Scoping Blueprint]] - Provides a practical framework for evaluating the complexity, production scope, and implementation challenges of different genres, helping designers make informed decisions about feasibility, team requirements, and project scale.
+		  
+		- [[Game Design/Genre Dissection/The Convention Subversion Framework\|The Convention Subversion Framework]] - Helps designers identify established genre conventions and intentionally reinforce or challenge player expectations to create experiences that feel both familiar and memorable.
 	
-	- [[Game Design/Theory/Game Theory\|Game Theory]]
+	- [[Game Design/Theory/Game Theory\|Game Theory]] - Explores the fundamental principles behind how games create meaningful player experiences, providing frameworks for understanding mechanics, systems, decision-making, and the relationship between player actions and outcomes.
 	
-	- [[Game Design/Author Notes\|Author Notes]]
+	- [[Game Design/Author Notes\|Author Notes]] - Some general notes from the author, Mippi The Dork, regarding this knowledge repository. 
