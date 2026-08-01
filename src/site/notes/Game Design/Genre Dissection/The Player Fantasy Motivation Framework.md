@@ -90,7 +90,6 @@ Parent genres dictate not only what players *desire*, but also what mechanical f
 | **Precision Platformer** | Competence | Mastery & Challenge | Action & Thrill | Dynamic physics randomness or sloppy, un-buffered input execution. |
 | **Cozy / Life Sim** | Autonomy | Creativity & Autonomy | Immersion & World-Building | High-stakes time limits or punishing death/failure penalties. |
 
-> [!NOTE] 
 > **Design Warning:** Attempting to appeal to every motivation cluster simultaneously results in **Psychological Dilution**. A game designed for everyone satisfies no one, as the mechanics required for one cluster (e.g., severe permadeath for Mastery) directly destroy another (e.g., long-term cozy building for Creativity).
 
 
@@ -165,7 +164,6 @@ Players approach different genres with distinct expectations regarding time comm
 
 ##### The Session Horizon Disconnect
 
-> [!NOTE] 
 > **Design Warning:** Forcing Deep Immersion save/exit structures (e.g., rigid 45-minute unpausable dungeon runs with no mid-way save checkpoints) onto platforms or player bases targeting Tactical or Micro horizons creates immediate drop-off and negative review sentiment.
 
 #### 4.2 Managing Cognitive Fatigue & Flow State

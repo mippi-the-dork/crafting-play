@@ -99,7 +99,6 @@ This repository is built as a functional system manual rather than a linear text
 
 The following section serves as the central navigational and taxonomy hub for the 19 primary video game genres analyzed in this repository. While each genre has its own dedicated sub-page detailing granular attribute tables, historical evolutions, and case studies, this section organizes them into functional clusters based on their underlying interaction paradigms.
 
-> [!NOTE] 
 > For quick text definitions and summary descriptions of each genre, see the dedicated [[Game Design/Genre Dissection/Genre Glossary\|Genre Glossary]].
 
 
@@ -156,7 +155,6 @@ This comparison table provides an executive-level view of all 19 primary genres,
 
 ### 2.3 Emergent & Sub-Genre Mapping
 
-> [!NOTE] 
 > **Scope & Selection:** Modern commercial games routinely blend mechanics across categories. The sub-genres listed below represent a curated selection of prominent, high-frequency industry benchmarks rather than an exhaustive index. They demonstrate how major contemporary design paradigms map back to specific sections within the primary parent genre pages in this repository.
 
 When navigating the dedicated sub-pages in this repository, note where key modern sub-genres are anchored within the primary genre pages:
@@ -189,7 +187,6 @@ When navigating the dedicated sub-pages in this repository, note where key moder
 
 Categorizing modern commercial titles requires moving beyond superficial marketing tags or thematic skins. This section provides the analytical framework for identifying a game's true mechanical anchor, evaluating its core design pillars, and applying this rubric through practical case studies.
 
-> [!NOTE] 
 >  **Deep Dive Guide:** To map game mechanics directly to player psychology, emotional fulfillment, and cognitive session pacing when auditing benchmark games, use **[[Game Design/Genre Dissection/The Player Fantasy Motivation Framework\|The Player Fantasy Motivation Framework]]**.
 
 
@@ -434,7 +431,6 @@ Synthesizing mechanics across distinct parent genres offers powerful creative an
 * **Ludonarrative & Mechanical Dissonance:** Intersecting rule sets can undermine core design intent, such as when high-scaling RPG character stats trivialize the spatial tension of a precision stealth system.
 * **Complex Balance & Vector-Bug Density:** Combining distinct rule engines exponentially increases the likelihood of unintended exploit loops, broken character builds, and complex QA testing vectors.
 
-> [!NOTE] 
 > Want to diagnose and prevent systemic friction before it breaks your game? Explore the dedicated [[Game Design/Genre Dissection/The Hybridization Collision Matrix\|The Hybridization Collision Matrix]] for a granular breakdown of economy collisions, temporal pacing mismatches, and pre-production stress-testing worksheets.
 
 
@@ -532,7 +528,6 @@ While aligning with genre conventions builds a reliable foundation, groundbreaki
 
 Subverting established tropes is one of the most effective ways to create memorable, innovative games. However, breaking rules without understanding player mental models risks destroying player trust and creating severe mechanics friction.
 
-> [!NOTE] 
 > **Deep Dive Guide:** For a comprehensive pre-production toolkit on subverting tropes cleanly, audit your design using **[[Game Design/Genre Dissection/The Convention Subversion Framework\|The Convention Subversion Framework]]**.
 
 
