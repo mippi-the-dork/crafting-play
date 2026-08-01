@@ -519,7 +519,12 @@ Run early, uninstructed playtests specifically to evaluate whether playtesters a
 
 # Breaking Genre Conventions
 
-While aligning with genre conventions builds a reliable foundation, groundbreaking commercial and critical hits often achieve their success by intentionally defying player expectations. Section 6 explores how to strategically subvert genre rules without alienating players or destroying core gameplay stability.
+While aligning with genre conventions builds a reliable foundation, groundbreaking commercial and critical hits often achieve their success by intentionally defying player expectations. This section explores how to strategically subvert genre rules without alienating players or destroying core gameplay stability.
+
+Subverting established tropes is one of the most effective ways to create memorable, innovative games. However, breaking rules without understanding player mental models risks destroying player trust and creating severe mechanics friction.
+
+> 📘 **Deep Dive Guide:** For a comprehensive pre-production toolkit on subverting tropes cleanly, audit your design using **[[Game Design/Genre Dissection/The Convention Subversion Framework\|The Convention Subversion Framework]]**.
+
 
 ### 6.1 Creative Exploration & The "Load-Bearing" Rule Framework
 
