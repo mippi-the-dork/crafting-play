@@ -13,7 +13,7 @@ Whether you are a seasoned game designer or just starting out, this section will
 - ### [[Game Design/Theory/Game Theory in Video Game Design - An Overview of Importance\|Definition and Importance in Video Games]]
     - An overview of game theory and its significance in the context of video game design, highlighting how it helps in creating engaging and balanced gameplay.
 
-- ### [[Brief History of Game Theory in Game Design \|Brief History of Game Theory in Game Design]]
+- ### [[Game Design/Theory/Brief History of Game Theory in Game Design\|Brief History of Game Theory in Game Design]]
     - A look at the historical development of game theory and its integration into the evolution of video game design.
 
 ## 2. Fundamental Concepts of Game Theory
