@@ -107,11 +107,11 @@ It stripped graphical RPGs down to ASCII text characters, challenging players to
 
 ### Comparison Summary
 
-|**Game**|**Structural Focus**|**Key Innovation / Hook**|**Primary Design Lesson**|
-|---|---|---|---|
-|**Baldur's Gate 3**|CRPG sandbox, D&D 5e dice checks, & player agency|Unprecedented narrative freedom, D&D d20 dice rolls, and reactive environmental combat physics|How translating tabletop RPG rule-sets into digital spaces with reactive environments yields ultimate player agency.|
-|**Chrono Trigger**|Classic JRPG, time-travel eras, & combo techs|Seamless field-to-combat transitions paired with multi-character combo techs and era-shifting time travel|How combining cinematic time-travel storytelling with fast-paced ATB combat creates a timeless RPG masterpiece.|
-|**Rogue**|Foundational dungeon crawler, ASCII procedurals, & permadeath|Pioneered procedural ASCII room generation, permadeath, and randomized potion identification loops|How stripping graphics down to core mathematical and procedural loops creates an infinitely deep RPG foundation.|
+| **Game**            | **Structural Focus**                                          | **Key Innovation / Hook**                                                                                 | **Primary Design Lesson**                                                                                            |
+| ------------------- | ------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| **Baldur's Gate 3** | CRPG sandbox, D&D 5e dice checks, & player agency             | Unprecedented narrative freedom, D&D d20 dice rolls, and reactive environmental combat physics            | How translating tabletop RPG rule-sets into digital spaces with reactive environments yields ultimate player agency. |
+| **Chrono Trigger**  | Classic JRPG, time-travel eras, & combo techs                 | Seamless field-to-combat transitions paired with multi-character combo techs and era-shifting time travel | How combining cinematic time-travel storytelling with fast-paced ATB combat creates a timeless RPG masterpiece.      |
+| **Rogue**           | Foundational dungeon crawler, ASCII procedurals, & permadeath | Pioneered procedural ASCII room generation, permadeath, and randomized potion identification loops        | How stripping graphics down to core mathematical and procedural loops creates an infinitely deep RPG foundation.     |
 
 ### Why is Rogue a better fit as an example in RPG, instead of Rogue-likes you may be asking yourself?
 
@@ -898,3 +898,107 @@ Set in a dark, puppet-infested Belle Époque city inspired by the story of Pinoc
 | **Dark Souls III (2016)** | Linear-to-branched dark fantasy, bonfire loops, & weapon arts | Master-crafted shortcut architecture paired with tight Estus management and dynamic weapon arts               | How refining combat fluidity and level looping perfects traditional Soulslike design.                     |
 | **Elden Ring (2022)**     | Open-world dark fantasy, spectral mounts, & Spirit Ashes      | Translating brutal dungeon combat into a massive open world with optional Stakes of Marika and Spirit summons | How opening a linear soulslike into a vast sandbox makes punishing difficulty accessible to more players. |
 | **Lies of P (2023)**      | Belle Époque puppet horror, modular weapons, & guard parries  | Innovative modular weapon assembly paired with strict guard-parry systems and choice-driven humanity loops    | How introducing modular weapon crafting and crisp parry mechanics revitalizes the soulslike formula.      |
+
+
+# Deckbuilder Roguelike
+
+### Attribute Breakdown
+
+- **Primary Defining Attribute: Card-Based Ability Abstraction, Procedural Run Synergies & Deck Optimization** 
+
+	- Unlike traditional RPGs that rely on fixed skill bars or equipment slots, Deckbuilder Roguelikes define their core loop around abstracting character abilities, spells, items, and defenses into a customizable deck of cards. Gameplay centers on drawing dynamic hands each turn, navigating procedural node maps, drafting synergistic cards after combat, purging weak starting cards at shops, and acquiring passive relics that alter base game engine rules.
+
+- **Associated/Adjacent Qualities:**
+  
+	- **Card-As-Ability Abstraction:** Representing player attacks, defensive blocks, status debuffs, and magical spells as individual cards rather than fixed hotbars or menu lists.
+	  
+	* **Procedural Deck Construction & Pruning:** Drafting new cards after combat encounters while actively removing (purging) basic starting cards to increase deck draw consistency.
+	  
+	* **Relic & Artifact Synergies:** Collecting passive artifacts that alter foundational engine rules, triggering explosive mechanical interactions with specific card archetypes.
+	  
+	* **Deterministic Intent Telegraphing:** Displaying incoming enemy actions, attack values, and debuffs prior to player turn execution, turning combat into a solvable tactical puzzle.
+	  
+	* **Turn Energy & Draw Pool Management:** Budgeting a finite turn energy resource to play cards while managing draw, discard, and exhaust piles across combat rotations.
+
+### Hybridization Analysis
+
+- **Genre Hybrid Types:** Deckbuilder Roguelike / Card Battler / Turn-Based Tactical / Procedural Dungeon Crawler.
+  
+- **Benefits:**
+  
+	* **High Strategic Expression:** Assembling hyper-synergistic card engines from randomized reward pools grants immense intellectual satisfaction when a custom build comes together.
+	  
+	* **Dynamic Turn-to-Turn Variety:** Even with a fixed deck, randomized hand draw order forces continuous tactical adaptation rather than relying on static rotation sequences.
+
+- **Challenges:**
+  
+	* **RNG Variance & Unviable Builds:** Bad card draft offerings or unsupportive relic drops can leave players with incoherent decks that fail against high-scaling late-game bosses.
+	  
+	* **Deck Pollution & Bloat:** Inexperienced players often over-draft cards, diluting their primary synergies and rendering starting cards dead weight without accessible purge nodes.
+
+### Genre Alignment Rationale (The "How" and "Why")
+
+- **Mechanics:**
+  
+	* **Rules & Player Actions:** Actions center on drafting cards, spending turn energy, managing hand draw/discard cycles, pathfinding across node maps, purchasing shop items, and purging unwanted cards. Rules govern energy limits, status effect durations, block dissipation at turn start, and relic passive triggers.
+	  
+	* **Risk-Reward Balance:** Pathing toward elite map nodes or taking cursed relics yields high-tier artifacts and rare cards, but risks devastating HP attrition before reaching resting campfires.
+
+- **Narrative & Aesthetics:**
+  
+	* **Storytelling Methods:** Delivered through minimalist event node prompts, cryptic relic flavor text, atmospheric world backgrounds, and mysterious floor bosses.
+	  
+	* **Visual Style & Sound Design:** Stylized 2D visual frames, distinct color-coded card motifs, satisfying card-play swooshes and impact sounds, dynamic ambient soundtracks, and clear UI intent icons.
+
+#### Slay the Spire (2017)
+##### **Why & How It Fits the Genre**
+
+Developed by Mega Crit Games and published by Humble Games, Slay the Spire stands as the monumental, industry-defining benchmark for modern digital Deckbuilder Roguelikes.  
+
+It abstracted classic RPG character classes into distinct card pools, strict energy economies, and a branching node-map spire ascent that revolutionized card-based video games.
+
+##### **Defining Mechanics**
+
+* **Perfect Intent Telegraphing:** Displaying exact enemy actions, damage output, and debuffs above enemy models for the upcoming turn, transforming combat into a deterministic tactical puzzle.
+  
+* **Energy & Hand Rotation Engine:** Managing a strict energy budget per turn to balance defensive block cards against offensive strikes while cycling draw, discard, and exhaust piles.
+  
+* **Relic Passive Matrix:** Collecting artifacts that permanently alter base engine rules (such as granting extra turn energy at the cost of hiding enemy intent, or granting block whenever cards exhaust).
+
+
+#### Monster Train (2020)
+##### **Why & How It Fits the Genre**
+
+Developed by Shiny Shoe and published by Good Shepherd Entertainment, Monster Train represents an acclaimed benchmark that innovated on the deckbuilder roguelike formula through multi-floor spatial defense.  
+
+It tasked players with defending three vertical train floors simultaneously while drafting dual-clan deck synergies to stop invading angelic forces.
+
+##### **Defining Mechanics**
+
+* **Multi-Floor Spatial Defense:** Managing combat across three vertical train levels simultaneously, positioning minion units and casting spells to destroy ascending enemy waves before they damage the top-floor Pyre.
+  
+* **Dual-Clan Synergy Drafting:** Pairing a Primary and Secondary Clan at run start, combining distinct mechanical card pools (e.g., healing armor spells with damage-stacking demon units) to forge unique hybrid builds.
+  
+* **Merchant Unit Synthesis & Upgrades:** Upgrading minion cards directly at merchant nodes or merging two units together to transfer passive traits, stats, and abilities onto a single card.
+
+#### Wildfrost (2023)
+##### **Why & How It Fits the Genre**
+
+Developed by Deadpan Games and Gaziter and published by Chucklefish, Wildfrost stands as a premier modern benchmark that modernized deckbuilder roguelikes with a dynamic counter-initiative grid engine.  
+
+It introduced tactical board placement, attack countdown timers, and card charm customization within a frozen post-apocalyptic aesthetic.
+
+##### **Defining Mechanics**
+
+* **Counter-Initiative Combat Engine:** Cards and enemy units do not attack immediately when played, but instead operate on individual turn countdown timers, making initiative manipulation central to tactical survival.
+  
+* **Charm Customization & Socketing:** Applying permanent collectible charms directly to cards during a run to mutate their base stats, add status triggers, or alter targeted board zones.
+  
+* **Leader Recall & Board Grid Tactics:** Positioning companions on a 2x3 combat grid while actively recalling wounded Leaders to the bench to heal, resetting turn pace at the cost of temporary board presence.
+
+### Comparison Summary
+| **Game**                  | **Structural Focus**                                          | **Key Innovation / Hook**                                                       | **Primary Design Lesson**                                                                                                       |
+| :------------------------ | :------------------------------------------------------------ | :------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------ |
+| **Slay the Spire (2017)** | Node-map spire climb, intent telegraphing, & class card pools | Perfect enemy intent telegraphing paired with relic-driven card synergies       | How deterministic intent visibility transforms card drafting into a solvable, deeply satisfying tactical puzzle.                |
+| **Monster Train (2020)**  | Vertical multi-floor defense, clan fusion, & unit drafting    | 3-floor spatial combat combined with dual-clan drafting and unit synthesis      | How adding multi-floor spatial positioning and clan merging creates explosive build variety and fast-paced action.              |
+| **Wildfrost (2023)**      | Grid board tactics, turn countdown timers, & charm socketing  | Dynamic unit counter-initiative engine paired with modular card charm socketing | How replacing traditional turns with individual unit countdown timers adds intense spatial and timing strategy to deckbuilding. |
