@@ -6,9 +6,9 @@
 
 ## 1.1 Definition of Video Game Genres
 
-In game design, a **genre** is far more than a marketing tag or a storefront filter—it is a functional taxonomy of player expectation and systemic interaction. At its core, a video game genre defines a recurring, structural pattern of **interaction verbs, dynamic feedback loops, input spaces, resource economies, and victory/fail state rules**.
+In game design, a **genre** is far more than a marketing tag or a storefront filter, it is a functional taxonomy of player expectation and systemic interaction. At its core, a video game genre defines a recurring, structural pattern of **interaction verbs, dynamic feedback loops, input spaces, resource economies, and victory/fail state rules**.
 
-Unlike traditional linear media (such as film, theater, or literature)—which are categorized primarily by thematic, narrative, or stylistic tropes (e.g., Sci-Fi, Film Noir, Western)—video game genres are fundamentally categorized by **agency, interactivity, and control systems**. While narrative setting and visual direction inform the player’s emotional framing, a game’s underlying mechanical structure determines its primary genre identity.
+Unlike traditional linear media (such as film, theater, or literature), which are categorized primarily by thematic, narrative, or stylistic tropes (e.g., Sci-Fi, Film Noir, Western), video game genres are fundamentally categorized by **agency, interactivity, and control systems**. While narrative setting and visual direction inform the player’s emotional framing, a game’s underlying mechanical structure determines its primary genre identity.
 
 ### The Dual Lens: Functional Mechanics vs. Thematic Framing
 
@@ -30,7 +30,7 @@ When a genre is deconstructed into its systemic components, game design ceases t
 
 - **Schema Continuity:** Players enter a genre with an established mental model (e.g., expecting animation locks in a _Fighting_ game, or camera-relative navigation in a 3D _Platformer_). Understanding these conventions allows designers to predict friction points, cognitive load, and player learning curves before writing code or building assets.
     
-- **Systemic Interdependence:** Mechanics do not exist in isolation. A mechanics-driven definition clarifies _why_ specific rule systems align—such as why high spatial precision pairs naturally with tight animation feedback, or why meta-progression scales predictably within run-based loops.
+- **Systemic Interdependence:** Mechanics do not exist in isolation. A mechanics-driven definition clarifies _why_ specific rule systems align, such as why high spatial precision pairs naturally with tight animation feedback, or why meta-progression scales predictably within run-based loops.
     
 
 ### Fluidity and Schema Evolution
@@ -42,7 +42,7 @@ By establishing a clear, functional definition of video game genres, designers g
 
 ## 1.2 Purpose of Dissecting Genres for Game Design
 
-Dissecting game genres is far more than an academic exercise in taxonomy—it is an essential operational methodology for modern game development. By breaking genres down into their foundational mechanics, interaction verbs, dynamic feedback loops, and systemic constraints, designers transition from reactive guesswork to predictive design execution.
+Dissecting game genres is far more than an academic exercise in taxonomy, it is an essential operational methodology for modern game development. By breaking genres down into their foundational mechanics, interaction verbs, dynamic feedback loops, and systemic constraints, designers transition from reactive guesswork to predictive design execution.
 
 ### 1. Predictive Design vs. Blind Iteration
 
@@ -79,7 +79,7 @@ When players start a new game within a recognized genre, they bring pre-existing
 
 In modern development, programmers, artists, audio designers, and producers often assume design responsibilities on indie teams or solo projects. While technical and visual disciplines have concrete, demonstrable learning paths, design is often incorrectly treated as subjective opinion or personal intuition.
 
-- **Concrete Frameworks Over "Vibes":** Genre dissection provides clear engineering specifications—attribute tables, state machine transitions, and loop diagrams—that transform design from a subjective debate into an objective, executable craft.
+- **Concrete Frameworks Over "Vibes":** Genre dissection provides clear engineering specifications, attribute tables, state machine transitions, and loop diagrams, that transform design from a subjective debate into an objective, executable craft.
     
 - **Shared Technical Vocabulary:** Establishing precise terminology (e.g., _frame advantage_, _resource sinks_, _spatial zoning_, _input buffering_) ensures engineers, artists, and designers remain aligned throughout production.
     
@@ -234,7 +234,7 @@ Commercial game titles frequently layer multiple systems, thematic wrappers, and
 
 #### 4. Cognitive Load & Skill Floor Allocation
 
-- **The Core Question:** _Where does the game place its primary skill floor—in physical execution timing or tactical evaluation?_
+- **The Core Question:** _Where does the game place its primary skill floor, in physical execution timing or tactical evaluation?_
     
     - If a player can pause time or take infinite time to plan their next move without penalty, the game leans heavily into **Systemic & Strategic** or **Turn-Based RPG** design.
         
@@ -334,7 +334,7 @@ To demonstrate this diagnostic framework in practice, the following case studies
         
 - **Genre Identification Breakdown:**
     
-    - Although the game utilizes macro-world topology typical of **[[Game Design/Genre Dissection/Game Genres/Sandbox - Open World\|Sandbox - Open World]]** design, its foundational mechanics—stamina budgeting, spatial punishment, bonfire/rest resetting loops, and risk-reward currency retrieval—strictly anchor its core loop in Soulslike design principles.
+    - Although the game utilizes macro-world topology typical of **[[Game Design/Genre Dissection/Game Genres/Sandbox - Open World\|Sandbox - Open World]]** design, its foundational mechanics, stamina budgeting, spatial punishment, bonfire/rest resetting loops, and risk-reward currency retrieval, strictly anchor its core loop in Soulslike design principles.
         
 - **Primary Repository Anchor:** **[[Game Design/Genre Dissection/Game Genres/Role-playing#Soulslike\|Role-playing (RPG)]]** _(Sub-genre: Soulslike)_.
     
@@ -427,7 +427,7 @@ Synthesizing mechanics across distinct parent genres offers powerful creative an
 #### Design Challenges
 
 * **Cognitive Overload & Systemic Friction:** Forcing players to track disparate mental models simultaneously (e.g., navigating complex inventory management spreadsheets while under high-pressure real-time combat) can cause cognitive fatigue and disrupt game flow.
-* **Ludonarrative & Mechanical Dissonance:** Intersecting rule sets can undermine core design intent—such as when high-scaling RPG character stats trivialize the spatial tension of a precision stealth system.
+* **Ludonarrative & Mechanical Dissonance:** Intersecting rule sets can undermine core design intent, such as when high-scaling RPG character stats trivialize the spatial tension of a precision stealth system.
 * **Complex Balance & Vector-Bug Density:** Combining distinct rule engines exponentially increases the likelihood of unintended exploit loops, broken character builds, and complex QA testing vectors.
 
 
@@ -443,7 +443,7 @@ When a project begins as a vague concept (e.g., _"a dark sci-fi game about an ou
 
 When starting a new project or evaluating a game already in production, developers often begin with high-level thematic ideas (e.g., *"a dark fantasy game about an exiled alchemist"*) or a collection of cool features. Without a clear structural anchor, early development frequently devolves into scope creep, conflicting mechanics, and team misalignment.
 
-Understanding and aligning with genre conventions is not about stifling creativity or copying existing games—it is about establishing a shared **mental model** between the design team and the player.
+Understanding and aligning with genre conventions is not about stifling creativity or copying existing games, it is about establishing a shared **mental model** between the design team and the player.
 
 #### The Player Mental Model & Expectation Contract
 
@@ -458,7 +458,7 @@ Aligning with conventions ensures that players can immediately leverage their ex
 
 #### Unintentional Misalignment vs. Calculated Innovation
 
-One of the most common pitfalls for indie developers and non-designers is **unintentional misalignment**—violating player expectations without realizing it:
+One of the most common pitfalls for indie developers and non-designers is **unintentional misalignment**, violating player expectations without realizing it:
 
 * **Unintentional Misalignment:** Giving players precision real-time reflex requirements in a game marketed as a slow, strategic puzzle-builder. The player feels frustrated because their cognitive expectations conflict with physical execution demands.
 * **Calculated Innovation:** Deliberately preserving 80–90% of a genre's foundational mental model while breaking or twisting 10–20% of the conventions to create a distinct commercial hook (e.g., *Slay the Spire* keeping traditional turn-based card play, but replacing static battles with procedural node-map runs and perfect intent visibility).
@@ -494,7 +494,7 @@ Define the structural rules, failure states, and resource flows that support you
   * **Macro Economy (Campaign/Meta):** Long-term persistent progression across sessions (e.g., skill trees, persistent unlocks, hub upgrades).
 
 #### Step 3: Align Narrative Delivery with Temporal Pacing
-Ensure your storytelling method complements—rather than disrupts—the rhythm of your core interaction paradigm.
+Ensure your storytelling method complements, rather than disrupts, the rhythm of your core interaction paradigm.
 
 * **Match Narrative Friction to Pace:**
   * Fast-paced real-time execution games (*Shooters, Hack-and-Slash*) thrive on environmental cues, brief audio logs, and non-intrusive ambient banter.
@@ -505,7 +505,7 @@ Ensure your storytelling method complements—rather than disrupts—the rhythm 
 Aesthetics should translate the underlying math of your mechanics into effortless visual and auditory cues.
 
 * **Prioritize Information Readability:** Ensure critical tactical information is telegraphed clearly (e.g., enemy intent icons in a deckbuilder, visible wind-up animations in a soulslike, or directional audio in a shooter).
-* **Provide Tactile Feedback:** Match interaction verbs with satisfying sensory responses—utilizing animation hit-stops, screen shake, input buffering, and distinct impact audio.
+* **Provide Tactile Feedback:** Match interaction verbs with satisfying sensory responses, utilizing animation hit-stops, screen shake, input buffering, and distinct impact audio.
 
 #### Step 5: Conduct Targeted Mental Model Playtesting
 Run early, uninstructed playtests specifically to evaluate whether playtesters are adopting the mental model you designed.
@@ -550,7 +550,7 @@ Examining titles that successfully subverted genre expectations demonstrates how
 
 #### 3. *Superhot* (First-Person Shooter × Puzzle)
 * **Convention Broken:** First-person shooters traditionally operate on continuous, real-time spatial reflexes and recoil management.
-* **The Subversion:** Linked time progression directly to player movement—time moves *only* when the player moves.
+* **The Subversion:** Linked time progression directly to player movement, time moves *only* when the player moves.
 * **Why It Worked:** It stripped away twitch reaction demands while retaining 1st-person aiming, transforming standard room-clearing firefights into deliberate, tactical spatial puzzles.
 
 
@@ -583,7 +583,7 @@ Before committing to a genre subversion in production, evaluate your proposed me
 
 # Case Studies
 
-Deconstructing theoretical frameworks is essential, but analyzing real-world production decisions demonstrates how genre selection directly governs player sentiment, design scope, and commercial outcome. Section 7 presents detailed case studies of titles that succeeded—or struggled—based on their alignment with genre conventions.
+Deconstructing theoretical frameworks is essential, but analyzing real-world production decisions demonstrates how genre selection directly governs player sentiment, design scope, and commercial outcome. Section 7 presents detailed case studies of titles that succeeded, or struggled, based on their alignment with genre conventions.
 
 ### 7.1 Deep Dive: Successes in Genre Alignment and Innovation
 
@@ -595,7 +595,7 @@ Examining titles that successfully navigated the balance between genre stability
 * **Genre Strategy:** Blended the precise spatial controls and ability-gated traversal of a 2D **[[Game Design/Genre Dissection/Game Genres/Action\|Action]]** platformer with the procedural room layouts, permadeath resets, and meta-currencies of a **[[Game Design/Genre Dissection/Game Genres/Role-playing#Rogue-like\|Rogue-lite]]**.
 * **Systemic Alignment Execution:**
   * **Primary Verb:** Frame-accurate dodging, parrying, jump-slashing, and high-velocity spatial positioning.
-  * **Load-Bearing Preservation:** Kept twitch input responsiveness 100% deterministic—no RNG missed hits or stat-gated combat delays.
+  * **Load-Bearing Preservation:** Kept twitch input responsiveness 100% deterministic, no RNG missed hits or stat-gated combat delays.
   * **Calculated Innovation:** Subverted traditional static map saving by replacing it with procedurally generated biome runs, weapon drafting, and permanent cell-vault unlocks between deaths.
 * **Player Impact & Outcome:** By preserving the crisp physical control contract of action games while adopting the procedural loop of rogue-lites, *Dead Cells* eliminated run monotony without frustrating high-skill action fans.
 
