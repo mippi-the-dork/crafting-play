@@ -433,6 +433,7 @@ Synthesizing mechanics across distinct parent genres offers powerful creative an
 > [!NOTE] Deep Dive Available
 > Want to diagnose and prevent systemic friction before it breaks your game? Explore the dedicated [[Game Design/Genre Dissection/The Hybridization Collision Matrix\|The Hybridization Collision Matrix]] for a granular breakdown of economy collisions, temporal pacing mismatches, and pre-production stress-testing worksheets.
 
+
 # Building Execution Plans
 
 For designers starting with a blank canvas or production teams stuck in feature bloat, Genre Dissection is not merely an analytical post-mortem tool, it is an active **execution engine**.
