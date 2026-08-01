@@ -6,10 +6,7 @@
 ## 1. Introduction
    - Brief overview of the importance of understanding genres in game design
    - Purpose of the Genre Dissection section in the handbook
-## 2. Basics of Video Game Genres
-
-[[Game Design/Genre Dissection/Game Genres/Action\|boop]]
- **[[Game Design/Genre Dissection/Game Genres/Action#Arcade\|Beep]]**
+## 2. Common Video Game Genres
 
 ### **[[Game Design/Genre Dissection/Game Genres/Action\|Action]]**
 
@@ -75,298 +72,62 @@
     - **Interactive Drama**: Heavily story-driven, focusing on emotional narratives and character development.
     - **Mystery and Detective**: Centers around solving mysteries or crimes, often requiring player deduction and decision-making.
 
-### **[[Game Design/Genre Dissection/Game Genres/Shooter\|Shooter]]**
+### **[[Game Design/Genre Dissection/Game Genres/Educational - Informative\|Educational - Informative]]**
 
-- **[[Game Design/Genre Dissection/Game Genres/Shooter#First-Person Shooter\|Shooter#First-Person Shooter]] (FPS)**
-    - **Military FPS**: Focuses on realistic, military-based combat scenarios.
-    - **Sci-Fi FPS**: Set in futuristic or space environments, often with advanced weaponry and technology.
-    - **Horror FPS**: Combines first-person shooting mechanics with horror elements, creating a tense, frightening experience.
+- **[[Game Design/Genre Dissection/Game Genres/Educational - Informative#Learning Adventures\|Educational - Informative#Learning Adventures]]**
+    - **Historical Adventures**: Focuses on exploring historical periods and events.
+    - **Scientific Exploration Adventures**: Involves learning about different scientific concepts through adventure gameplay.
+    - **Cultural Discovery Adventures**: Explores different cultures and traditions around the world.
 
-- **[[Game Design/Genre Dissection/Game Genres/Shooter#Third-Person Shooter\|Shooter#Third-Person Shooter]] (TPS)**
-    - **Open World TPS**: Features large, open environments and a focus on exploration alongside shooting.
-    - **Cinematic TPS**: Emphasizes story and character, often with high-quality graphics and cinematic cutscenes.
-    - **Stealth TPS**: Incorporates stealth mechanics, allowing players to avoid direct confrontation.
+- **[[Game Design/Genre Dissection/Game Genres/Educational - Informative#Math Games\|Educational - Informative#Math Games]]**
+    - **Basic Arithmetic Games**: Focuses on teaching basic math skills like addition, subtraction, multiplication, and division.
+    - **Problem-Solving Math Games**: Involves using math to solve complex problems and puzzles.
+    - **Math Logic Games**: Combines math skills with logical reasoning and critical thinking.
 
-- **[[Game Design/Genre Dissection/Game Genres/Shooter#Tactical Shooter\|Shooter#Tactical Shooter]]**
-    - **Squad-Based Tactical Shooter**: Focuses on controlling a squad of characters, each with unique skills.
-    - **Realistic Tactical Shooter**: Emphasizes realism in weapons, tactics, and scenarios.
-    - **Strategic Planning Shooter**: Requires pre-mission planning and resource management.
+- **[[Game Design/Genre Dissection/Game Genres/Educational - Informative#Language Learning\|Educational - Informative#Language Learning]]**
+    - **Vocabulary Building**: Focuses on expanding vocabulary in a new language.
+    - **Grammar and Structure**: Teaches grammatical rules and sentence structure.
+    - **Conversational Practice**: Simulates real-life conversations to improve language fluency.
 
-- **[[Game Design/Genre Dissection/Game Genres/Shooter#Arena Shooter\|Shooter#Arena Shooter]]**
-    - **Fast-Paced Arena Shooter**: Emphasizes quick reflexes and rapid movement.
-    - **Multiplayer Arena Shooter**: Designed primarily for multiplayer combat in closed arena settings.
-    - **Retro-Style Arena Shooter**: Pays homage to classic, older arena shooters in style and gameplay.
+- **[[Game Design/Genre Dissection/Game Genres/Educational - Informative#Science and Nature Exploration\|Educational - Informative#Science and Nature Exploration]]**
+    - **Biology and Ecosystem Games**: Teaches about living organisms and their environments.
+    - **Physics and Chemistry Simulations**: Involves interactive experiments and simulations to understand physical and chemical concepts.
+    - **Astronomy and Space Exploration**: Explores celestial bodies and the universe.
 
-- **[[Game Design/Genre Dissection/Game Genres/Shooter#Hero Shooter\|Shooter#Hero Shooter]]**
-    - **Ability-Based Hero Shooter**: Each character has unique abilities and roles.
-    - **Team-Based Hero Shooter**: Focuses on team play and strategy with diverse character rosters.
-    - **MOBA-Influenced Hero Shooter**: Combines elements of MOBAs with shooter gameplay.
+- **[[Game Design/Genre Dissection/Game Genres/Educational - Informative#History and Geography Learning\|Educational - Informative#History and Geography Learning]]**
+    - **World History Interactive Learning**: Covers various periods and events in world history.
+    - **Geography and Maps**: Focuses on teaching geography through map-based games and quizzes.
+    - **Cultural and Civilization Studies**: Explores different civilizations and their historical impact.
 
-- **[[Game Design/Genre Dissection/Game Genres/Shooter#Cover Shooter\|Shooter#Cover Shooter]]**
-    - **Tactical Cover Shooter**: Combines cover mechanics with tactical gameplay elements.
-    - **Dynamic Environment Cover Shooter**: Environments provide interactive cover options.
-    - **Narrative-Driven Cover Shooter**: Story-focused gameplay intertwined with cover-based shooting.
+- **[[Game Design/Genre Dissection/Game Genres/Educational - Informative#Puzzle-based Learning\|Educational - Informative#Puzzle-based Learning]]**
+    - **Educational Brain Teasers**: Puzzles designed to enhance cognitive skills and critical thinking.
+    - **Memory Improvement Games**: Focuses on exercises and challenges to improve memory.
+    - **Logic and Reasoning Puzzles**: Involves solving puzzles through logical thinking and reasoning.
 
-- **[[Game Design/Genre Dissection/Game Genres/Shooter#Precision Shooter\|Shooter#Precision Shooter]]**
-    - **Sniping Games**: Emphasizes long-range shooting accuracy.
-    - **Target Shooting**: Focuses on hitting static or moving targets with precision.
-    - **One-Shot Kill Shooter**: Games where precision and timing are crucial for survival.
+- **[[Game Design/Genre Dissection/Game Genres/Educational - Informative#Interactive Storybooks\|Educational - Informative#Interactive Storybooks]]**
+    - **Narrated Children’s Books**: Digital storybooks with narration for young readers.
+    - **Choose-Your-Own-Adventure Books**: Interactive stories where readers make choices that affect the outcome.
+    - **Educational Comics and Graphic Novels**: Combines storytelling with educational content in a comic format.
 
-- **[[Game Design/Genre Dissection/Game Genres/Shooter#Run and Gun\|Shooter#Run and Gun]]**
-    - **Side-Scrolling Run and Gun**: Combines side-scrolling action with continuous shooting.
-    - **Platforming Run and Gun**: Integrates platforming elements with fast-paced shooting.
-    - **Arcade-Style Run and Gun**: Features over-the-top action and simplified controls reminiscent of arcade games.
+- **[[Game Design/Genre Dissection/Game Genres/Educational - Informative#Educational Simulations\|Educational - Informative#Educational Simulations]]**
+    - **Virtual Labs and Experiments**: Simulates scientific experiments and lab work.
+    - **Economic and Business Simulations**: Teaches economic principles and business management.
+    - **Environmental and Ecological Simulations**: Focuses on understanding and managing environmental ecosystems.
 
-- **[[Game Design/Genre Dissection/Game Genres/Shooter#Bullet Hell - Shoot Em Up\|Shooter#Bullet Hell - Shoot Em Up]]**
-    - **Vertical Scrolling Shooters**: The action primarily moves vertically upwards.
-    - **Horizontal Scrolling Shooters**: Side-scrolling action where players navigate left or right.
-    - **Pattern-Based Shooters**: Focuses on memorizing enemy attack patterns for survival.
+- **[[Game Design/Genre Dissection/Game Genres/Educational - Informative#Creativity and Art Education\|Educational - Informative#Creativity and Art Education]]**
+    - **Digital Painting and Drawing**: Teaches art skills using digital tools.
+    - **Music Composition and Theory**: Focuses on music composition and understanding musical concepts.
+    - **Crafts and DIY Projects**: Encourages creativity through virtual crafting and DIY activities.
 
-- **[[Game Design/Genre Dissection/Game Genres/Shooter#Twin-Stick Shooter\|Shooter#Twin-Stick Shooter]]**
-    - **Rogue-like Twin-Stick Shooter**: Incorporates elements of randomness and permadeath.
-    - **Arcade Twin-Stick Shooter**: Emphasizes high scores and wave-based progression.
-    - **Cooperative Twin-Stick Shooter**: Designed for multiplayer gameplay, often with shared objectives.
+- **[[Game Design/Genre Dissection/Game Genres/Educational - Informative#Health and Lifestyle Education\|Educational - Informative#Health and Lifestyle Education]]**
+    - **Nutrition and Cooking Games**: Teaches about healthy eating, cooking, and nutrition.
+    - **Fitness and Exercise Apps**: Focuses on physical health, including exercise routines and fitness tracking.
+    - **Mindfulness and Well-being**: Promotes mental health through mindfulness exercises and stress-relief activities.
 
-- **[[Game Design/Genre Dissection/Game Genres/Shooter#Light Gun Shooter\|Shooter#Light Gun Shooter]]**
-    - **Arcade Rail Shooter**: On-rails shooters typically found in arcade settings.
-    - **Home Console Light Gun Games**: Designed for home console light gun accessories.
-    - **VR-Based Light Gun Shooter**: Utilizes virtual reality technology for immersive shooting experiences.
-
-- **[[Game Design/Genre Dissection/Game Genres/Shooter#Top-Down Shooter\|Shooter#Top-Down Shooter]]**
-    - **Twin-Stick Top-Down Shooter**: Uses dual joystick controls for movement and shooting.
-    - **Strategy Top-Down Shooter**: Combines top-down shooting with strategic elements like resource management.
-    - **Rogue-like Top-Down Shooter**: Features procedurally generated levels and permadeath mechanics.
-
-- **[[Game Design/Genre Dissection/Game Genres/Shooter#Extraction Shooter\|Shooter#Extraction Shooter]]**
-    - **Raid-Based Extraction**: Session-based multiplayer shooters where players deploy into a contested zone to loot, complete objectives, and escape via restricted extraction points while risking all carried gear upon death.
-    - **Extraction Royale**: A hybrid merging battle royale shrinking map dynamics with player-versus-environment threats and gear persistence.
-    - **Cooperative Extraction**: PvE-focused extraction shooters prioritizing squad tactics and objective survival against AI hordes over player conflict.
-
-### **[[Game Design/Genre Dissection/Game Genres/Role-playing\|Role-playing]] (RPG)**
-
-- **[[Game Design/Genre Dissection/Game Genres/Role-playing#Western RPG\|Role-playing#Western RPG]]**
-    - **Open World RPG**: Focuses on large, open environments with freedom in exploration and character progression.
-    - **Story-Driven RPG**: Emphasizes narrative and character development, often with complex storylines and deep lore.
-    - **Choices and Consequences RPG**: Offers meaningful choices that significantly impact the game's story and world.
-
-- **[[Game Design/Genre Dissection/Game Genres/Role-playing#Japanese RPG\|Role-playing#Japanese RPG]] (JRPG)**
-    - **Turn-Based JRPG**: Classic style with turn-based combat systems.
-    - **Anime-Styled JRPG**: Features anime-inspired art and storylines.
-    - **Strategic JRPG**: Combines traditional JRPG elements with more strategic, often grid-based, combat.
-
-- **[[Game Design/Genre Dissection/Game Genres/Role-playing#Action RPG\|Role-playing#Action RPG]] (ARPG)**
-    - **Loot-Based ARPG**: Focuses on collecting a variety of weapons, armor, and other items.
-    - **Hack-and-Slash ARPG**: Emphasizes fast-paced combat against large numbers of enemies.
-    - **Souls-like ARPG**: Characterized by challenging combat, a high level of difficulty, and a focus on learning from death.
-
-- **[[Game Design/Genre Dissection/Game Genres/Role-playing#Dungeon Crawler\|Role-playing#Dungeon Crawler]]**
-    - **Roguelike Dungeon Crawler**: Features procedurally generated dungeons and permadeath.
-    - **Labyrinth Exploration**: Focuses on complex maze-like dungeons that players must navigate.
-    - **Puzzle-Oriented Dungeon Crawler**: Incorporates puzzle-solving into the dungeon exploration experience.
-
-- **[[Game Design/Genre Dissection/Game Genres/Role-playing#Tactical RPG\|Role-playing#Tactical RPG]] (TRPG)**
-    - **Grid-Based Tactical RPG**: Involves strategic battles on grid-based maps.
-    - **Real-Time Tactics RPG**: Combines RPG elements with real-time tactical decision-making.
-    - **Story-Focused TRPG**: Emphasizes narrative elements within a tactical gameplay framework.
-
-- **[[Game Design/Genre Dissection/Game Genres/Role-playing#Rogue-like\|Role-playing#Rogue-like]]**
-    - **Procedural Rogue-like**: Focuses on procedurally generated levels for a new experience every playthrough.
-    - **Hardcore Rogue-like**: Features a high level of difficulty with permadeath and minimal player guidance.
-    - **Rogue-lite**: Blends rogue-like elements with other genres, often retaining some progress after death.
-    - **Rogue-like Deckbuilder**: Combines card-drafting and deck-building mechanics with roguelike procedural progression and randomized encounters.
-
-- **[[Game Design/Genre Dissection/Game Genres/Role-playing#Soulslike\|Role-playing#Soulslike]]**
-    - **Action Souls-like**: Fast-paced, stamina-driven melee combat set in dark fantasy worlds emphasizing dodge-timing and enemy telegraphs.
-    - **2D / Metroidvania Souls-like**: Side-scrolling or top-down interpretations of Soulslike combat, navigation, and checkpoint mechanics (often called "Soulsvania").
-    - **Extraction Souls-like**: Combines multiplayer extraction risk-reward mechanics with deliberate, stamina-based combat and permanent gear loss.
-
-### **[[Game Design/Genre Dissection/Game Genres/Simulation\|Simulation]]**
-
-- **[[Game Design/Genre Dissection/Game Genres/Simulation#Life Simulation\|Simulation#Life Simulation]]**
-    - **Virtual World**: Simulates everyday activities in a virtual environment, often with open-ended gameplay.
-    - **Social Simulation**: Focuses on social interactions and relationship building within a simulated environment.
-    - **Pet Raising Simulation**: Involves nurturing and caring for virtual pets or creatures.
-
-- **[[Game Design/Genre Dissection/Game Genres/Simulation#Vehicle Simulation\|Simulation#Vehicle Simulation]]**
-    - **Flight Simulation**: Realistically simulates aircraft flying, often with detailed cockpits and physics.
-    - **Driving and Racing Simulation**: Focuses on realistically simulating driving mechanics, including vehicle handling and road conditions.
-    - **Marine Simulation**: Simulates naval vessels, including boats, ships, or submarines, often focusing on navigation and maritime activities.
-
-- **[[Game Design/Genre Dissection/Game Genres/Simulation#Construction and Management Simulation\|Simulation#Construction and Management Simulation]]**
-    - **City Building**: Players design, build, and manage a city, including infrastructure, utilities, and citizen welfare.
-    - **Theme Park Management**: Involves creating and running a theme park, including ride design, guest satisfaction, and financial management.
-    - **Hospital Management**: Simulates the running of a hospital, including patient care, staff management, and facility expansion.
-
-- **[[Game Design/Genre Dissection/Game Genres/Simulation#Business Simulation\|Simulation#Business Simulation]]**
-    - **Corporate Tycoon**: Involves running a corporation, making strategic business decisions to maximize profits.
-    - **Retail Management**: Focuses on managing a retail business, including inventory, sales, and customer service.
-    - **Startup Simulation**: Simulates the experience of founding and growing a startup company.
-
-- **[[Game Design/Genre Dissection/Game Genres/Simulation#Farming Simulation\|Simulation#Farming Simulation]]**
-    - **Agricultural Management**: Involves cultivating crops, managing livestock, and selling produce.
-    - **Homestead Management**: Combines farming with broader homesteading activities, such as crafting and building.
-    - **Rural Life Simulation**: Emphasizes the lifestyle and daily activities associated with rural living and farming.
-
-- **[[Game Design/Genre Dissection/Game Genres/Simulation#God Game\|Simulation#God Game]]**
-    - **World-Building**: Players have control over an entire world, shaping landscapes and ecosystems.
-    - **Population Management**: Focuses on managing and guiding a population of followers.
-    - **Moral Decision-Making**: Involves making decisions that affect the game world, often with moral or ethical implications.
-
-- **[[Game Design/Genre Dissection/Game Genres/Simulation#Space Simulation\|Simulation#Space Simulation]]**
-    - **Space Exploration**: Focuses on exploring space, discovering new planets, and encountering various space phenomena.
-    - **Space Combat Simulation**: Involves piloting spacecraft in combat, often with realistic space physics.
-    - **Space Colony Management**: Simulates managing a space colony, including resource gathering, habitat building, and interstellar trade.
-
-- **[[Game Design/Genre Dissection/Game Genres/Simulation#Immersive Sim\|Simulation#Immersive Sim]]**
-    - **First-Person Immersive Sim**: Classic immersive sims prioritizing first-person player choice, interconnected systems, and environmental problem-solving (e.g., _Deus Ex_, _Dishonored_).
-    - **Isometric / Third-Person Immersive Sim**: Immersive sims rendered from top-down or third-person perspectives while retaining deep systemic simulation and multiple solution paths (e.g., _Shadow Gambit_, _Divinity_ immersive elements).
-    - **Systemic Roguelike Immersive Sim**: A genre fusion combining randomized dungeon generation and permadeath with immersive sim emergent mechanics.
-
-### **[[Game Design/Genre Dissection/Game Genres/Strategy\|Strategy]]**
-
-- **[[Game Design/Genre Dissection/Game Genres/Strategy#Real-Time Strategy\|Strategy#Real-Time Strategy]] (RTS)**
-    - **Base Building RTS**: Focuses on constructing and managing a base or headquarters while expanding territory and resources.
-    - **Military Warfare RTS**: Centers on large-scale military engagements, often with historical or futuristic themes.
-    - **Economic Management RTS**: Emphasizes resource management, economic growth, and trade over military conquest.
-
-- **[[Game Design/Genre Dissection/Game Genres/Strategy#Turn-Based Strategy\|Strategy#Turn-Based Strategy]] (TBS)**
-    - **Grid-Based TBS**: Utilizes a grid system for movement and combat, emphasizing tactical positioning.
-    - **4X TBS**: A blend of TBS with 'explore, expand, exploit, exterminate' mechanics, often set in space or historical settings.
-    - **Character-Driven TBS**: Focuses on individual units or characters with unique abilities, often in a squad-based setup.
-
-- **[[Game Design/Genre Dissection/Game Genres/Strategy#4X\|Strategy#4X]] (Explore, Expand, Exploit, Exterminate)**
-    - **Space 4X**: Set in space, with exploration of galaxies, colonization of planets, and space warfare.
-    - **Historical 4X**: Based on real-world history, focusing on the growth and expansion of civilizations over time.
-    - **Fantasy 4X**: Features fantasy settings with mythical creatures, magic, and unique lore-driven mechanics.
-
-- **[[Game Design/Genre Dissection/Game Genres/Strategy#Grand Strategy\|Strategy#Grand Strategy]]**
-    - **World Domination Grand Strategy**: Involves controlling a nation or empire with the goal of global dominance.
-    - **Political Intrigue Strategy**: Focuses on diplomacy, political maneuvering, and backdoor dealings.
-    - **Economic and Resource Management**: Emphasizes managing a nation's economy, resources, and trade policies.
-
-- **[[Game Design/Genre Dissection/Game Genres/Strategy#Tower Defense\|Strategy#Tower Defense]]**
-    - **Maze Tower Defense**: Players create mazes with towers to strategically direct and eliminate enemies.
-    - **Survival Tower Defense**: Focuses on enduring waves of enemies with increasing difficulty.
-    - **Offensive Tower Defense**: Incorporates elements of attacking or invading while defending.
-
-- **[[Game Design/Genre Dissection/Game Genres/Strategy#MOBA\|Strategy#MOBA]] (Multiplayer Online Battle Arena)**
-    - **Hero-Based MOBA**: Each player controls a single powerful character with unique abilities.
-    - **Objective-Focused MOBA**: In addition to combat, players must complete specific objectives on the map.
-    - **Hybrid MOBA**: Combines elements of MOBAs with other genres, such as shooters or RPGs.
-
-- **[[Game Design/Genre Dissection/Game Genres/Strategy#Autobattler\|Strategy#Autobattler]]**
-    - **Tactical Auto Chess**: Grid-based automated tactical battlers focusing on formation placement and racial/class trait synergies.
-    - **Draft & Shop Autobattler**: Economy-driven auto battlers centered around refreshing shops, managing gold interest, and upgrading unit stars.
-    - **Asynchronous Autobattler**: Autobattlers where players build teams that fight ghostly copies of other players' rosters asynchronously.
-
-### **[[Game Design/Genre Dissection/Game Genres/Sports\|Sports]]**
-
-- **[[Game Design/Genre Dissection/Game Genres/Sports#Soccer - Football\|Sports#Soccer - Football]]**
-    - **Club Management Simulation**: Focuses on managing a soccer club, including tactics, transfers, and financial decisions.
-    - **Street Soccer**: Centers around more casual, urban-style soccer games with fewer players and improvised fields.
-    - **International Tournament**: Simulates international soccer tournaments like the World Cup.
-
-- **[[Game Design/Genre Dissection/Game Genres/Sports#Basketball\|Sports#Basketball]]**
-    - **Arcade-Style Basketball**: Fast-paced, often with exaggerated gameplay and less adherence to traditional rules.
-    - **Pro Basketball Simulation**: Realistic simulation of professional basketball leagues and gameplay.
-    - **Street Basketball**: Focuses on 3-on-3, half-court basketball games, often played on urban courts.
-
-- **[[Game Design/Genre Dissection/Game Genres/Sports#Baseball\|Sports#Baseball]]**
-    - **MLB Simulation**: Simulates Major League Baseball with authentic teams, players, and stadiums.
-    - **Fantasy Baseball**: Involves creating and managing a fantasy baseball team based on real player statistics.
-    - **Arcade Baseball**: Simplified, fast-paced baseball games with emphasis on fun and accessibility.
-
-- **[[Game Design/Genre Dissection/Game Genres/Sports#American Football\|Sports#American Football]]**
-    - **NFL Simulation**: Realistic simulation of National Football League games.
-    - **College Football**: Focuses on the unique aspects of college-level American football.
-    - **Tactical Football Management**: Involves managing a football team’s strategies, rosters, and play calling.
-
-- **[[Game Design/Genre Dissection/Game Genres/Sports#Golf\|Sports#Golf]]**
-    - **Realistic Golf Simulation**: Accurately simulates golf physics, courses, and professional play.
-    - **Mini Golf**: Focuses on fun and creative mini golf courses, often with whimsical themes.
-    - **Fantasy Golf**: Adds imaginative elements to golf, such as power-ups or unusual courses.
-
-- **[[Game Design/Genre Dissection/Game Genres/Sports#Tennis\|Sports#Tennis]]**
-    - **Professional Tennis Simulation**: Simulates professional tennis matches and tournaments.
-    - **Arcade Tennis**: Simplified and fast-paced tennis gameplay, often with power-ups and special moves.
-    - **Doubles Tennis**: Focuses specifically on the doubles format of tennis play.
-
-- **[[Game Design/Genre Dissection/Game Genres/Sports#Volleyball\|Sports#Volleyball]]**
-    - **Beach Volleyball**: Centered around beach volleyball mechanics and environments.
-    - **Indoor Volleyball**: Simulates traditional six-player indoor volleyball.
-    - **Arcade Volleyball**: Simplified, action-oriented volleyball with less focus on realistic gameplay.
-
-- **[[Game Design/Genre Dissection/Game Genres/Sports#Hockey\|Sports#Hockey]]**
-    - **NHL Simulation**: Realistic simulation of National Hockey League games.
-    - **Street Hockey**: Focuses on casual, street-level hockey games, typically played on non-ice surfaces.
-    - **Arcade Hockey**: Fast-paced, action-oriented gameplay with exaggerated physics and rules.
-
-- **[[Game Design/Genre Dissection/Game Genres/Sports#Cricket\|Sports#Cricket]]**
-    - **Test Match Cricket**: Simulates the longer, more strategic form of cricket.
-    - **Twenty20 Cricket**: Focuses on the shorter, more explosive version of the game.
-    - **Street Cricket**: Casual form of cricket often played in urban or backyard environments.
-
-- **[[Game Design/Genre Dissection/Game Genres/Sports#Exergame\|Sports#Exergame]]**
-    - **Fitness and Workout Games**: Designed to provide a physical workout, often using motion sensors or VR.
-    - **Dance-Based Exergames**: Focuses on dance routines as a form of exercise and entertainment.
-    - **Sports-Training Exergames**: Simulates various sports activities for training and fitness purposes.
-
-### **[[Game Design/Genre Dissection/Game Genres/Racing\|Racing]]**
-
-- **[[Game Design/Genre Dissection/Game Genres/Racing#Simulative Racing\|Racing#Simulative Racing]]**
-    - **Realistic Track Racing**: Focuses on accurately simulating racing on professional tracks.
-    - **Vehicle Customization**: Emphasizes detailed customization of vehicles for performance and aesthetics.
-    - **Career Mode Racing**: Offers a career mode where players progress through a racing career.
-
-- **[[Game Design/Genre Dissection/Game Genres/Racing#Arcade Racing\|Racing#Arcade Racing]]**
-    - **High-Speed Thrills**: Features exaggerated speeds and simplified controls for a high-adrenaline experience.
-    - **Power-Ups and Boosts**: Includes special items or abilities to gain an advantage during races.
-    - **Stunt Racing**: Focuses on performing stunts or tricks during races.
-
-- **[[Game Design/Genre Dissection/Game Genres/Racing#Kart Racing\|Racing#Kart Racing]]**
-    - **Family-Friendly Kart Racing**: Designed for all ages with a focus on fun and accessibility.
-    - **Combat Kart Racing**: Includes combat elements, allowing players to hinder opponents with various attacks.
-    - **Fantasy Tracks**: Races take place on imaginative and unrealistic tracks.
-
-- **[[Game Design/Genre Dissection/Game Genres/Racing#Motocross\|Racing#Motocross]]**
-    - **Freestyle Motocross**: Focuses on performing tricks and stunts.
-    - **MX Racing**: Traditional motocross racing on dirt tracks.
-    - **Supercross**: Features stadium-based motocross with more technical tracks and obstacles.
-
-- **[[Game Design/Genre Dissection/Game Genres/Racing#Formula 1 Racing\|Racing#Formula 1 Racing]]**
-    - **F1 Simulation**: Realistically simulates Formula 1 races, with authentic tracks and cars.
-    - **Team Management**: Involves managing a Formula 1 team, including strategy and development.
-    - **Historical F1**: Races featuring historical Formula 1 cars and tracks.
-
-- **[[Game Design/Genre Dissection/Game Genres/Racing#Off-road Racing\|Racing#Off-road Racing]]**
-    - **Rally Cross**: Short races on mixed-surface tracks, often in closed circuits.
-    - **Open Terrain Exploration**: Races or challenges taking place in open, free-roam environments.
-    - **Extreme Off-road**: Focuses on extreme terrains and challenging conditions.
-
-- **[[Game Design/Genre Dissection/Game Genres/Racing#Street Racing\|Racing#Street Racing]]**
-    - **Illegal Street Racing**: Centers around unsanctioned races in urban environments.
-    - **Tuner Culture**: Emphasizes car modification and street racing culture.
-    - **Urban Circuit Racing**: Races that take place on closed city streets or urban environments.
-
-- **[[Game Design/Genre Dissection/Game Genres/Racing#Rally Racing\|Racing#Rally Racing]]**
-    - **Point-to-Point Rally**: Focuses on time trial races over closed public or private roads.
-    - **Stage-Based Rally**: Involves completing various stages and managing car condition between stages.
-    - **Cross-Country Rally**: Long-distance races often spanning multiple countries or terrains.
-
-- **[[Game Design/Genre Dissection/Game Genres/Racing#Drag Racing\|Racing#Drag Racing]]**
-    - **Classic Drag Racing**: Straight-line races focusing on quick starts and gear shifting.
-    - **Drag Race Tournaments**: Organized events with multiple rounds and varying classes of cars.
-    - **Street-style Drag Racing**: Informal drag races, often in urban settings.
-
-- **[[Game Design/Genre Dissection/Game Genres/Racing#Watercraft Racing\|Racing#Watercraft Racing]]**
-    - **Jet Ski Racing**: Races using personal watercraft on various water courses.
-    - **Powerboat Racing**: High-speed boat races on lakes, rivers, or coastal waters.
-    - **Sailing Competitions**: Focuses on sailing skills and navigating courses with wind-powered boats.
-
-- **[[Game Design/Genre Dissection/Game Genres/Racing#Aerospace Racing\|Racing#Aerospace Racing]]**
-    - **Futuristic Space Racing**: Races set in outer space with advanced spacecraft.
-    - **Air Racing**: Involves piloting aircraft through competitive courses.
-    - **Anti-Gravity Racing**: Features high-speed races with anti-gravity vehicles on futuristic tracks.
+- **[[Game Design/Genre Dissection/Game Genres/Educational - Informative#Advergame\|Educational - Informative#Advergame]]**
+    - **Brand Integration Games**: Games that integrate specific brands or products into gameplay.
+    - **Educational Marketing Games**: Uses game elements to educate players about a product or service.
+    - **Interactive Product Simulators**: Simulates the use of a product or service in an interactive environment.
 
 ### **[[Game Design/Genre Dissection/Game Genres/Fighting\|Fighting]]**
 
@@ -419,6 +180,53 @@
     - **Switch-In/Out Fighter**: Allows players to switch between characters during a match.
     - **Team Synergy Fighter**: Characters have special moves or abilities that work in tandem with their teammates.
     - **Multiplayer Tag Team**: Designed for multiple players to each control a member of a tag team.
+
+### **[[Game Design/Genre Dissection/Game Genres/Gambling\|Gambling]]**
+
+- **[[Game Design/Genre Dissection/Game Genres/Gambling#Casino Simulation\|Gambling#Casino Simulation]]**
+    - **Virtual Casino Resorts**: Simulates the experience of visiting and playing in a full-scale virtual casino.
+    - **Table Games Simulation**: Focuses on classic casino table games like blackjack, roulette, and baccarat.
+    - **High-Stakes Casino Simulation**: Designed for simulating high roller casino experiences with large bets and risks.
+
+- **[[Game Design/Genre Dissection/Game Genres/Gambling#Gacha Games\|Gambling#Gacha Games]]**
+    - **Character Gacha**: Players spend in-game currency to receive random virtual characters, often for use in battles or quests.
+    - **Item Gacha**: Focuses on obtaining random virtual items that can enhance gameplay or aesthetics.
+    - **Cosmetic Gacha**: Involves collecting cosmetic items or appearances for characters or environments.
+
+- **[[Game Design/Genre Dissection/Game Genres/Gambling#Poker Simulation\|Gambling#Poker Simulation]]**
+    - **Texas Hold'em Poker**: Simulates the popular Texas Hold'em variant of poker.
+    - **Tournament Poker**: Focuses on playing through structured poker tournaments.
+    - **Casual Poker Games**: Designed for more relaxed and informal poker playing experiences.
+
+- **[[Game Design/Genre Dissection/Game Genres/Gambling#Slot Machine Games\|Gambling#Slot Machine Games]]**
+    - **Themed Slot Machines**: Slot games featuring specific themes like ancient civilizations, fantasy, or popular culture.
+    - **Progressive Slots Simulation**: Involves playing virtual slot machines with progressive jackpots.
+    - **Classic Slot Simulation**: Simulates traditional slot machines with basic mechanics and fewer paylines.
+
+- **[[Game Design/Genre Dissection/Game Genres/Gambling#Betting and Wagering Games\|Gambling#Betting and Wagering Games]]**
+    - **Parimutuel Betting Games**: Focuses on bets pooled together, like horse racing bets.
+    - **Fixed-Odds Betting Games**: Involves betting against odds set by the bookmaker or the game itself.
+    - **Peer-to-Peer Betting**: Players place bets against each other rather than against a house or bookmaker.
+
+- **[[Game Design/Genre Dissection/Game Genres/Gambling#Card Games with Gambling Elements\|Gambling#Card Games with Gambling Elements]]**
+    - **Blackjack and Variants**: Includes traditional blackjack and its various forms.
+    - **Baccarat Simulation**: Simulates the popular casino card game baccarat.
+    - **High-Low Card Games**: Involves guessing whether the next card will be higher or lower.
+
+- **[[Game Design/Genre Dissection/Game Genres/Gambling#Virtual Lottery Games\|Gambling#Virtual Lottery Games]]**
+    - **Scratch-off Lottery Simulation**: Simulates the experience of buying and scratching off lottery tickets.
+    - **Number Draw Lottery**: Involves selecting numbers and simulating a lottery draw.
+    - **Instant Win Games**: Quick-play lottery-style games with immediate outcomes.
+
+- **[[Game Design/Genre Dissection/Game Genres/Gambling#Dice Games and Craps Simulation\|Gambling#Dice Games and Craps Simulation]]**
+    - **Street Craps**: Simulates more informal versions of craps, often played on the streets.
+    - **Casino Craps Simulation**: Replicates the casino-style craps experience.
+    - **Dice Roll Prediction Games**: Involves predicting the outcome of dice rolls or combinations.
+
+- **[[Game Design/Genre Dissection/Game Genres/Gambling#Sports Betting Simulation\|Gambling#Sports Betting Simulation]]**
+    - **Fantasy Sports Betting**: Involves betting within a simulated fantasy sports environment.
+    - **Virtual Sports Betting**: Betting on simulated, computer-generated sports events.
+    - **In-game Live Sports Betting**: Offers live betting options during simulated sports matches.
 
 ### **[[Game Design/Genre Dissection/Game Genres/Horror\|Horror]]**
 
@@ -477,57 +285,58 @@
     - **Recurring Encounters:** Emphasizes repeated interactions with the same characters, allowing the player to learn, anticipate, and ultimately dread their unique behaviors and presence.
     - **Character-Driven Narrative:** Uses the history, motivations, and relationships of its central characters to drive the mystery, world-building, and progression of the story.
 
-### **[[Game Design/Genre Dissection/Game Genres/Puzzle\|Puzzle]]**
+### **[[Game Design/Genre Dissection/Game Genres/Massively Multiplayer Online\|Massively Multiplayer Online]] (MMO)**
 
-- **[[Game Design/Genre Dissection/Game Genres/Puzzle#Logic Puzzles\|Puzzle#Logic Puzzles]]**
-    - **Deductive Reasoning**: Puzzles that require players to use logical deduction to solve.
-    - **Sequential Logic**: Involves solving puzzles in a particular order or sequence.
-    - **Spatial Logic**: Focuses on understanding and manipulating spatial relationships and geometry.
+- **[[Game Design/Genre Dissection/Game Genres/Massively Multiplayer Online#MMORPG\|Massively Multiplayer Online#MMORPG]] (Massively Multiplayer Online Role-Playing Game)**
+    - **Fantasy MMORPGs**: Set in magical realms with mythical creatures and magic systems.
+    - **Sci-Fi MMORPGs**: Featuring futuristic settings with advanced technology and space exploration.
+    - **Historical MMORPGs**: Based on historical periods, offering more realistic and historical settings.
+    - **Sandbox MMORPG**: Provides a vast, open world with player-driven content, economy, and storylines.
 
-- **[[Game Design/Genre Dissection/Game Genres/Puzzle#Match-3 Puzzles\|Puzzle#Match-3 Puzzles]]**
-    - **Cascading Match-3**: Includes elements that fall and replace matched items.
-    - **Swapping Match-3**: Players swap items to create matches.
-    - **Drag-and-Drop Match-3**: Involves dragging items to create matches instead of swapping.
+- **[[Game Design/Genre Dissection/Game Genres/Massively Multiplayer Online#MMOFPS\|Massively Multiplayer Online#MMOFPS]] (Massively Multiplayer Online First-Person Shooter)**
+    - **Tactical MMOFPS**: Focuses on strategic and tactical gameplay in a first-person shooter format.
+    - **Sci-Fi MMOFPS**: Set in futuristic worlds, often with advanced weaponry and vehicles.
+    - **Warfare MMOFPS**: Centers around large-scale battles and military combat.
 
-- **[[Game Design/Genre Dissection/Game Genres/Puzzle#Physics-based Puzzles\|Puzzle#Physics-based Puzzles]]**
-    - **Rube Goldberg Machines**: Involves creating complex contraptions to perform simple tasks.
-    - **Gravity-Based**: Centers around manipulating gravity to solve puzzles.
-    - **Construction Puzzles**: Players build structures or mechanisms to solve challenges.
+- **[[Game Design/Genre Dissection/Game Genres/Massively Multiplayer Online#MMO Strategy Games\|Massively Multiplayer Online#MMO Strategy Games]]**
+    - **Real-Time MMO Strategy**: Involves managing resources, building bases, and commanding armies in real-time.
+    - **Turn-Based MMO Strategy**: Players take turns making strategic decisions and moves.
+    - **Economic MMO Strategy**: Focuses on economic management, trade, and resource allocation on a large scale.
 
-- **[[Game Design/Genre Dissection/Game Genres/Puzzle#Word Puzzles\|Puzzle#Word Puzzles]]**
-    - **Anagrams and Word Scrambles**: Rearranging letters to form words or phrases.
-    - **Word Search**: Finding specific words hidden in a grid of letters.
-    - **Word Association**: Involves finding connections between different words.
+- **[[Game Design/Genre Dissection/Game Genres/Massively Multiplayer Online#MMO Racing Games\|Massively Multiplayer Online#MMO Racing Games]]**
+    - **Arcade-Style MMO Racing**: Emphasizes fast-paced, action-packed racing.
+    - **Simulation MMO Racing**: Offers a realistic racing experience with accurate physics and vehicle dynamics.
+    - **Open-World MMO Racing**: Combines racing with open-world exploration elements.
 
-- **[[Game Design/Genre Dissection/Game Genres/Puzzle#Sudoku\|Puzzle#Sudoku]]**
-    - **Traditional Number Sudoku**: Classic 9x9 grids with numbers.
-    - **Thematic Sudoku**: Variants that replace numbers with symbols, colors, or pictures.
-    - **Multi-Level Sudoku**: Complex versions with overlapping or interlinked puzzles.
+- **[[Game Design/Genre Dissection/Game Genres/Massively Multiplayer Online#MMO Sports Games\|Massively Multiplayer Online#MMO Sports Games]]**
+    - **Team-Based MMO Sports**: Players control a team in sports like soccer, basketball, or football.
+    - **Individual Skill MMO Sports**: Focuses on individual performance in sports like tennis or golf.
+    - **Fantasy League MMO Sports**: Involves managing fantasy sports teams based on real-world players and statistics.
 
-- **[[Game Design/Genre Dissection/Game Genres/Puzzle#Crossword Puzzles\|Puzzle#Crossword Puzzles]]**
-    - **Cryptic Crosswords**: Clues involve puzzles within themselves.
-    - **Themed Crosswords**: Crosswords revolving around a particular theme or subject.
-    - **Mini Crosswords**: Shorter, quicker versions of traditional crosswords.
+- **[[Game Design/Genre Dissection/Game Genres/Massively Multiplayer Online#MMO Simulation Games\|Massively Multiplayer Online#MMO Simulation Games]]**
+    - **Life Simulation MMO**: Simulates aspects of daily life and social interactions.
+    - **Business and Economy Simulation MMO**: Focuses on running businesses and managing economies.
+    - **Vehicle Simulation MMO**: Involves operating and managing various types of vehicles, from cars to planes.
 
-- **[[Game Design/Genre Dissection/Game Genres/Puzzle#Jigsaw Puzzles\|Puzzle#Jigsaw Puzzles]]**
-    - **Photorealistic Jigsaw**: Puzzles based on high-quality photographs.
-    - **Illustrative Jigsaw**: Features artistic or illustrative designs.
-    - **3D Jigsaw Puzzles**: Three-dimensional puzzles, often of buildings or objects.
+- **[[Game Design/Genre Dissection/Game Genres/Massively Multiplayer Online#MMOTCG\|Massively Multiplayer Online#MMOTCG]] (Massively Multiplayer Online Trading Card Game)**
+    - **Fantasy-Themed MMOTCG**: Card games set in fantasy universes.
+    - **Strategy-Based MMOTCG**: Emphasizes strategic deck building and card play.
+    - **Collectible MMOTCG**: Focuses on collecting and trading digital cards.
 
-- **[[Game Design/Genre Dissection/Game Genres/Puzzle#Tile-matching Puzzles\|Puzzle#Tile-matching Puzzles]]**
-    - **Falling Block Tile-Matching**: Involving blocks that fall from the top of the screen.
-    - **Rotating Puzzle**: Requires players to rotate tiles or pieces to match.
-    - **Path Creation Tile-Matching**: Involves creating paths or connections between tiles.
+- **[[Game Design/Genre Dissection/Game Genres/Massively Multiplayer Online#MMO Social Games\|Massively Multiplayer Online#MMO Social Games]]**
+    - **Virtual World MMOs**: Creates a virtual space for players to interact socially.
+    - **MMO Party Games**: Includes mini-games and activities designed for social interaction.
+    - **Role-Playing Social MMOs**: Encourages role-playing in social contexts and settings.
 
-- **[[Game Design/Genre Dissection/Game Genres/Puzzle#Pattern Recognition Puzzles\|Puzzle#Pattern Recognition Puzzles]]**
-    - **Sequence Discovery**: Identifying and continuing patterns.
-    - **Shape and Color Patterns**: Involves recognizing patterns based on shapes or colors.
-    - **Hidden Object Puzzles**: Finding specific items or patterns within a complex image.
+- **[[Game Design/Genre Dissection/Game Genres/Massively Multiplayer Online#MMO Sandbox Games\|Massively Multiplayer Online#MMO Sandbox Games]]**
+    - **Creative Sandbox MMOs**: Offers tools and freedom to create and modify the game world.
+    - **Survival Sandbox MMOs**: Combines sandbox mechanics with survival elements.
+    - **Exploration Sandbox MMOs**: Focuses on exploring and discovering within a sandbox environment.
 
-- **[[Game Design/Genre Dissection/Game Genres/Puzzle#Riddle-based Puzzles\|Puzzle#Riddle-based Puzzles]]**
-    - **Textual Riddles**: Traditional riddles presented in text form.
-    - **Visual Riddles**: Riddles that involve interpreting images or visual cues.
-    - **Interactive Riddles**: Riddles that require interaction or manipulation to solve.
+- **[[Game Design/Genre Dissection/Game Genres/Massively Multiplayer Online#MMO Battle Royale Games\|Massively Multiplayer Online#MMO Battle Royale Games]]**
+    - **Last-Man-Standing MMOs**: Focuses on survival and being the last player or team standing.
+    - **Large-Scale Battle MMOs**: Involves massive numbers of players in battle royale-style combat.
+    - **Resource Management Battle Royale**: Combines battle royale gameplay with resource gathering and management.
 
 ### **[[Game Design/Genre Dissection/Game Genres/Music - Rhythm\|Music - Rhythm]]**
 
@@ -633,115 +442,199 @@
     - **Story-Driven Campaigns**: Games with a strong narrative element, often played over multiple sessions.
     - **Exploration and Discovery**: Focuses on exploring new areas or uncovering mysteries within the game.
 
-### **[[Game Design/Genre Dissection/Game Genres/Educational - Informative\|Educational - Informative]]**
+### **[[Game Design/Genre Dissection/Game Genres/Passive\|Passive]]**
 
-- **[[Game Design/Genre Dissection/Game Genres/Educational - Informative#Learning Adventures\|Educational - Informative#Learning Adventures]]**
-    - **Historical Adventures**: Focuses on exploring historical periods and events.
-    - **Scientific Exploration Adventures**: Involves learning about different scientific concepts through adventure gameplay.
-    - **Cultural Discovery Adventures**: Explores different cultures and traditions around the world.
+- **[[Game Design/Genre Dissection/Game Genres/Passive#Idle Games\|Passive#Idle Games]]**
+    - **Automated Business Simulators**: Focuses on setting up and automating various business operations.
+    - **Resource Management Idle Games**: Players manage resources that accumulate over time, optimizing strategies for growth.
+    - **Fantasy-Themed Idle Games**: Features fantasy elements and settings, often with character and story development.
 
-- **[[Game Design/Genre Dissection/Game Genres/Educational - Informative#Math Games\|Educational - Informative#Math Games]]**
-    - **Basic Arithmetic Games**: Focuses on teaching basic math skills like addition, subtraction, multiplication, and division.
-    - **Problem-Solving Math Games**: Involves using math to solve complex problems and puzzles.
-    - **Math Logic Games**: Combines math skills with logical reasoning and critical thinking.
+- **[[Game Design/Genre Dissection/Game Genres/Passive#Incremental Games\|Passive#Incremental Games]]**
+    - **Number Growth Games**: Focuses on growing numbers exponentially through upgrades and investments.
+    - **Story-Driven Incremental**: Incorporates a narrative that unfolds as the player progresses.
+    - **Science and Technology Incremental**: Themed around scientific discovery and technological advancement.
 
-- **[[Game Design/Genre Dissection/Game Genres/Educational - Informative#Language Learning\|Educational - Informative#Language Learning]]**
-    - **Vocabulary Building**: Focuses on expanding vocabulary in a new language.
-    - **Grammar and Structure**: Teaches grammatical rules and sentence structure.
-    - **Conversational Practice**: Simulates real-life conversations to improve language fluency.
+- **[[Game Design/Genre Dissection/Game Genres/Passive#Clicker Games\|Passive#Clicker Games]]**
+    - **Action Clickers**: Requires frequent player interaction through clicking or tapping.
+    - **Adventure Clickers**: Incorporates elements of adventure games, like quests and exploration, with clicker mechanics.
+    - **Themed Clickers**: Set around specific themes or concepts, from cooking to space exploration.
 
-- **[[Game Design/Genre Dissection/Game Genres/Educational - Informative#Science and Nature Exploration\|Educational - Informative#Science and Nature Exploration]]**
-    - **Biology and Ecosystem Games**: Teaches about living organisms and their environments.
-    - **Physics and Chemistry Simulations**: Involves interactive experiments and simulations to understand physical and chemical concepts.
-    - **Astronomy and Space Exploration**: Explores celestial bodies and the universe.
+- **[[Game Design/Genre Dissection/Game Genres/Passive#Relaxation Games\|Passive#Relaxation Games]]**
+    - **Zen and Meditative Games**: Designed to induce relaxation through simple gameplay and soothing visuals.
+    - **Nature and Scenery Exploration**: Allows players to explore peaceful and beautiful natural settings.
+    - **Mindfulness and Stress Relief**: Focuses on activities that promote mindfulness and stress reduction.
 
-- **[[Game Design/Genre Dissection/Game Genres/Educational - Informative#History and Geography Learning\|Educational - Informative#History and Geography Learning]]**
-    - **World History Interactive Learning**: Covers various periods and events in world history.
-    - **Geography and Maps**: Focuses on teaching geography through map-based games and quizzes.
-    - **Cultural and Civilization Studies**: Explores different civilizations and their historical impact.
+- **[[Game Design/Genre Dissection/Game Genres/Passive#Ambient Games\|Passive#Ambient Games]]**
+    - **Audio-Visual Experiences**: Combines calming visuals with ambient soundscapes.
+    - **Interactive Art**: Players interact with and influence artistic environments or elements.
+    - **Dynamic Environments**: Environments that change and evolve, often based on player input or in real-time.
 
-- **[[Game Design/Genre Dissection/Game Genres/Educational - Informative#Puzzle-based Learning\|Educational - Informative#Puzzle-based Learning]]**
-    - **Educational Brain Teasers**: Puzzles designed to enhance cognitive skills and critical thinking.
-    - **Memory Improvement Games**: Focuses on exercises and challenges to improve memory.
-    - **Logic and Reasoning Puzzles**: Involves solving puzzles through logical thinking and reasoning.
+- **[[Game Design/Genre Dissection/Game Genres/Passive#Screensaver Games\|Passive#Screensaver Games]]**
+    - **Interactive Screensavers**: Allows minimal interaction, like influencing the movement or behavior of on-screen elements.
+    - **Virtual Aquariums and Terrariums**: Simulated natural environments that can be observed and sometimes interacted with.
+    - **Living Desktops**: Animated and interactive backgrounds for computer screens.
 
-- **[[Game Design/Genre Dissection/Game Genres/Educational - Informative#Interactive Storybooks\|Educational - Informative#Interactive Storybooks]]**
-    - **Narrated Children’s Books**: Digital storybooks with narration for young readers.
-    - **Choose-Your-Own-Adventure Books**: Interactive stories where readers make choices that affect the outcome.
-    - **Educational Comics and Graphic Novels**: Combines storytelling with educational content in a comic format.
+- **[[Game Design/Genre Dissection/Game Genres/Passive#Non-interactive Experiences\|Passive#Non-interactive Experiences]]**
+    - **Visual Novels and Storybooks**: Primarily narrative experiences with limited interaction.
+    - **Cinematic Experiences**: Movie-like experiences where the player watches rather than interacts.
+    - **Virtual Tours**: Guided tours of real or fictional places, experienced passively.
 
-- **[[Game Design/Genre Dissection/Game Genres/Educational - Informative#Educational Simulations\|Educational - Informative#Educational Simulations]]**
-    - **Virtual Labs and Experiments**: Simulates scientific experiments and lab work.
-    - **Economic and Business Simulations**: Teaches economic principles and business management.
-    - **Environmental and Ecological Simulations**: Focuses on understanding and managing environmental ecosystems.
+- **[[Game Design/Genre Dissection/Game Genres/Passive#Watching Simulators\|Passive#Watching Simulators]]**
+    - **Virtual Pet Watching**: Observing the behavior and interactions of virtual pets.
+    - **Nature and Wildlife Cams**: Simulated natural environments with wildlife to observe.
+    - **Surveillance Simulators**: Simulating the experience of monitoring cameras or surveillance systems.
 
-- **[[Game Design/Genre Dissection/Game Genres/Educational - Informative#Creativity and Art Education\|Educational - Informative#Creativity and Art Education]]**
-    - **Digital Painting and Drawing**: Teaches art skills using digital tools.
-    - **Music Composition and Theory**: Focuses on music composition and understanding musical concepts.
-    - **Crafts and DIY Projects**: Encourages creativity through virtual crafting and DIY activities.
+- **[[Game Design/Genre Dissection/Game Genres/Passive#Interactive Experiences\|Passive#Interactive Experiences]]**
+    - **Explorative Interactives**: Allows players to interact with and explore environments at a leisurely pace.
+    - **Educational Interactives**: Interactive experiences designed to teach or inform.
+    - **Narrative Exploration**: Combines story elements with exploration and interaction.
 
-- **[[Game Design/Genre Dissection/Game Genres/Educational - Informative#Health and Lifestyle Education\|Educational - Informative#Health and Lifestyle Education]]**
-    - **Nutrition and Cooking Games**: Teaches about healthy eating, cooking, and nutrition.
-    - **Fitness and Exercise Apps**: Focuses on physical health, including exercise routines and fitness tracking.
-    - **Mindfulness and Well-being**: Promotes mental health through mindfulness exercises and stress-relief activities.
+### **[[Game Design/Genre Dissection/Game Genres/Puzzle\|Puzzle]]**
 
-- **[[Game Design/Genre Dissection/Game Genres/Educational - Informative#Advergame\|Educational - Informative#Advergame]]**
-    - **Brand Integration Games**: Games that integrate specific brands or products into gameplay.
-    - **Educational Marketing Games**: Uses game elements to educate players about a product or service.
-    - **Interactive Product Simulators**: Simulates the use of a product or service in an interactive environment.
+- **[[Game Design/Genre Dissection/Game Genres/Puzzle#Logic Puzzles\|Puzzle#Logic Puzzles]]**
+    - **Deductive Reasoning**: Puzzles that require players to use logical deduction to solve.
+    - **Sequential Logic**: Involves solving puzzles in a particular order or sequence.
+    - **Spatial Logic**: Focuses on understanding and manipulating spatial relationships and geometry.
 
-### **[[Game Design/Genre Dissection/Game Genres/Massively Multiplayer Online\|Massively Multiplayer Online]] (MMO)**
+- **[[Game Design/Genre Dissection/Game Genres/Puzzle#Match-3 Puzzles\|Puzzle#Match-3 Puzzles]]**
+    - **Cascading Match-3**: Includes elements that fall and replace matched items.
+    - **Swapping Match-3**: Players swap items to create matches.
+    - **Drag-and-Drop Match-3**: Involves dragging items to create matches instead of swapping.
 
-- **[[Game Design/Genre Dissection/Game Genres/Massively Multiplayer Online#MMORPG\|Massively Multiplayer Online#MMORPG]] (Massively Multiplayer Online Role-Playing Game)**
-    - **Fantasy MMORPGs**: Set in magical realms with mythical creatures and magic systems.
-    - **Sci-Fi MMORPGs**: Featuring futuristic settings with advanced technology and space exploration.
-    - **Historical MMORPGs**: Based on historical periods, offering more realistic and historical settings.
-    - **Sandbox MMORPG**: Provides a vast, open world with player-driven content, economy, and storylines.
+- **[[Game Design/Genre Dissection/Game Genres/Puzzle#Physics-based Puzzles\|Puzzle#Physics-based Puzzles]]**
+    - **Rube Goldberg Machines**: Involves creating complex contraptions to perform simple tasks.
+    - **Gravity-Based**: Centers around manipulating gravity to solve puzzles.
+    - **Construction Puzzles**: Players build structures or mechanisms to solve challenges.
 
-- **[[Game Design/Genre Dissection/Game Genres/Massively Multiplayer Online#MMOFPS\|Massively Multiplayer Online#MMOFPS]] (Massively Multiplayer Online First-Person Shooter)**
-    - **Tactical MMOFPS**: Focuses on strategic and tactical gameplay in a first-person shooter format.
-    - **Sci-Fi MMOFPS**: Set in futuristic worlds, often with advanced weaponry and vehicles.
-    - **Warfare MMOFPS**: Centers around large-scale battles and military combat.
+- **[[Game Design/Genre Dissection/Game Genres/Puzzle#Word Puzzles\|Puzzle#Word Puzzles]]**
+    - **Anagrams and Word Scrambles**: Rearranging letters to form words or phrases.
+    - **Word Search**: Finding specific words hidden in a grid of letters.
+    - **Word Association**: Involves finding connections between different words.
 
-- **[[Game Design/Genre Dissection/Game Genres/Massively Multiplayer Online#MMO Strategy Games\|Massively Multiplayer Online#MMO Strategy Games]]**
-    - **Real-Time MMO Strategy**: Involves managing resources, building bases, and commanding armies in real-time.
-    - **Turn-Based MMO Strategy**: Players take turns making strategic decisions and moves.
-    - **Economic MMO Strategy**: Focuses on economic management, trade, and resource allocation on a large scale.
+- **[[Game Design/Genre Dissection/Game Genres/Puzzle#Sudoku\|Puzzle#Sudoku]]**
+    - **Traditional Number Sudoku**: Classic 9x9 grids with numbers.
+    - **Thematic Sudoku**: Variants that replace numbers with symbols, colors, or pictures.
+    - **Multi-Level Sudoku**: Complex versions with overlapping or interlinked puzzles.
 
-- **[[Game Design/Genre Dissection/Game Genres/Massively Multiplayer Online#MMO Racing Games\|Massively Multiplayer Online#MMO Racing Games]]**
-    - **Arcade-Style MMO Racing**: Emphasizes fast-paced, action-packed racing.
-    - **Simulation MMO Racing**: Offers a realistic racing experience with accurate physics and vehicle dynamics.
-    - **Open-World MMO Racing**: Combines racing with open-world exploration elements.
+- **[[Game Design/Genre Dissection/Game Genres/Puzzle#Crossword Puzzles\|Puzzle#Crossword Puzzles]]**
+    - **Cryptic Crosswords**: Clues involve puzzles within themselves.
+    - **Themed Crosswords**: Crosswords revolving around a particular theme or subject.
+    - **Mini Crosswords**: Shorter, quicker versions of traditional crosswords.
 
-- **[[Game Design/Genre Dissection/Game Genres/Massively Multiplayer Online#MMO Sports Games\|Massively Multiplayer Online#MMO Sports Games]]**
-    - **Team-Based MMO Sports**: Players control a team in sports like soccer, basketball, or football.
-    - **Individual Skill MMO Sports**: Focuses on individual performance in sports like tennis or golf.
-    - **Fantasy League MMO Sports**: Involves managing fantasy sports teams based on real-world players and statistics.
+- **[[Game Design/Genre Dissection/Game Genres/Puzzle#Jigsaw Puzzles\|Puzzle#Jigsaw Puzzles]]**
+    - **Photorealistic Jigsaw**: Puzzles based on high-quality photographs.
+    - **Illustrative Jigsaw**: Features artistic or illustrative designs.
+    - **3D Jigsaw Puzzles**: Three-dimensional puzzles, often of buildings or objects.
 
-- **[[Game Design/Genre Dissection/Game Genres/Massively Multiplayer Online#MMO Simulation Games\|Massively Multiplayer Online#MMO Simulation Games]]**
-    - **Life Simulation MMO**: Simulates aspects of daily life and social interactions.
-    - **Business and Economy Simulation MMO**: Focuses on running businesses and managing economies.
-    - **Vehicle Simulation MMO**: Involves operating and managing various types of vehicles, from cars to planes.
+- **[[Game Design/Genre Dissection/Game Genres/Puzzle#Tile-matching Puzzles\|Puzzle#Tile-matching Puzzles]]**
+    - **Falling Block Tile-Matching**: Involving blocks that fall from the top of the screen.
+    - **Rotating Puzzle**: Requires players to rotate tiles or pieces to match.
+    - **Path Creation Tile-Matching**: Involves creating paths or connections between tiles.
 
-- **[[Game Design/Genre Dissection/Game Genres/Massively Multiplayer Online#MMOTCG\|Massively Multiplayer Online#MMOTCG]] (Massively Multiplayer Online Trading Card Game)**
-    - **Fantasy-Themed MMOTCG**: Card games set in fantasy universes.
-    - **Strategy-Based MMOTCG**: Emphasizes strategic deck building and card play.
-    - **Collectible MMOTCG**: Focuses on collecting and trading digital cards.
+- **[[Game Design/Genre Dissection/Game Genres/Puzzle#Pattern Recognition Puzzles\|Puzzle#Pattern Recognition Puzzles]]**
+    - **Sequence Discovery**: Identifying and continuing patterns.
+    - **Shape and Color Patterns**: Involves recognizing patterns based on shapes or colors.
+    - **Hidden Object Puzzles**: Finding specific items or patterns within a complex image.
 
-- **[[Game Design/Genre Dissection/Game Genres/Massively Multiplayer Online#MMO Social Games\|Massively Multiplayer Online#MMO Social Games]]**
-    - **Virtual World MMOs**: Creates a virtual space for players to interact socially.
-    - **MMO Party Games**: Includes mini-games and activities designed for social interaction.
-    - **Role-Playing Social MMOs**: Encourages role-playing in social contexts and settings.
+- **[[Game Design/Genre Dissection/Game Genres/Puzzle#Riddle-based Puzzles\|Puzzle#Riddle-based Puzzles]]**
+    - **Textual Riddles**: Traditional riddles presented in text form.
+    - **Visual Riddles**: Riddles that involve interpreting images or visual cues.
+    - **Interactive Riddles**: Riddles that require interaction or manipulation to solve.
 
-- **[[Game Design/Genre Dissection/Game Genres/Massively Multiplayer Online#MMO Sandbox Games\|Massively Multiplayer Online#MMO Sandbox Games]]**
-    - **Creative Sandbox MMOs**: Offers tools and freedom to create and modify the game world.
-    - **Survival Sandbox MMOs**: Combines sandbox mechanics with survival elements.
-    - **Exploration Sandbox MMOs**: Focuses on exploring and discovering within a sandbox environment.
+### **[[Game Design/Genre Dissection/Game Genres/Racing\|Racing]]**
 
-- **[[Game Design/Genre Dissection/Game Genres/Massively Multiplayer Online#MMO Battle Royale Games\|Massively Multiplayer Online#MMO Battle Royale Games]]**
-    - **Last-Man-Standing MMOs**: Focuses on survival and being the last player or team standing.
-    - **Large-Scale Battle MMOs**: Involves massive numbers of players in battle royale-style combat.
-    - **Resource Management Battle Royale**: Combines battle royale gameplay with resource gathering and management.
+- **[[Game Design/Genre Dissection/Game Genres/Racing#Simulative Racing\|Racing#Simulative Racing]]**
+    - **Realistic Track Racing**: Focuses on accurately simulating racing on professional tracks.
+    - **Vehicle Customization**: Emphasizes detailed customization of vehicles for performance and aesthetics.
+    - **Career Mode Racing**: Offers a career mode where players progress through a racing career.
+
+- **[[Game Design/Genre Dissection/Game Genres/Racing#Arcade Racing\|Racing#Arcade Racing]]**
+    - **High-Speed Thrills**: Features exaggerated speeds and simplified controls for a high-adrenaline experience.
+    - **Power-Ups and Boosts**: Includes special items or abilities to gain an advantage during races.
+    - **Stunt Racing**: Focuses on performing stunts or tricks during races.
+
+- **[[Game Design/Genre Dissection/Game Genres/Racing#Kart Racing\|Racing#Kart Racing]]**
+    - **Family-Friendly Kart Racing**: Designed for all ages with a focus on fun and accessibility.
+    - **Combat Kart Racing**: Includes combat elements, allowing players to hinder opponents with various attacks.
+    - **Fantasy Tracks**: Races take place on imaginative and unrealistic tracks.
+
+- **[[Game Design/Genre Dissection/Game Genres/Racing#Motocross\|Racing#Motocross]]**
+    - **Freestyle Motocross**: Focuses on performing tricks and stunts.
+    - **MX Racing**: Traditional motocross racing on dirt tracks.
+    - **Supercross**: Features stadium-based motocross with more technical tracks and obstacles.
+
+- **[[Game Design/Genre Dissection/Game Genres/Racing#Formula 1 Racing\|Racing#Formula 1 Racing]]**
+    - **F1 Simulation**: Realistically simulates Formula 1 races, with authentic tracks and cars.
+    - **Team Management**: Involves managing a Formula 1 team, including strategy and development.
+    - **Historical F1**: Races featuring historical Formula 1 cars and tracks.
+
+- **[[Game Design/Genre Dissection/Game Genres/Racing#Off-road Racing\|Racing#Off-road Racing]]**
+    - **Rally Cross**: Short races on mixed-surface tracks, often in closed circuits.
+    - **Open Terrain Exploration**: Races or challenges taking place in open, free-roam environments.
+    - **Extreme Off-road**: Focuses on extreme terrains and challenging conditions.
+
+- **[[Game Design/Genre Dissection/Game Genres/Racing#Street Racing\|Racing#Street Racing]]**
+    - **Illegal Street Racing**: Centers around unsanctioned races in urban environments.
+    - **Tuner Culture**: Emphasizes car modification and street racing culture.
+    - **Urban Circuit Racing**: Races that take place on closed city streets or urban environments.
+
+- **[[Game Design/Genre Dissection/Game Genres/Racing#Rally Racing\|Racing#Rally Racing]]**
+    - **Point-to-Point Rally**: Focuses on time trial races over closed public or private roads.
+    - **Stage-Based Rally**: Involves completing various stages and managing car condition between stages.
+    - **Cross-Country Rally**: Long-distance races often spanning multiple countries or terrains.
+
+- **[[Game Design/Genre Dissection/Game Genres/Racing#Drag Racing\|Racing#Drag Racing]]**
+    - **Classic Drag Racing**: Straight-line races focusing on quick starts and gear shifting.
+    - **Drag Race Tournaments**: Organized events with multiple rounds and varying classes of cars.
+    - **Street-style Drag Racing**: Informal drag races, often in urban settings.
+
+- **[[Game Design/Genre Dissection/Game Genres/Racing#Watercraft Racing\|Racing#Watercraft Racing]]**
+    - **Jet Ski Racing**: Races using personal watercraft on various water courses.
+    - **Powerboat Racing**: High-speed boat races on lakes, rivers, or coastal waters.
+    - **Sailing Competitions**: Focuses on sailing skills and navigating courses with wind-powered boats.
+
+- **[[Game Design/Genre Dissection/Game Genres/Racing#Aerospace Racing\|Racing#Aerospace Racing]]**
+    - **Futuristic Space Racing**: Races set in outer space with advanced spacecraft.
+    - **Air Racing**: Involves piloting aircraft through competitive courses.
+    - **Anti-Gravity Racing**: Features high-speed races with anti-gravity vehicles on futuristic tracks.
+
+### **[[Game Design/Genre Dissection/Game Genres/Role-playing\|Role-playing]] (RPG)**
+
+- **[[Game Design/Genre Dissection/Game Genres/Role-playing#Western RPG\|Role-playing#Western RPG]]**
+    - **Open World RPG**: Focuses on large, open environments with freedom in exploration and character progression.
+    - **Story-Driven RPG**: Emphasizes narrative and character development, often with complex storylines and deep lore.
+    - **Choices and Consequences RPG**: Offers meaningful choices that significantly impact the game's story and world.
+
+- **[[Game Design/Genre Dissection/Game Genres/Role-playing#Japanese RPG\|Role-playing#Japanese RPG]] (JRPG)**
+    - **Turn-Based JRPG**: Classic style with turn-based combat systems.
+    - **Anime-Styled JRPG**: Features anime-inspired art and storylines.
+    - **Strategic JRPG**: Combines traditional JRPG elements with more strategic, often grid-based, combat.
+
+- **[[Game Design/Genre Dissection/Game Genres/Role-playing#Action RPG\|Role-playing#Action RPG]] (ARPG)**
+    - **Loot-Based ARPG**: Focuses on collecting a variety of weapons, armor, and other items.
+    - **Hack-and-Slash ARPG**: Emphasizes fast-paced combat against large numbers of enemies.
+    - **Souls-like ARPG**: Characterized by challenging combat, a high level of difficulty, and a focus on learning from death.
+
+- **[[Game Design/Genre Dissection/Game Genres/Role-playing#Dungeon Crawler\|Role-playing#Dungeon Crawler]]**
+    - **Roguelike Dungeon Crawler**: Features procedurally generated dungeons and permadeath.
+    - **Labyrinth Exploration**: Focuses on complex maze-like dungeons that players must navigate.
+    - **Puzzle-Oriented Dungeon Crawler**: Incorporates puzzle-solving into the dungeon exploration experience.
+
+- **[[Game Design/Genre Dissection/Game Genres/Role-playing#Tactical RPG\|Role-playing#Tactical RPG]] (TRPG)**
+    - **Grid-Based Tactical RPG**: Involves strategic battles on grid-based maps.
+    - **Real-Time Tactics RPG**: Combines RPG elements with real-time tactical decision-making.
+    - **Story-Focused TRPG**: Emphasizes narrative elements within a tactical gameplay framework.
+
+- **[[Game Design/Genre Dissection/Game Genres/Role-playing#Rogue-like\|Role-playing#Rogue-like]]**
+    - **Procedural Rogue-like**: Focuses on procedurally generated levels for a new experience every playthrough.
+    - **Hardcore Rogue-like**: Features a high level of difficulty with permadeath and minimal player guidance.
+    - **Rogue-lite**: Blends rogue-like elements with other genres, often retaining some progress after death.
+    - **Rogue-like Deckbuilder**: Combines card-drafting and deck-building mechanics with roguelike procedural progression and randomized encounters.
+
+- **[[Game Design/Genre Dissection/Game Genres/Role-playing#Soulslike\|Role-playing#Soulslike]]**
+    - **Action Souls-like**: Fast-paced, stamina-driven melee combat set in dark fantasy worlds emphasizing dodge-timing and enemy telegraphs.
+    - **2D / Metroidvania Souls-like**: Side-scrolling or top-down interpretations of Soulslike combat, navigation, and checkpoint mechanics (often called "Soulsvania").
+    - **Extraction Souls-like**: Combines multiplayer extraction risk-reward mechanics with deliberate, stamina-based combat and permanent gear loss.
 
 ### **[[Game Design/Genre Dissection/Game Genres/Sandbox - Open World\|Sandbox - Open World]]**
 
@@ -795,99 +688,203 @@
     - **Cooperative Exploration and Building**: Focuses on players working together to explore and build.
     - **Competitive Multiplayer**: Includes player vs. player (PvP) elements in an open world.
 
-### **[[Game Design/Genre Dissection/Game Genres/Gambling\|Gambling]]**
+### **[[Game Design/Genre Dissection/Game Genres/Shooter\|Shooter]]**
 
-- **[[Game Design/Genre Dissection/Game Genres/Gambling#Casino Simulation\|Gambling#Casino Simulation]]**
-    - **Virtual Casino Resorts**: Simulates the experience of visiting and playing in a full-scale virtual casino.
-    - **Table Games Simulation**: Focuses on classic casino table games like blackjack, roulette, and baccarat.
-    - **High-Stakes Casino Simulation**: Designed for simulating high roller casino experiences with large bets and risks.
+- **[[Game Design/Genre Dissection/Game Genres/Shooter#First-Person Shooter\|Shooter#First-Person Shooter]] (FPS)**
+    - **Military FPS**: Focuses on realistic, military-based combat scenarios.
+    - **Sci-Fi FPS**: Set in futuristic or space environments, often with advanced weaponry and technology.
+    - **Horror FPS**: Combines first-person shooting mechanics with horror elements, creating a tense, frightening experience.
 
-- **[[Game Design/Genre Dissection/Game Genres/Gambling#Gacha Games\|Gambling#Gacha Games]]**
-    - **Character Gacha**: Players spend in-game currency to receive random virtual characters, often for use in battles or quests.
-    - **Item Gacha**: Focuses on obtaining random virtual items that can enhance gameplay or aesthetics.
-    - **Cosmetic Gacha**: Involves collecting cosmetic items or appearances for characters or environments.
+- **[[Game Design/Genre Dissection/Game Genres/Shooter#Third-Person Shooter\|Shooter#Third-Person Shooter]] (TPS)**
+    - **Open World TPS**: Features large, open environments and a focus on exploration alongside shooting.
+    - **Cinematic TPS**: Emphasizes story and character, often with high-quality graphics and cinematic cutscenes.
+    - **Stealth TPS**: Incorporates stealth mechanics, allowing players to avoid direct confrontation.
 
-- **[[Game Design/Genre Dissection/Game Genres/Gambling#Poker Simulation\|Gambling#Poker Simulation]]**
-    - **Texas Hold'em Poker**: Simulates the popular Texas Hold'em variant of poker.
-    - **Tournament Poker**: Focuses on playing through structured poker tournaments.
-    - **Casual Poker Games**: Designed for more relaxed and informal poker playing experiences.
+- **[[Game Design/Genre Dissection/Game Genres/Shooter#Tactical Shooter\|Shooter#Tactical Shooter]]**
+    - **Squad-Based Tactical Shooter**: Focuses on controlling a squad of characters, each with unique skills.
+    - **Realistic Tactical Shooter**: Emphasizes realism in weapons, tactics, and scenarios.
+    - **Strategic Planning Shooter**: Requires pre-mission planning and resource management.
 
-- **[[Game Design/Genre Dissection/Game Genres/Gambling#Slot Machine Games\|Gambling#Slot Machine Games]]**
-    - **Themed Slot Machines**: Slot games featuring specific themes like ancient civilizations, fantasy, or popular culture.
-    - **Progressive Slots Simulation**: Involves playing virtual slot machines with progressive jackpots.
-    - **Classic Slot Simulation**: Simulates traditional slot machines with basic mechanics and fewer paylines.
+- **[[Game Design/Genre Dissection/Game Genres/Shooter#Arena Shooter\|Shooter#Arena Shooter]]**
+    - **Fast-Paced Arena Shooter**: Emphasizes quick reflexes and rapid movement.
+    - **Multiplayer Arena Shooter**: Designed primarily for multiplayer combat in closed arena settings.
+    - **Retro-Style Arena Shooter**: Pays homage to classic, older arena shooters in style and gameplay.
 
-- **[[Game Design/Genre Dissection/Game Genres/Gambling#Betting and Wagering Games\|Gambling#Betting and Wagering Games]]**
-    - **Parimutuel Betting Games**: Focuses on bets pooled together, like horse racing bets.
-    - **Fixed-Odds Betting Games**: Involves betting against odds set by the bookmaker or the game itself.
-    - **Peer-to-Peer Betting**: Players place bets against each other rather than against a house or bookmaker.
+- **[[Game Design/Genre Dissection/Game Genres/Shooter#Hero Shooter\|Shooter#Hero Shooter]]**
+    - **Ability-Based Hero Shooter**: Each character has unique abilities and roles.
+    - **Team-Based Hero Shooter**: Focuses on team play and strategy with diverse character rosters.
+    - **MOBA-Influenced Hero Shooter**: Combines elements of MOBAs with shooter gameplay.
 
-- **[[Game Design/Genre Dissection/Game Genres/Gambling#Card Games with Gambling Elements\|Gambling#Card Games with Gambling Elements]]**
-    - **Blackjack and Variants**: Includes traditional blackjack and its various forms.
-    - **Baccarat Simulation**: Simulates the popular casino card game baccarat.
-    - **High-Low Card Games**: Involves guessing whether the next card will be higher or lower.
+- **[[Game Design/Genre Dissection/Game Genres/Shooter#Cover Shooter\|Shooter#Cover Shooter]]**
+    - **Tactical Cover Shooter**: Combines cover mechanics with tactical gameplay elements.
+    - **Dynamic Environment Cover Shooter**: Environments provide interactive cover options.
+    - **Narrative-Driven Cover Shooter**: Story-focused gameplay intertwined with cover-based shooting.
 
-- **[[Game Design/Genre Dissection/Game Genres/Gambling#Virtual Lottery Games\|Gambling#Virtual Lottery Games]]**
-    - **Scratch-off Lottery Simulation**: Simulates the experience of buying and scratching off lottery tickets.
-    - **Number Draw Lottery**: Involves selecting numbers and simulating a lottery draw.
-    - **Instant Win Games**: Quick-play lottery-style games with immediate outcomes.
+- **[[Game Design/Genre Dissection/Game Genres/Shooter#Precision Shooter\|Shooter#Precision Shooter]]**
+    - **Sniping Games**: Emphasizes long-range shooting accuracy.
+    - **Target Shooting**: Focuses on hitting static or moving targets with precision.
+    - **One-Shot Kill Shooter**: Games where precision and timing are crucial for survival.
 
-- **[[Game Design/Genre Dissection/Game Genres/Gambling#Dice Games and Craps Simulation\|Gambling#Dice Games and Craps Simulation]]**
-    - **Street Craps**: Simulates more informal versions of craps, often played on the streets.
-    - **Casino Craps Simulation**: Replicates the casino-style craps experience.
-    - **Dice Roll Prediction Games**: Involves predicting the outcome of dice rolls or combinations.
+- **[[Game Design/Genre Dissection/Game Genres/Shooter#Run and Gun\|Shooter#Run and Gun]]**
+    - **Side-Scrolling Run and Gun**: Combines side-scrolling action with continuous shooting.
+    - **Platforming Run and Gun**: Integrates platforming elements with fast-paced shooting.
+    - **Arcade-Style Run and Gun**: Features over-the-top action and simplified controls reminiscent of arcade games.
 
-- **[[Game Design/Genre Dissection/Game Genres/Gambling#Sports Betting Simulation\|Gambling#Sports Betting Simulation]]**
-    - **Fantasy Sports Betting**: Involves betting within a simulated fantasy sports environment.
-    - **Virtual Sports Betting**: Betting on simulated, computer-generated sports events.
-    - **In-game Live Sports Betting**: Offers live betting options during simulated sports matches.
+- **[[Game Design/Genre Dissection/Game Genres/Shooter#Bullet Hell - Shoot Em Up\|Shooter#Bullet Hell - Shoot Em Up]]**
+    - **Vertical Scrolling Shooters**: The action primarily moves vertically upwards.
+    - **Horizontal Scrolling Shooters**: Side-scrolling action where players navigate left or right.
+    - **Pattern-Based Shooters**: Focuses on memorizing enemy attack patterns for survival.
 
-### **[[Game Design/Genre Dissection/Game Genres/Passive\|Passive]]**
+- **[[Game Design/Genre Dissection/Game Genres/Shooter#Twin-Stick Shooter\|Shooter#Twin-Stick Shooter]]**
+    - **Rogue-like Twin-Stick Shooter**: Incorporates elements of randomness and permadeath.
+    - **Arcade Twin-Stick Shooter**: Emphasizes high scores and wave-based progression.
+    - **Cooperative Twin-Stick Shooter**: Designed for multiplayer gameplay, often with shared objectives.
 
-- **[[Game Design/Genre Dissection/Game Genres/Passive#Idle Games\|Passive#Idle Games]]**
-    - **Automated Business Simulators**: Focuses on setting up and automating various business operations.
-    - **Resource Management Idle Games**: Players manage resources that accumulate over time, optimizing strategies for growth.
-    - **Fantasy-Themed Idle Games**: Features fantasy elements and settings, often with character and story development.
+- **[[Game Design/Genre Dissection/Game Genres/Shooter#Light Gun Shooter\|Shooter#Light Gun Shooter]]**
+    - **Arcade Rail Shooter**: On-rails shooters typically found in arcade settings.
+    - **Home Console Light Gun Games**: Designed for home console light gun accessories.
+    - **VR-Based Light Gun Shooter**: Utilizes virtual reality technology for immersive shooting experiences.
 
-- **[[Game Design/Genre Dissection/Game Genres/Passive#Incremental Games\|Passive#Incremental Games]]**
-    - **Number Growth Games**: Focuses on growing numbers exponentially through upgrades and investments.
-    - **Story-Driven Incremental**: Incorporates a narrative that unfolds as the player progresses.
-    - **Science and Technology Incremental**: Themed around scientific discovery and technological advancement.
+- **[[Game Design/Genre Dissection/Game Genres/Shooter#Top-Down Shooter\|Shooter#Top-Down Shooter]]**
+    - **Twin-Stick Top-Down Shooter**: Uses dual joystick controls for movement and shooting.
+    - **Strategy Top-Down Shooter**: Combines top-down shooting with strategic elements like resource management.
+    - **Rogue-like Top-Down Shooter**: Features procedurally generated levels and permadeath mechanics.
 
-- **[[Game Design/Genre Dissection/Game Genres/Passive#Clicker Games\|Passive#Clicker Games]]**
-    - **Action Clickers**: Requires frequent player interaction through clicking or tapping.
-    - **Adventure Clickers**: Incorporates elements of adventure games, like quests and exploration, with clicker mechanics.
-    - **Themed Clickers**: Set around specific themes or concepts, from cooking to space exploration.
+- **[[Game Design/Genre Dissection/Game Genres/Shooter#Extraction Shooter\|Shooter#Extraction Shooter]]**
+    - **Raid-Based Extraction**: Session-based multiplayer shooters where players deploy into a contested zone to loot, complete objectives, and escape via restricted extraction points while risking all carried gear upon death.
+    - **Extraction Royale**: A hybrid merging battle royale shrinking map dynamics with player-versus-environment threats and gear persistence.
+    - **Cooperative Extraction**: PvE-focused extraction shooters prioritizing squad tactics and objective survival against AI hordes over player conflict.
 
-- **[[Game Design/Genre Dissection/Game Genres/Passive#Relaxation Games\|Passive#Relaxation Games]]**
-    - **Zen and Meditative Games**: Designed to induce relaxation through simple gameplay and soothing visuals.
-    - **Nature and Scenery Exploration**: Allows players to explore peaceful and beautiful natural settings.
-    - **Mindfulness and Stress Relief**: Focuses on activities that promote mindfulness and stress reduction.
+### **[[Game Design/Genre Dissection/Game Genres/Simulation\|Simulation]]**
 
-- **[[Game Design/Genre Dissection/Game Genres/Passive#Ambient Games\|Passive#Ambient Games]]**
-    - **Audio-Visual Experiences**: Combines calming visuals with ambient soundscapes.
-    - **Interactive Art**: Players interact with and influence artistic environments or elements.
-    - **Dynamic Environments**: Environments that change and evolve, often based on player input or in real-time.
+- **[[Game Design/Genre Dissection/Game Genres/Simulation#Life Simulation\|Simulation#Life Simulation]]**
+    - **Virtual World**: Simulates everyday activities in a virtual environment, often with open-ended gameplay.
+    - **Social Simulation**: Focuses on social interactions and relationship building within a simulated environment.
+    - **Pet Raising Simulation**: Involves nurturing and caring for virtual pets or creatures.
 
-- **[[Game Design/Genre Dissection/Game Genres/Passive#Screensaver Games\|Passive#Screensaver Games]]**
-    - **Interactive Screensavers**: Allows minimal interaction, like influencing the movement or behavior of on-screen elements.
-    - **Virtual Aquariums and Terrariums**: Simulated natural environments that can be observed and sometimes interacted with.
-    - **Living Desktops**: Animated and interactive backgrounds for computer screens.
+- **[[Game Design/Genre Dissection/Game Genres/Simulation#Vehicle Simulation\|Simulation#Vehicle Simulation]]**
+    - **Flight Simulation**: Realistically simulates aircraft flying, often with detailed cockpits and physics.
+    - **Driving and Racing Simulation**: Focuses on realistically simulating driving mechanics, including vehicle handling and road conditions.
+    - **Marine Simulation**: Simulates naval vessels, including boats, ships, or submarines, often focusing on navigation and maritime activities.
 
-- **[[Game Design/Genre Dissection/Game Genres/Passive#Non-interactive Experiences\|Passive#Non-interactive Experiences]]**
-    - **Visual Novels and Storybooks**: Primarily narrative experiences with limited interaction.
-    - **Cinematic Experiences**: Movie-like experiences where the player watches rather than interacts.
-    - **Virtual Tours**: Guided tours of real or fictional places, experienced passively.
+- **[[Game Design/Genre Dissection/Game Genres/Simulation#Construction and Management Simulation\|Simulation#Construction and Management Simulation]]**
+    - **City Building**: Players design, build, and manage a city, including infrastructure, utilities, and citizen welfare.
+    - **Theme Park Management**: Involves creating and running a theme park, including ride design, guest satisfaction, and financial management.
+    - **Hospital Management**: Simulates the running of a hospital, including patient care, staff management, and facility expansion.
 
-- **[[Game Design/Genre Dissection/Game Genres/Passive#Watching Simulators\|Passive#Watching Simulators]]**
-    - **Virtual Pet Watching**: Observing the behavior and interactions of virtual pets.
-    - **Nature and Wildlife Cams**: Simulated natural environments with wildlife to observe.
-    - **Surveillance Simulators**: Simulating the experience of monitoring cameras or surveillance systems.
+- **[[Game Design/Genre Dissection/Game Genres/Simulation#Business Simulation\|Simulation#Business Simulation]]**
+    - **Corporate Tycoon**: Involves running a corporation, making strategic business decisions to maximize profits.
+    - **Retail Management**: Focuses on managing a retail business, including inventory, sales, and customer service.
+    - **Startup Simulation**: Simulates the experience of founding and growing a startup company.
 
-- **[[Game Design/Genre Dissection/Game Genres/Passive#Interactive Experiences\|Passive#Interactive Experiences]]**
-    - **Explorative Interactives**: Allows players to interact with and explore environments at a leisurely pace.
-    - **Educational Interactives**: Interactive experiences designed to teach or inform.
-    - **Narrative Exploration**: Combines story elements with exploration and interaction.
+- **[[Game Design/Genre Dissection/Game Genres/Simulation#Farming Simulation\|Simulation#Farming Simulation]]**
+    - **Agricultural Management**: Involves cultivating crops, managing livestock, and selling produce.
+    - **Homestead Management**: Combines farming with broader homesteading activities, such as crafting and building.
+    - **Rural Life Simulation**: Emphasizes the lifestyle and daily activities associated with rural living and farming.
+
+- **[[Game Design/Genre Dissection/Game Genres/Simulation#God Game\|Simulation#God Game]]**
+    - **World-Building**: Players have control over an entire world, shaping landscapes and ecosystems.
+    - **Population Management**: Focuses on managing and guiding a population of followers.
+    - **Moral Decision-Making**: Involves making decisions that affect the game world, often with moral or ethical implications.
+
+- **[[Game Design/Genre Dissection/Game Genres/Simulation#Space Simulation\|Simulation#Space Simulation]]**
+    - **Space Exploration**: Focuses on exploring space, discovering new planets, and encountering various space phenomena.
+    - **Space Combat Simulation**: Involves piloting spacecraft in combat, often with realistic space physics.
+    - **Space Colony Management**: Simulates managing a space colony, including resource gathering, habitat building, and interstellar trade.
+
+- **[[Game Design/Genre Dissection/Game Genres/Simulation#Immersive Sim\|Simulation#Immersive Sim]]**
+    - **First-Person Immersive Sim**: Classic immersive sims prioritizing first-person player choice, interconnected systems, and environmental problem-solving (e.g., _Deus Ex_, _Dishonored_).
+    - **Isometric / Third-Person Immersive Sim**: Immersive sims rendered from top-down or third-person perspectives while retaining deep systemic simulation and multiple solution paths (e.g., _Shadow Gambit_, _Divinity_ immersive elements).
+    - **Systemic Roguelike Immersive Sim**: A genre fusion combining randomized dungeon generation and permadeath with immersive sim emergent mechanics.
+
+### **[[Game Design/Genre Dissection/Game Genres/Sports\|Sports]]**
+
+- **[[Game Design/Genre Dissection/Game Genres/Sports#Soccer - Football\|Sports#Soccer - Football]]**
+    - **Club Management Simulation**: Focuses on managing a soccer club, including tactics, transfers, and financial decisions.
+    - **Street Soccer**: Centers around more casual, urban-style soccer games with fewer players and improvised fields.
+    - **International Tournament**: Simulates international soccer tournaments like the World Cup.
+
+- **[[Game Design/Genre Dissection/Game Genres/Sports#Basketball\|Sports#Basketball]]**
+    - **Arcade-Style Basketball**: Fast-paced, often with exaggerated gameplay and less adherence to traditional rules.
+    - **Pro Basketball Simulation**: Realistic simulation of professional basketball leagues and gameplay.
+    - **Street Basketball**: Focuses on 3-on-3, half-court basketball games, often played on urban courts.
+
+- **[[Game Design/Genre Dissection/Game Genres/Sports#Baseball\|Sports#Baseball]]**
+    - **MLB Simulation**: Simulates Major League Baseball with authentic teams, players, and stadiums.
+    - **Fantasy Baseball**: Involves creating and managing a fantasy baseball team based on real player statistics.
+    - **Arcade Baseball**: Simplified, fast-paced baseball games with emphasis on fun and accessibility.
+
+- **[[Game Design/Genre Dissection/Game Genres/Sports#American Football\|Sports#American Football]]**
+    - **NFL Simulation**: Realistic simulation of National Football League games.
+    - **College Football**: Focuses on the unique aspects of college-level American football.
+    - **Tactical Football Management**: Involves managing a football team’s strategies, rosters, and play calling.
+
+- **[[Game Design/Genre Dissection/Game Genres/Sports#Golf\|Sports#Golf]]**
+    - **Realistic Golf Simulation**: Accurately simulates golf physics, courses, and professional play.
+    - **Mini Golf**: Focuses on fun and creative mini golf courses, often with whimsical themes.
+    - **Fantasy Golf**: Adds imaginative elements to golf, such as power-ups or unusual courses.
+
+- **[[Game Design/Genre Dissection/Game Genres/Sports#Tennis\|Sports#Tennis]]**
+    - **Professional Tennis Simulation**: Simulates professional tennis matches and tournaments.
+    - **Arcade Tennis**: Simplified and fast-paced tennis gameplay, often with power-ups and special moves.
+    - **Doubles Tennis**: Focuses specifically on the doubles format of tennis play.
+
+- **[[Game Design/Genre Dissection/Game Genres/Sports#Volleyball\|Sports#Volleyball]]**
+    - **Beach Volleyball**: Centered around beach volleyball mechanics and environments.
+    - **Indoor Volleyball**: Simulates traditional six-player indoor volleyball.
+    - **Arcade Volleyball**: Simplified, action-oriented volleyball with less focus on realistic gameplay.
+
+- **[[Game Design/Genre Dissection/Game Genres/Sports#Hockey\|Sports#Hockey]]**
+    - **NHL Simulation**: Realistic simulation of National Hockey League games.
+    - **Street Hockey**: Focuses on casual, street-level hockey games, typically played on non-ice surfaces.
+    - **Arcade Hockey**: Fast-paced, action-oriented gameplay with exaggerated physics and rules.
+
+- **[[Game Design/Genre Dissection/Game Genres/Sports#Cricket\|Sports#Cricket]]**
+    - **Test Match Cricket**: Simulates the longer, more strategic form of cricket.
+    - **Twenty20 Cricket**: Focuses on the shorter, more explosive version of the game.
+    - **Street Cricket**: Casual form of cricket often played in urban or backyard environments.
+
+- **[[Game Design/Genre Dissection/Game Genres/Sports#Exergame\|Sports#Exergame]]**
+    - **Fitness and Workout Games**: Designed to provide a physical workout, often using motion sensors or VR.
+    - **Dance-Based Exergames**: Focuses on dance routines as a form of exercise and entertainment.
+    - **Sports-Training Exergames**: Simulates various sports activities for training and fitness purposes.
+
+### **[[Game Design/Genre Dissection/Game Genres/Strategy\|Strategy]]**
+
+- **[[Game Design/Genre Dissection/Game Genres/Strategy#Real-Time Strategy\|Strategy#Real-Time Strategy]] (RTS)**
+    - **Base Building RTS**: Focuses on constructing and managing a base or headquarters while expanding territory and resources.
+    - **Military Warfare RTS**: Centers on large-scale military engagements, often with historical or futuristic themes.
+    - **Economic Management RTS**: Emphasizes resource management, economic growth, and trade over military conquest.
+
+- **[[Game Design/Genre Dissection/Game Genres/Strategy#Turn-Based Strategy\|Strategy#Turn-Based Strategy]] (TBS)**
+    - **Grid-Based TBS**: Utilizes a grid system for movement and combat, emphasizing tactical positioning.
+    - **4X TBS**: A blend of TBS with 'explore, expand, exploit, exterminate' mechanics, often set in space or historical settings.
+    - **Character-Driven TBS**: Focuses on individual units or characters with unique abilities, often in a squad-based setup.
+
+- **[[Game Design/Genre Dissection/Game Genres/Strategy#4X\|Strategy#4X]] (Explore, Expand, Exploit, Exterminate)**
+    - **Space 4X**: Set in space, with exploration of galaxies, colonization of planets, and space warfare.
+    - **Historical 4X**: Based on real-world history, focusing on the growth and expansion of civilizations over time.
+    - **Fantasy 4X**: Features fantasy settings with mythical creatures, magic, and unique lore-driven mechanics.
+
+- **[[Game Design/Genre Dissection/Game Genres/Strategy#Grand Strategy\|Strategy#Grand Strategy]]**
+    - **World Domination Grand Strategy**: Involves controlling a nation or empire with the goal of global dominance.
+    - **Political Intrigue Strategy**: Focuses on diplomacy, political maneuvering, and backdoor dealings.
+    - **Economic and Resource Management**: Emphasizes managing a nation's economy, resources, and trade policies.
+
+- **[[Game Design/Genre Dissection/Game Genres/Strategy#Tower Defense\|Strategy#Tower Defense]]**
+    - **Maze Tower Defense**: Players create mazes with towers to strategically direct and eliminate enemies.
+    - **Survival Tower Defense**: Focuses on enduring waves of enemies with increasing difficulty.
+    - **Offensive Tower Defense**: Incorporates elements of attacking or invading while defending.
+
+- **[[Game Design/Genre Dissection/Game Genres/Strategy#MOBA\|Strategy#MOBA]] (Multiplayer Online Battle Arena)**
+    - **Hero-Based MOBA**: Each player controls a single powerful character with unique abilities.
+    - **Objective-Focused MOBA**: In addition to combat, players must complete specific objectives on the map.
+    - **Hybrid MOBA**: Combines elements of MOBAs with other genres, such as shooters or RPGs.
+
+- **[[Game Design/Genre Dissection/Game Genres/Strategy#Autobattler\|Strategy#Autobattler]]**
+    - **Tactical Auto Chess**: Grid-based automated tactical battlers focusing on formation placement and racial/class trait synergies.
+    - **Draft & Shop Autobattler**: Economy-driven auto battlers centered around refreshing shops, managing gold interest, and upgrading unit stars.
+    - **Asynchronous Autobattler**: Autobattlers where players build teams that fight ghostly copies of other players' rosters asynchronously.
 
 ### **[[Game Design/Genre Dissection/Game Genres/Tabletop\|Tabletop]]**
 
@@ -930,6 +927,8 @@
     - **Team-Based Strategy Games**: Games where players work together in teams to achieve objectives.
     - **Narrative Cooperative Games**: Cooperative games with a strong storytelling component.
     - **Puzzle and Problem-Solving Cooperative Games**: Games that focus on solving puzzles or problems as a group.
+
+
 
 ## 3. Identifying and Analyzing Existing Games
    - Methods for identifying a game's primary genre
