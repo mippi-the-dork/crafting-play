@@ -128,6 +128,8 @@ Narrative subversion directly targets the player's underlying motivations and re
 * **The Subversion:** Turning the player’s blind compliance with systemic rewards against them, revealing that following default game prompts led to destruction or manipulation.
 * **The Failure Vector:** If the player is forced down a single linear track to cause a bad outcome, but the game shames them as if they had a choice, it creates **ludonarrative hypocrisy** (*"Why are you scolding me for doing the only thing the game allowed me to do?"*).
 
+> **The "Illusion of Choice" Trap:** A critical anti-pattern in narrative subversion occurs when a game reveals that player choices were meaningless all along, but does so by invalidating player investment rather than delivering a thematic revelation. If the player realizes their branching decisions were illusory without receiving a compelling narrative or systemic payoff (e.g., *"None of your choices mattered, you were just wasting your time"*), it creates nihilistic detachment and destroys desire for future playthroughs.
+
 ##### Benchmark Case Studies
 
 | Title | Standard Trope Subverted | Subversive Mechanic | Impact on Player Mental Model |
@@ -135,7 +137,7 @@ Narrative subversion directly targets the player's underlying motivations and re
 | ***BioShock*** | Objective markers and audio logs are trustworthy guides dictating player actions. | The *"Would You Kindly"* reveal exposes that following UI markers was an act of mental conditioning. | Forces players to question blind obedience to UI prompts in linear story shooters. |
 | ***Spec Ops: The Line*** | Military shooters reward military power fantasies and high body counts with hero status. | Systemic progression forces the player into committing atrocities to complete mission goals. | Deconstructs the military shooter hero trope by highlighting the horror of unexamined violence. |
 
-* **Diagnostic Check:** *Did the player have agency in the choices that led to the narrative reveal, or was it an un-skippable rail system designed purely to reprimand them?*
+* **Diagnostic Check:** *Did the player have genuine agency in the choices that led to the narrative reveal, or was it an un-skippable rail system designed purely to reprimand them?*
 
 #### 3.3 Interface & Meta Subversion
 
@@ -273,7 +275,9 @@ When breaking a genre convention, creators should not rely on unscripted luck to
 * **Architectural Execution:**
   1. Establish a distinct visual or audio signifier linked exclusively to rule modifications (e.g., color-shifted lighting, distorted audio cues, broken UI framing).
   2. Allow the player to test or observe the subverted rule in a low-stakes environment before applying it in high-consequence encounters.
-* **Exemplars:** * ***Dark Souls* (Mimic Chests):** Subverts the "Treasure Chest = Safe Reward" trope. Telegraphs the trap via micro-details: the chain on a mimic chest curves forward instead of backward, and the chest subtly breathes.
+* **When NOT to Use This Pattern:** High-velocity, real-time twitch encounters where scanning for subtle visual cues takes too long and results in instant, un-telegraphed player death before processing can occur.
+* **Exemplars:**
+  * ***Dark Souls* (Mimic Chests):** Subverts the "Treasure Chest = Safe Reward" trope. Telegraphs the trap via micro-details: the chain on a mimic chest curves forward instead of backward, and the chest subtly breathes.
   * ***Prey (2017)* (Mimic Enemies):** Subverts standard static room props. Mimics twitch, emit faint clicking sounds, and often generate duplicate props in close proximity (e.g., two coffee mugs on one desk).
 
 #### Pattern 2: The Parallel Rule System
@@ -283,6 +287,7 @@ When breaking a genre convention, creators should not rely on unscripted luck to
 * **Architectural Execution:**
   1. Detect when a player's primary verb is restricted or negated.
   2. Seamlessly expose secondary verbs that exploit the new rule condition (e.g., if weapons fail, environmental hazard interactions become highlighted).
+* **When NOT to Use This Pattern:** Minimalist or hyper-focused games where introducing a second, parallel mechanic set creates severe feature bloat or dilutes the core identity of the primary interaction loop.
 * **Exemplars:**
   * ***Sifu* (Structure & Ageing Deconstruction):** Subverts traditional game-over death loops. Dying does not restart the level; instead, it ages the player, increasing attack damage while lowering maximum health, shifting combat focus from defensive turtling to high-risk parrying.
   * ***Metal Gear Solid 3* (The Sorrow Boss Fight):** Subverts standard combat boss fights. Weapons pass directly through the boss; the player resolves the encounter by walking through a river of their past kills and using a revival pill from the inventory screen.
@@ -294,6 +299,7 @@ When breaking a genre convention, creators should not rely on unscripted luck to
 * **Architectural Execution:**
   1. Never alter a mechanical baseline without an in-world cause (e.g., environmental interference, magic decay, psychological degradation).
   2. Integrate the visual representation of that cause directly into the player's immediate field of view.
+* **When NOT to Use This Pattern:** Surreal, comedy, or meta-fiction titles (e.g., *Stanley Parable*) where over-explaining fourth-wall breaks through dry lore destroys the absurdist or humorous tone.
 * **Exemplars:**
   * ***Dead Space* (Zero-G & Vacuum Mechanics):** Subverts traditional movement and audio expectations in an FPS. Disabling gravity and atmospheric audio is contextually justified by outer-space breaches, shifting combat focus to wall-jumping and muffled directional audio cues.
   * ***Control* (The Ashtray Maze / Hiss Corruption):** Subverts spatial geometry loops. Infinite hallway loops are justified by paranormal spatial anomalies, requiring the player to acquire specific lore clearances to bypass.
@@ -306,19 +312,19 @@ When breaking a genre convention, creators should not rely on unscripted luck to
   1. Phase 1 (Onboarding): Adhere strictly to traditional genre tropes to establish baseline literacy.
   2. Phase 2 (Friction): Introduce subtle anomalies that nudge the player to question standard tropes.
   3. Phase 3 (Full Shift): Fully activate the subversive loop once the player possesses sufficient mastery.
+* **When NOT to Use This Pattern:** Short-session, arcade, or bite-sized games where players expect immediate core loop engagement and do not have 3–5 hours to invest before the actual mechanics reveal themselves.
 * **Exemplars:**
   * ***Inscryption:*** Begins as a polished, atmospheric tabletop card battler. Once the player masters the card economy, it systematically breaks its own UI, save state, and perspective boundaries to reveal an expansive ARG mystery.
   * ***Doki Doki Literature Club!:*** Onboards as a standard dating simulator before deconstructing menu states, character files, and engine stability in Act 2.
 
 #### Safe Subversion Pattern Matrix
 
-| Pattern Name | Core Friction Solved | Structural Execution | Benchmark Exemplar |
-| :--- | :--- | :--- | :--- |
-| **The Telegraph & Pivot** | Un-telegraphed "gotchas" and cheap player deaths. | Subtle visual/audio cues precede every subverted rule state. | *Dark Souls* (Mimics), *Prey* |
-| **Parallel Rule System** | Loss of player agency and input paralysis. | Instantly swap disabled verbs with richer alternative interactions. | *Sifu*, *Metal Gear Solid 3* |
-| **Contextual Justification** | Arbitrary rule shifts that feel like engine bugs or designer spite. | Bind every mechanic change directly to established in-world fiction and physics. | *Dead Space*, *Control* |
-| **Gradual Escalation** | Early cognitive overload and player alienation. | Establish strict baseline literacy before systematically deconstructing rules. | *Inscryption*, *DDLC* |
-
+| Pattern Name | Core Friction Solved | Structural Execution | When NOT to Use | Benchmark Exemplar |
+| :--- | :--- | :--- | :--- | :--- |
+| **The Telegraph & Pivot** | Un-telegraphed "gotchas" and cheap player deaths. | Subtle visual/audio cues precede every subverted rule state. | Ultra-fast reflex execution windows where scanning cues causes instant death. | *Dark Souls* (Mimics), *Prey* |
+| **Parallel Rule System** | Loss of player agency and input paralysis. | Instantly swap disabled verbs with richer alternative interactions. | Minimalist games where adding secondary verb sets causes feature bloat. | *Sifu*, *Metal Gear Solid 3* |
+| **Contextual Justification** | Arbitrary rule shifts that feel like engine bugs or designer spite. | Bind every mechanic change directly to established in-world fiction and physics. | Abstract or comedy titles where lore explanations ruin the joke/absurdity. | *Dead Space*, *Control* |
+| **Gradual Escalation** | Early cognitive overload and player alienation. | Establish strict baseline literacy before systematically deconstructing rules. | Short bite-sized games where long onboarding ramps cause early drop-off. | *Inscryption*, *DDLC* |
 
 # Trope Subversion Quick-Reference Matrix
 
