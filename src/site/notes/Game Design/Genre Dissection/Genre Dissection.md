@@ -95,6 +95,14 @@ This repository is built as a functional system manual rather than a linear text
 | **System Hybridization & Feature Expansion**       | **Section 4:** Genre Hybridization<br><br>  <br><br>**Section 6:** Breaking Genre Conventions    | Evaluate rule-set compatibility and cognitive load using hybridization matrices before merging disparate genre mechanics.                                                      |
 | **Cross-Disciplinary Alignment (Art/Code/Design)** | **Section 2 Sub-Pages** _(Action, RPG, Strategy, etc.)_                                          | Utilize standardized attribute tables and state-machine terminology to ensure engineers, artists, and producers share an identical design spec.                                |
 
+>Useful **Workbooks** depending on where you are currently, and what your needs are: 
+>
+>Just starting off, have some ideas, or a high level concept? [[Game Design/Genre Dissection/Concept Stress-Test Workbook\|Concept Stress-Test Workbook]]
+>
+>Already in production, and need to identify and resolve some design challenges? 
+>
+>Game already launched, or analyzing an existing released game? 
+
 # Common Video Game Genres
 
 The following section serves as the central navigational and taxonomy hub for the 19 primary video game genres analyzed in this repository. While each genre has its own dedicated sub-page detailing granular attribute tables, historical evolutions, and case studies, this section organizes them into functional clusters based on their underlying interaction paradigms.
