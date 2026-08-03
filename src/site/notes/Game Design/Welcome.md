@@ -60,5 +60,19 @@ Table of Contents:
 		- [[Game Design/Genre Dissection/Design Autopsy Workbook\|Design Autopsy Workbook]] - Provides a forensic post-mortem framework to isolate load-bearing wins, diagnose systemic failures, and extract transferable design rules for future projects.
 	
 	- [[Game Design/Theory/Game Theory\|Game Theory]] - Explores the fundamental principles behind how games create meaningful player experiences, providing frameworks for understanding mechanics, systems, decision-making, and the relationship between player actions and outcomes.
+	  
+		- [[Game Design/Theory/Game Theory in Video Game Design - An Overview of Importance\|Game Theory in Video Game Design - An Overview of Importance]] - Explores how applying mathematical game theory helps designers construct balanced decision spaces, anticipate player choices, and foster deep strategic engagement.
+		  
+		- [[Game Design/Theory/Brief History of Game Theory in Game Design\|Brief History of Game Theory in Game Design]] - Traces the evolution of game theory from classic economic models to its foundational role in modern digital game balance, AI, and systems design.
+		  
+		- [[Game Design/Theory/Nash Equilibrium\|Nash Equilibrium]] - Examines how stable decision states, where no player benefits from changing their strategy unilaterally, can be used to prevent dominant meta-strategies and maintain competitive balance.
+		  
+		- [[Game Design/Theory/Zero-Sum and Non-Zero-Sum Games\|Zero-Sum and Non-Zero-Sum Games]] - Breaks down how pure competition (where one player's gain is another's loss) differs from mutual-gain mechanics, shaping player incentives and social dynamics.
+		  
+		- [[Game Design/Theory/Cooperative vs. Non-Cooperative Games\|Cooperative vs. Non-Cooperative Games]] - Analyzes the design mechanics behind team-aligned play versus self-interested competition, illustrating how trust, betrayal, and shared goals influence player behavior.
+		  
+		- [[Game Design/Theory/Repeated Games and Strategies\|Repeated Games and Strategies]] - Details how recurring interactions across multiple rounds foster evolving strategies, reputation building, and long-term alliance dynamics like Tit-for-Tat.
+		  
+		- [[Game Design/Theory/Analysis of Successful Game Designs\|Analysis of Successful Game Designs]] - Deconstructs commercial and critical hits to demonstrate how core game-theoretic principles directly power memorable mechanics, emergent play, and lasting retention.
 	
 	- [[Game Design/Author Notes\|Author Notes]] - Some general notes from the author, Mippi The Dork, regarding this knowledge repository. 
