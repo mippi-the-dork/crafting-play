@@ -52,6 +52,12 @@ Table of Contents:
 		- [[Game Design/Genre Dissection/The Genre Execution and Scoping Blueprint\|The Genre Execution and Scoping Blueprint]] - Provides a practical framework for evaluating the complexity, production scope, and implementation challenges of different genres, helping designers make informed decisions about feasibility, team requirements, and project scale.
 		  
 		- [[Game Design/Genre Dissection/The Convention Subversion Framework\|The Convention Subversion Framework]] - Helps designers identify established genre conventions and intentionally reinforce or challenge player expectations to create experiences that feel both familiar and memorable.
+		  
+		- [[Game Design/Genre Dissection/Concept Stress-Test Workbook\|Concept Stress-Test Workbook]] - Guides teams through preproduction by establishing core mechanical scaffolding, motivation drivers, and scoping boundaries to prevent design debt before writing code.
+		  
+		- [[Game Design/Genre Dissection/Design Health Check Workbook\|Design Health Check Workbook]] - Serves as a mid-production diagnostic tool to untangle design debt, resolve genre collision friction, and trim feature bloat on a playable build.
+		  
+		- [[Game Design/Genre Dissection/Design Autopsy Workbook\|Design Autopsy Workbook]] - Provides a forensic post-mortem framework to isolate load-bearing wins, diagnose systemic failures, and extract transferable design rules for future projects.
 	
 	- [[Game Design/Theory/Game Theory\|Game Theory]] - Explores the fundamental principles behind how games create meaningful player experiences, providing frameworks for understanding mechanics, systems, decision-making, and the relationship between player actions and outcomes.
 	
