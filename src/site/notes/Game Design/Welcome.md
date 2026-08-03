@@ -11,7 +11,7 @@ Let's get to work.
 
 Table of Contents:
 
-- [[Game Design/Welcome\|Welcome]] - This is the page you're  on currently.
+- [[Game Design/Welcome\|Welcome]] - This is the page you're on currently.
 	
 	- [[Game Design/Frameworks & Models/Frameworks and Models\| Frameworks & Models]] - A collection of Game Design Frameworks & Models to provide practical tools for analyzing, communicating, and solving design problems through structured principles, decision-making frameworks, and proven design methodologies.
 	
@@ -74,5 +74,7 @@ Table of Contents:
 		- [[Game Design/Theory/Repeated Games and Strategies\|Repeated Games and Strategies]] - Details how recurring interactions across multiple rounds foster evolving strategies, reputation building, and long-term alliance dynamics like Tit-for-Tat.
 		  
 		- [[Game Design/Theory/Analysis of Successful Game Designs\|Analysis of Successful Game Designs]] - Deconstructs commercial and critical hits to demonstrate how core game-theoretic principles directly power memorable mechanics, emergent play, and lasting retention.
-	
+		  
+	- [[Game Design/Analysis/Cheating & How Game Design Can Help Prevent It\|Cheating & How Game Design Can Help Prevent It]] - Examines the psychological and mechanical roots of player exploits, demonstrating how server authority, structural checks, and intentional incentive design can mitigate cheating beyond software anti-cheat.
+	  
 	- [[Game Design/Author Notes\|Author Notes]] - Some general notes from the author, Mippi The Dork, regarding this knowledge repository. 
