@@ -99,7 +99,7 @@ This repository is built as a functional system manual rather than a linear text
 >
 >Just starting off, have some ideas, or a high level concept? [[Game Design/Genre Dissection/Concept Stress-Test Workbook\|Concept Stress-Test Workbook]]
 >
->Already in production, and need to identify and resolve some design challenges? 
+>Already in production, and need to identify and resolve some design challenges? [[Game Design/Genre Dissection/Design Health Check Workbook\|Design Health Check Workbook]]
 >
 >Game already launched, or analyzing an existing released game? 
 
