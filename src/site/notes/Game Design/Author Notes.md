@@ -2,12 +2,12 @@
 {"dg-publish":true,"permalink":"/game-design/author-notes/","dg-note-properties":{}}
 ---
 
-### A Note on AI & Formatting
+### **A Note on AI & Formatting**
 
 This handbook is a massive undertaking, and to keep the writing momentum going while I navigate the learning curve of Obsidian, I occasionally use AI to assist with text formatting and initial summaries/introductions. This helps keep the project approachable for a single author. While I personally review and edit everything to catch inaccuracies, you will undoubtedly spot a few AI-isms, expect to see a fair share of "in the vast landscape of" or "rich tapestry of" floating around. I plan to clean up those quirky phrases down the road, but for now, the priority is getting the core design knowledge out of my head and onto the page.
 
 
-### Project Status & Roadmap
+### **Project Status & Roadmap**
 
 _Crafting Play_ is a living document that I started in 2022. In its current scope, it is projected to take a few years to reach its full ~1,100-page completion (unless the scope expands, which I hope it won't!).
 
@@ -24,7 +24,7 @@ If there is a specific topic or framework you are eager to see fleshed out soone
 - **LinkedIn:** [Mippi The Dork](https://www.linkedin.com/in/mippithedork)
     
 
-### Resume 2026
+### **Resume 2026**
 
 For context on my 20+ years of experience across game design, studio direction, systems architecture, and live-entertainment real-time tech, you can check out the three versions of my resume below:
 
