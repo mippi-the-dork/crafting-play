@@ -35,7 +35,7 @@ For context on my 20+ years of experience across game design, studio direction, 
 - **[Narrative Career Retrospective](https://docs.google.com/document/d/1ruukkPF-2elZ6Bz93nV7lcHIayzNikTjs2UOe8TYmag/edit?usp=sharing):** A human, story-driven long-form document detailing what I remember most from every job, the challenges faced, and why I love what I do.
 
 
-#### **A Note Regarding Portfolios**
+### **A Note Regarding Portfolios**
 
 If you’re looking for a traditional, polished online portfolio site, you won’t find one here, and there’s a very practical reason for that! For the past 20-plus years, I’ve been so deeply in the trenches doing the actual work, architecting systems, and directing studio teams that maintaining a static portfolio site always took a backseat to shipping projects.
 
