@@ -98,13 +98,13 @@ This repository is built as a functional system manual rather than a linear text
 >Useful **Workbooks** depending on where you are currently, and what your needs are: 
 >
 >**Prevention**
->Just starting off, have some ideas, or a high level concept? [[Game Design/Genre Dissection/Concept Stress-Test Workbook\|Concept Stress-Test Workbook]]
+>Just starting off, have some ideas, or a high level concept? [[Game Design/Workbooks & Tools/Pre-Production/Concept Stress-Test Workbook\|Concept Stress-Test Workbook]]
 >
 >**Triage**
->Already in production, and need to identify and resolve some design challenges? [[Game Design/Genre Dissection/Design Health Check Workbook\|Design Health Check Workbook]]
+>Already in production, and need to identify and resolve some design challenges? [[Game Design/Workbooks & Tools/Production & Maintenance/Design Health Check Workbook\|Design Health Check Workbook]]
 >
 >**Extraction**
->Game already launched, or analyzing an existing released game? [[Game Design/Genre Dissection/Design Autopsy Workbook\|Design Autopsy Workbook]]
+>Game already launched, or analyzing an existing released game? [[Game Design/Workbooks & Tools/Post-Mortem/Design Autopsy Workbook\|Design Autopsy Workbook]]
 
 # Common Video Game Genres
 
