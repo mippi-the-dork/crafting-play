@@ -184,7 +184,7 @@ Markdown
 ```
 
 
-## Document Lifecycle & Readiness Checklist
+## Section 5: Document Lifecycle & Readiness Checklist
 
 A Living Context Brief is not a static design document that gets written once and archived. It functions as active working memory for your project. As prototyping begins and ideas collide with actual playtesting, this document must adapt.
 
@@ -216,7 +216,7 @@ Before using your Living Context Brief to write technical specifications, build 
 |**Conditional Triggers**|Does every feature in the Exploration Sandbox have a clear condition attached to it rather than just a vague "maybe"?|[ ]|
 |**Explicit Bottlenecks**|Are all known "We can't solve X until Y" design dependencies logged with current hypotheses?|[ ]|
 
-## Next Steps in the Pipeline
+## Section 6: Next Steps in the Pipeline
 
 With your **Living Context Brief** established, you now have a high-level anchor for your project's vision, boundaries, and open questions.
 
@@ -229,7 +229,7 @@ To take these ideas from initial capture to technical validation, proceed to the
 - **Related Models:** [[Game Design/Frameworks & Models/DORK Model/DORK Model\|DORK Model]] | [[Game Design/Frameworks & Models/MDA Framework/MDA Framework\|MDA Framework]]
 
 
-## Worked Example (From Raw Spew to Context Brief)
+## Section 7: Worked Example (From Raw Spew to Context Brief)
 
 To see how this process works in practice, consider this example walk-through for a hypothetical solo-developed project, **Project Rust & Shadow**.
 
