@@ -125,11 +125,11 @@ Design pillars are fundamental, non-negotiable rules derived from your raw dump.
         
 - **Format:**
     
-    - **Pillar 1: (Name)** — (1-sentence explanation of how this dictates design).
+    - **Pillar 1: (Name)** - (1-sentence explanation of how this dictates design).
         
-    - **Pillar 2: (Name)** — (1-sentence explanation of how this dictates design).
+    - **Pillar 2: (Name)** - (1-sentence explanation of how this dictates design).
         
-    - **Pillar 3: (Name)** — (1-sentence explanation of how this dictates design).
+    - **Pillar 3: (Name)** - (1-sentence explanation of how this dictates design).
         
 
 ### 3. Define Out-of-Scope Guardrails ("What We Are NOT Doing")
@@ -150,7 +150,7 @@ Copy and fill out the template below using the results from Phases 1–3:
 Markdown
 
 ```
-# [Project Working Title] — Living Context Brief
+# [Project Working Title] - Living Context Brief
 
 ## 1. High-Level Vision Anchor
 * **Core Fantasy Statement:** [Insert 1-2 sentence fantasy statement]
@@ -260,7 +260,7 @@ Using the 5 Context Buckets, the developer parses the raw dump:
 Markdown
 
 ```
-# Project Rust & Shadow — Living Context Brief
+# Project Rust & Shadow - Living Context Brief
 
 ## 1. High-Level Vision Anchor
 * **Core Fantasy Statement:** Project Rust & Shadow is a single-player tactical survival game where players pilot a rickety scrap mech, balancing noise emission and engine heat while scavenging high-value salvage from hostile zones.
@@ -272,7 +272,7 @@ Markdown
 
 ## 2. Explicit Out-of-Scope Guardrails
 * **No Multiplayer / PVP:** The game is strictly a single-player offline experience.
-* **No Tedious Durability:** Parts do not degrade through normal use—only via critical thermal overload.
+* **No Tedious Durability:** Parts do not degrade through normal use, only via critical thermal overload.
 * **No Direct Dogfighting:** Mechs are slow and vulnerable; head-on combat is a failure state, not the primary loop.
 
 ## 3. Confirmed Core Loop & Active Features
