@@ -82,6 +82,7 @@ Table of Contents:
 		- Post-Mortem
 			- [[Game Design/Workbooks & Tools/Post-Mortem/Design Autopsy Workbook\|Design Autopsy Workbook]] - Provides a forensic post-mortem framework to isolate load-bearing wins, diagnose systemic failures, and extract transferable design rules for future projects.
 			  
-	- [[Game Design/Analysis/Cheating & How Game Design Can Help Prevent It\|Cheating & How Game Design Can Help Prevent It]] - Examines the psychological and mechanical roots of player exploits, demonstrating how server authority, structural checks, and intentional incentive design can mitigate cheating beyond software anti-cheat.
+	- Analysis Papers
+		- [[Game Design/Analysis/Cheating & How Game Design Can Help Prevent It\|Cheating & How Game Design Can Help Prevent It]] - Examines the psychological and mechanical roots of player exploits, demonstrating how server authority, structural checks, and intentional incentive design can mitigate cheating beyond software anti-cheat.
 	  
 	- [[Game Design/Author Notes\|Author Notes]] - Some general notes from the author, Mippi The Dork, regarding this knowledge repository. 
