@@ -44,3 +44,18 @@ Historically, almost every step of my career has been driven entirely by word-of
 With the recent massive industry-wide layoffs, actively navigating the broader market is a relatively new space for me. While inbound opportunities still come my way regularly, I’m taking the time to be very intentional about finding the _right_ next move: a position where I can make the highest possible impact, support a great team, and do work that is genuinely fulfilling.
 
 In lieu of a traditional portfolio, my work lives in the shipped titles, the live performance systems built for millions of fans, the 125k-member Unreal Engine community I help lead, the 350+ pages of design frameworks written here on _Crafting Play_ so far, and the recommendations of the people I’ve built games alongside over two decades.
+
+
+### Free Unreal Engine Content and Plugins
+
+Here are some random tools, plugins, widgets, and other assets that I give away for free. Use them however you want, MIT license. It'd be cool if you reached out and let me know if anything was particularly useful, issues you've ran into, or ways you'd like to see these things improve. 
+
+I can't guarantee support, which is why they are free. 
+
+- **Lux** - An Unreal Engine 5.8 Editor plugin that adds a toggleable headlamp to the editor viewport, making dark levels easier to navigate and inspect. Adjust intensity, radius, and color directly from the viewport toolbar, with settings retained between levels.
+  
+	- https://github.com/mippi-the-dork/Lux
+
+- **Surface** - An Unreal Engine 5.8 Editor plugin that brings component properties directly into an Actor’s Details panel, with component filters, grouped favorites, and quick Actor/component selection.
+  
+	- https://github.com/mippi-the-dork/Surface
