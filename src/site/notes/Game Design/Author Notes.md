@@ -59,3 +59,11 @@ I can't guarantee support, which is why they are free.
 - **Surface** - An Unreal Engine 5.8 Editor plugin that brings component properties directly into an Actor’s Details panel, with component filters, grouped favorites, and quick Actor/component selection.
   
 	- https://github.com/mippi-the-dork/Surface
+
+- Focus - An Unreal Engine editor plugin that adds visibility, Solo, selection locking, and edit protection to the World Outliner, with settings saved across editor sessions.
+  
+	- https://github.com/mippi-the-dork/Focus
+
+- Origin - An Unreal Engine 5.8 plugin that adds adjustable assembly pivots and one-click hierarchy selection for Unreal Engine. Reposition pivots without moving child actors.
+  
+	- https://github.com/mippi-the-dork/Origin
