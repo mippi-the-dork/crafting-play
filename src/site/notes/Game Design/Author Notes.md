@@ -23,6 +23,7 @@ If there is a specific topic or framework you are eager to see fleshed out soone
     
 - **LinkedIn:** [Mippi The Dork](https://www.linkedin.com/in/mippithedork)
     
+- Github: [mippi-the-dork (mippithedork)](https://github.com/mippi-the-dork)
 
 ### **Resume 2026**
 
@@ -60,10 +61,18 @@ I can't guarantee support, which is why they are free.
   
 	- https://github.com/mippi-the-dork/Surface
 
-- Focus - An Unreal Engine editor plugin that adds visibility, Solo, selection locking, and edit protection to the World Outliner, with settings saved across editor sessions.
+- **Focus** - An Unreal Engine editor plugin that adds visibility, Solo, selection locking, and edit protection to the World Outliner, with settings saved across editor sessions.
   
 	- https://github.com/mippi-the-dork/Focus
 
-- Origin - An Unreal Engine 5.8 plugin that adds adjustable assembly pivots and one-click hierarchy selection for Unreal Engine. Reposition pivots without moving child actors.
+- **Origin** - An Unreal Engine 5.8 plugin that adds adjustable assembly pivots and one-click hierarchy selection for Unreal Engine. Reposition pivots without moving child actors.
   
 	- https://github.com/mippi-the-dork/Origin
+
+- **Chroma** - An Unreal Engine 5.8 plugin that adds color organization for Unreal Engine: named actor and folder colors, Outliner icon tinting, matching selection, colored outlines, and viewport visualization.
+  
+	- https://github.com/mippi-the-dork/Chroma
+
+- **Stem** - An Unreal Engine 5.8 plugin that adds hierarchy guides for Unreal Engine's World Outliner, with selected and hovered path highlighting and adjustable line brightness and thickness.
+  
+	- https://github.com/mippi-the-dork/Stem
